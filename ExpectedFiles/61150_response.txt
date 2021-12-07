@@ -1,0 +1,201 @@
+{
+    
+    "MessageCode" : 111,
+    "Message" : "Completed , All data available locally",
+    "Data" : [ 
+        {
+            "InstrumentID" : "107109",
+            "RequesterID" : {
+                "Ticker" : "CAH0"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CAH0 Comdty",
+                "BBGGlobalID" : "BBG00G6MVQT6",
+                "Currency" : "EUR",
+                "Exchange Code" : "EOP",
+                "Feed Source" : "EOP",
+                "Quotation Factor" : "",
+                "Scaling Factor" : "1.000",
+                "Volume" : "28429",
+                "Last Price as of End of Day" : "194.000000",
+                "End of Day Bid Price" : "193.750000",
+                "End of Day Mid Price" : "193.875000",
+                "Settlement Price" : "194.000000",
+                "Yesterday's Normalized Futures Price" : "194.000000",
+                "Date Of Last Close" : "20200214",
+                "End of Day Ask Price" : "194.000000",
+                "InstrumentID" : "107109",
+                "CompositeCode" : "",
+                "Ticker" : "CAH0",
+                "MarketSector" : "Comdty"
+            }
+        }, 
+        {
+            "InstrumentID" : "153811",
+            "RequesterID" : {
+                "Ticker" : "CAH0"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CAH0 Index",
+                "BBGGlobalID" : "BBG00PJZJZ62",
+                "Currency" : "EUR",
+                "Exchange Code" : "EUX",
+                "Feed Source" : "EUX",
+                "Quotation Factor" : "",
+                "Scaling Factor" : "1.000",
+                "Volume" : "159767",
+                "Last Price as of End of Day" : "101.100000",
+                "End of Day Bid Price" : "101.000000",
+                "End of Day Mid Price" : "101.100000",
+                "Settlement Price" : "101.100000",
+                "Yesterday's Normalized Futures Price" : "101.100000",
+                "Date Of Last Close" : "20200214",
+                "End of Day Ask Price" : "101.200000",
+                "InstrumentID" : "153811",
+                "CompositeCode" : "",
+                "Ticker" : "CAH0",
+                "MarketSector" : "Index"
+            }
+        }, 
+        {
+            "InstrumentID" : "152833",
+            "RequesterID" : {
+                "Ticker" : "TYJ0P 127.50"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "TYJ0P 127.50 Comdty",
+                "BBGGlobalID" : "BBG00QPY1V73",
+                "Currency" : "USD",
+                "Exchange Code" : "CBT",
+                "Feed Source" : "CBT",
+                "Quotation Factor" : "",
+                "Scaling Factor" : "1.000",
+                "Volume" : "N.A.",
+                "Last Price as of End of Day" : "0.031250",
+                "End of Day Bid Price" : "N.A.",
+                "End of Day Mid Price" : "",
+                "Settlement Price" : "0.031250",
+                "Yesterday's Normalized Futures Price" : "",
+                "Date Of Last Close" : "20200214",
+                "End of Day Ask Price" : "N.A.",
+                "InstrumentID" : "152833",
+                "CompositeCode" : "",
+                "Ticker" : "TYJ0P 127.50",
+                "MarketSector" : "Comdty"
+            }
+        }, 
+        {
+            "InstrumentID" : "141602",
+            "RequesterID" : {
+                "ISIN" : "US912796TG47"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US912796TG47 Govt",
+                "BBGGlobalID" : "BBG00PZTL570",
+                "Currency" : "USD",
+                "Exchange Code" : "N.A.",
+                "Feed Source" : "BGN",
+                "Quotation Factor" : "",
+                "Scaling Factor" : "1",
+                "Volume" : "",
+                "Last Price as of End of Day" : "1.515000",
+                "End of Day Bid Price" : "1.555000",
+                "End of Day Mid Price" : "1.535000",
+                "Settlement Price" : "",
+                "Yesterday's Normalized Futures Price" : "",
+                "Date Of Last Close" : "20200214",
+                "End of Day Ask Price" : "1.515000",
+                "InstrumentID" : "141602",
+                "CompositeCode" : "",
+                "ISIN" : "US912796TG47",
+                "MarketSector" : "Govt"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "HIH20C Y 30000"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "HIH20C Y 30000 Index",
+                "BBGGlobalID" : "BBG00NGVTT80",
+                "Currency" : "HKD",
+                "Exchange Code" : "HKG",
+                "Feed Source" : "HKG",
+                "Quotation Factor" : "",
+                "Scaling Factor" : "",
+                "Volume" : "258",
+                "Last Price as of End of Day" : "39.000000",
+                "End of Day Bid Price" : "37.000000",
+                "End of Day Mid Price" : "38.500000",
+                "Settlement Price" : "39.000000",
+                "Yesterday's Normalized Futures Price" : "",
+                "Date Of Last Close" : "20200214",
+                "End of Day Ask Price" : "40.000000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Ticker" : "HIH20C Y 30000",
+                "MarketSector" : "Index"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "TYJ0P 127.50"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "TYJ0P 127.50 Comdty",
+                "BBGGlobalID" : "BBG00QPY1V73",
+                "Currency" : "USD",
+                "Exchange Code" : "CBT",
+                "Feed Source" : "CBT",
+                "Quotation Factor" : "",
+                "Scaling Factor" : "1.000",
+                "Volume" : "N.A.",
+                "Last Price as of End of Day" : "0.031250",
+                "End of Day Bid Price" : "N.A.",
+                "End of Day Mid Price" : "",
+                "Settlement Price" : "0.031250",
+                "Yesterday's Normalized Futures Price" : "",
+                "Date Of Last Close" : "20200214",
+                "End of Day Ask Price" : "N.A.",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Ticker" : "TYJ0P 127.50",
+                "MarketSector" : "Comdty"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "CUSIP" : "BCC2KRYJ6"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "BCC2KRYJ6 Mtge",
+                "Date Of Last Close" : "20200214",
+                "BBGGlobalID" : "",
+                "Last Price as of End of Day" : "",
+                "End of Day Ask Price" : "",
+                "End of Day Bid Price" : "",
+                "End of Day Mid Price" : "",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "CUSIP" : "BCC2KRYJ6",
+                "MarketSector" : "Mtge"
+            }
+        }
+    ],
+    "Info" : {
+        "MissingSecurity" : {
+            "CUSIP" : "BCC2KRYJ6",
+            "Ticker" : "HIH20C Y 30000"
+        }
+    }
+}

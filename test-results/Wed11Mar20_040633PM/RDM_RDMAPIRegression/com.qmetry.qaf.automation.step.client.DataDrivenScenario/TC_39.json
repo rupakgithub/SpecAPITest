@@ -1,0 +1,23 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "When User made \"${Type}\" request to \"${URL}\" with \"${RequestFile}\"",
+      "args": [
+        "[]"
+      ],
+      "result": "Error: Step Not Found",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "When User made \"${Type}\" request to \"${URL}\" with \"${RequestFile}\" :: Not Found.",
+      "type": "Warn",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.qmetry.qaf.automation.step.StepNotFoundException: When User made \"${Type}\" request to \"${URL}\" with \"${RequestFile}\"@features/InstrumentDetails.feature#10 TestStep implementation not found. \n Please provide implementation or ensure 'step.provider.pkg' property value includes appropriate package.\r\n\tat .When User made \"${Type}\" request to \"${URL}\" with \"${RequestFile}\"(features/InstrumentDetails.feature:10)\r\n"
+}

@@ -1,0 +1,909 @@
+{
+    "InstrumentType" : "Prices",
+    "ClientCode" : "BNPP",
+    "View" : "Global",
+    "SecurityList" : [ 
+        {
+            "Identifier" : "XOP US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "2823 HK",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "2828 HK",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSLDLQI LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "INIVF IN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SMH US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SPXU US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SRTY US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "UMMUPMD ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "OIH US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GSYLIAT ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "2840 HK",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GDX US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KWEB US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SPY US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MA1 AU",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MEC AU",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PGUSTIA ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SOXS US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GSGFIAN LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMIXUS LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LSGOHSA ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NOUCBIU LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NUSTBIU LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TGTRFIA LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WAMOAAU ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WELGUAH ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LGMCBIM LE",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LGTBEIM LE",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LGTSRIM LE",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMMHYIM LE",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ARTGVIG ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BNUHGEH ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DSB FP",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAD1 GR",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSLEUIA LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ERUS US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GREK US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "3QSS GR",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DSP5 FP",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XBRMIB IM",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSLUSLI LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ABHC2ND NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ARCHRND ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DNBHGYD NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HAGSHYB LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HLBRGKR NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PARHYNA LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NORPIIC LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SIMPFOB SS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ORBRRF5 LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GUGEIMU ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KILGEID ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LVGEUEJ LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RAEMECU ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SCAPGRU ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SOMEGMB LN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "VERGLAU ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WBEMLGA LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DOCGLAB ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FSMEQIA LN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FTGEMUK ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ICSSLHI ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IFFF LN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MORGBRZ LX GBP",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NUSHIGH ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PIMEMGU ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PIMEMHS ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PIMHHAS ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PUTHYSI ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SCHIEUA LN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TRPGEIG LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "VFEM LN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WAMOPHG ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MWFJBUH ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "VXX US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ABEMCIE LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CPRGHYP FP",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BAHYBDN ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DCIDEFI ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AEMSDIU LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MFEMBC0 LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NGHYIUH ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SFGHAAU ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "UBGACUS LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BLSDANA DC",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BNKDSMC DC",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IDANAKK DC",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KFNIEKL DC",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PFNYIDF DC",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CARSUOS FH",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SASFIIG FH",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NSUINDK FH",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ARCNWED ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NONORVE NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ORFINBC NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HQSVERA SS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LANSMAA SS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NORRACT LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ABPENGE NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DANILII NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GFLIKVI NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HOLIKV1 NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NORLIK3 NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NORLIKP NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ABNIGIN NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AFOBL3 NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AIOBLIG NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DANINOI NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DANNDKH DC",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DKKROBL NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BGAGLA2 LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HSAXJXC LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IGFIAGU LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QQQ US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSLFELD LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BYRFIAE ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KBGTREV ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GBSP LN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IGUS LN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KBGLTRU ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XGLS LN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QQQS IM_USD",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AQRMFAU LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EWZ US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EEM US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EZU US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IWM US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KRE US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MDY US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IJH US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IJR US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IWB US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KBE US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KBWB US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XBI US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USO US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XHB US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XLP US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DGCXX US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ITA US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CWB US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MJ US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DIA US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FAN US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "VTHR US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XLI US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XLU US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SDS US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DVY US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IJTXX US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPLIQIN LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IDU US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IYJ US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "VOO US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "VTWO US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "VGK US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSUXX US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GMP LN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "600074_UVF6",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "600074_UVF1",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "600074_UVF11",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "600074_UVF5",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LABU US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "600074_UVF12",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IGV US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IWO US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SPLV US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }
+    ],
+    "InstrumentFilters" : [ 
+        {
+            "Condition" : "Source",
+            "Value" : "BBG",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DateRange",
+            "Value" : "20200209|20200213",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "GetLatest",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsEOD",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "ProgramFlag",
+            "Value" : "Oneshot",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "Delay",
+            "Value" : "15",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "GetHistory",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "EachDayLatest",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DP|Discount Mid Price",
+            "Value" : "false",
+            "Clause" : "Exists"
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }
+    ]
+}

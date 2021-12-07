@@ -1,0 +1,730 @@
+<html>
+<head>
+<title>TestNG:  RDM API Regression</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RDM API Regression</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/11/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 19 15:16:51 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>2530 seconds (2530580 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_01, TestFileName=EMEA Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61050_response.txt, RequestFile=61050_request.txt, ResponseCount=2027.0, __baseindex=1, __index=1}<br/>
+<a href="#Output-1013364696" onClick='toggleBox("Output-1013364696", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1013364696" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1013364696">
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61050_request.txt" and compare "2027.0" and file "61050_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1013364696", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1013364696'><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div></td>
+<td>89</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_04, TestFileName=Spot BGN 20.55 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61053_response.txt, RequestFile=61053_request.txt, ResponseCount=73.0, __baseindex=4, __index=4}<br/>
+<a href="#Output-1761011037" onClick='toggleBox("Output-1761011037", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1761011037" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1761011037">
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61053_request.txt" and compare "73.0" and file "61053_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1761011037", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1761011037'><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div></td>
+<td>76</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_11, TestFileName=Spot Tokyo 14.30 IST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61065_response.txt, RequestFile=61065_request.txt, ResponseCount=380.0, __baseindex=11, __index=11}<br/>
+<a href="#Output-655180711" onClick='toggleBox("Output-655180711", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-655180711" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-655180711">
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61065_request.txt" and compare "380.0" and file "61065_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div><a href='#' onClick='toggleBox("stack-trace655180711", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace655180711'><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div></td>
+<td>10</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_13, TestFileName=Reuters PX Pricing, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61067_response.txt, RequestFile=61067_request.txt, ResponseCount=1938.0, __baseindex=13, __index=13}<br/>
+<a href="#Output-70543368" onClick='toggleBox("Output-70543368", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-70543368" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-70543368">
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61067_request.txt" and compare "1938.0" and file "61067_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div><a href='#' onClick='toggleBox("stack-trace70543368", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace70543368'><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div></td>
+<td>222</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_14, TestFileName=IDC A series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61069_response.txt, RequestFile=61069_request.txt, ResponseCount=654.0, __baseindex=14, __index=14}<br/>
+<a href="#Output-1248079435" onClick='toggleBox("Output-1248079435", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1248079435" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1248079435">
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61069_request.txt" and compare "654.0" and file "61069_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1248079435", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1248079435'><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div></td>
+<td>34</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_16, TestFileName=Spot New York 20.00 GMT, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61126_response.txt, RequestFile=61126_request.txt, ResponseCount=379.0, __baseindex=16, __index=16}<br/>
+<a href="#Output-165687172" onClick='toggleBox("Output-165687172", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-165687172" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-165687172">
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61126_request.txt" and compare "379.0" and file "61126_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div><a href='#' onClick='toggleBox("stack-trace165687172", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace165687172'><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div></td>
+<td>62</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_17, TestFileName=APAC Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61127_response.txt, RequestFile=61127_request.txt, ResponseCount=5051.0, __baseindex=17, __index=17}<br/>
+<a href="#Output-382698552" onClick='toggleBox("Output-382698552", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-382698552" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-382698552">
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61127_request.txt" and compare "5051.0" and file "61127_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div><a href='#' onClick='toggleBox("stack-trace382698552", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace382698552'><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div></td>
+<td>656</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_19, TestFileName=Spot F160 18.40 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61129_response.txt, RequestFile=61129_request.txt, ResponseCount=375.0, __baseindex=19, __index=19}<br/>
+<a href="#Output-560165559" onClick='toggleBox("Output-560165559", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-560165559" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-560165559">
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61129_request.txt" and compare "375.0" and file "61129_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div><a href='#' onClick='toggleBox("stack-trace560165559", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace560165559'><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div></td>
+<td>19</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_23, TestFileName=REDO Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61134_response.txt, RequestFile=61134_request.txt, ResponseCount=609.0, __baseindex=23, __index=23}<br/>
+<a href="#Output-1391249801" onClick='toggleBox("Output-1391249801", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1391249801" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1391249801">
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61134_request.txt" and compare "609.0" and file "61134_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1391249801", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1391249801'><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div></td>
+<td>22</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_24, TestFileName=IDC B series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61135_response.txt, RequestFile=61135_request.txt, ResponseCount=1383.0, __baseindex=24, __index=24}<br/>
+<a href="#Output-71782942" onClick='toggleBox("Output-71782942", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-71782942" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-71782942">
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61135_request.txt" and compare "1383.0" and file "61135_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div><a href='#' onClick='toggleBox("stack-trace71782942", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace71782942'><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div></td>
+<td>53</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_26, TestFileName=IDC D series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61137_response.txt, RequestFile=61137_request.txt, ResponseCount=54.0, __baseindex=26, __index=26}<br/>
+<a href="#Output-504959312" onClick='toggleBox("Output-504959312", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-504959312" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-504959312">
+<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61137_request.txt" and compare "54.0" and file "61137_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div><a href='#' onClick='toggleBox("stack-trace504959312", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace504959312'><pre>java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+</pre></div></td>
+<td>29</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_02, TestFileName=LME Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61051_response.txt, RequestFile=61051_request.txt, ResponseCount=430.0, __baseindex=2, __index=2}<br/>
+<a href="#Output-1157484092" onClick='toggleBox("Output-1157484092", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1157484092" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1157484092">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61051_request.txt" and compare "430.0" and file "61051_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_03, TestFileName=Coupon Rate Pricing Run - 06.15 IST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61052_response.txt, RequestFile=61052_request.txt, ResponseCount=25.0, __baseindex=3, __index=3}<br/>
+<a href="#Output-1093703004" onClick='toggleBox("Output-1093703004", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1093703004" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1093703004">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61052_request.txt" and compare "25.0" and file "61052_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_05, TestFileName=AMER Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61054_response.txt, RequestFile=61054_request.txt, ResponseCount=1805.0, __baseindex=5, __index=5}<br/>
+<a href="#Output-682182987" onClick='toggleBox("Output-682182987", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-682182987" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-682182987">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61054_request.txt" and compare "1805.0" and file "61054_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>76</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_06, TestFileName=Reuters FX Pricing, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61055_response.txt, RequestFile=61055_request.txt, ResponseCount=1613.0, __baseindex=6, __index=6}<br/>
+<a href="#Output-1188871851" onClick='toggleBox("Output-1188871851", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1188871851" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1188871851">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61055_request.txt" and compare "1613.0" and file "61055_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>30</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_07, TestFileName=Spot WM Reuters Pricing 21.50 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61057_response.txt, RequestFile=61057_request.txt, ResponseCount=32.0, __baseindex=7, __index=7}<br/>
+<a href="#Output-1973281540" onClick='toggleBox("Output-1973281540", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1973281540" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1973281540">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61057_request.txt" and compare "32.0" and file "61057_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_08, TestFileName=Forward WMReuters Pricing 22.00 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61058_response.txt, RequestFile=61058_request.txt, ResponseCount=267.0, __baseindex=8, __index=8}<br/>
+<a href="#Output-228756739" onClick='toggleBox("Output-228756739", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-228756739" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-228756739">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61058_request.txt" and compare "267.0" and file "61058_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_09, TestFileName=PNOTE Multi Days Historical Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61059_response.txt, RequestFile=61059_request.txt, ResponseCount=18.0, __baseindex=9, __index=9}<br/>
+<a href="#Output-1680794780" onClick='toggleBox("Output-1680794780", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1680794780" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1680794780">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61059_request.txt" and compare "18.0" and file "61059_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_10, TestFileName=FOF Multi Days Historical Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61060_response.txt, RequestFile=61060_request.txt, ResponseCount=743.0, __baseindex=10, __index=10}<br/>
+<a href="#Output-174871747" onClick='toggleBox("Output-174871747", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-174871747" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-174871747">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61060_request.txt" and compare "743.0" and file "61060_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>47</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_12, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61066_response.txt, RequestFile=61066_request.txt, ResponseCount=4831.0, __baseindex=12, __index=12}<br/>
+<a href="#Output-734518153" onClick='toggleBox("Output-734518153", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-734518153" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-734518153">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61066_request.txt" and compare "4831.0" and file "61066_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>215</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_15, TestFileName=Forward L160 11.30 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61125_response.txt, RequestFile=61125_request.txt, ResponseCount=1095.0, __baseindex=15, __index=15}<br/>
+<a href="#Output-1238055041" onClick='toggleBox("Output-1238055041", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1238055041" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1238055041">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61125_request.txt" and compare "1095.0" and file "61125_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>142</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_18, TestFileName=Coupon Rate Pricing Run - 04.30 IST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61128_response.txt, RequestFile=61128_request.txt, ResponseCount=5.0, __baseindex=18, __index=18}<br/>
+<a href="#Output-942502343" onClick='toggleBox("Output-942502343", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-942502343" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-942502343">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61128_request.txt" and compare "5.0" and file "61128_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_20, TestFileName=IBOR Rates 21.50 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61130_response.txt, RequestFile=61130_request.txt, ResponseCount=133.0, __baseindex=20, __index=20}<br/>
+<a href="#Output-280541440" onClick='toggleBox("Output-280541440", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-280541440" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-280541440">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61130_request.txt" and compare "133.0" and file "61130_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_21, TestFileName=JPY Dividend Extra Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61131_response.txt, RequestFile=61131_request.txt, ResponseCount=2038.0, __baseindex=21, __index=21}<br/>
+<a href="#Output-2103044456" onClick='toggleBox("Output-2103044456", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2103044456" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2103044456">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61131_request.txt" and compare "2038.0" and file "61131_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>207</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_22, TestFileName=Coupon Rate Pricing Run - 09.45 IST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61133_response.txt, RequestFile=61133_request.txt, ResponseCount=25.0, __baseindex=22, __index=22}<br/>
+<a href="#Output-1307540790" onClick='toggleBox("Output-1307540790", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1307540790" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1307540790">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61133_request.txt" and compare "25.0" and file "61133_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_25, TestFileName=IDC C series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61136_response.txt, RequestFile=61136_request.txt, ResponseCount=10.0, __baseindex=25, __index=25}<br/>
+<a href="#Output-460674260" onClick='toggleBox("Output-460674260", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-460674260" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-460674260">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61136_request.txt" and compare "10.0" and file "61136_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_27, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61138_response.txt, RequestFile=61138_request.txt, ResponseCount=4824.0, __baseindex=27, __index=27}<br/>
+<a href="#Output-1821989981" onClick='toggleBox("Output-1821989981", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1821989981" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1821989981">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61138_request.txt" and compare "4824.0" and file "61138_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>115</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_28, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61139_response.txt, RequestFile=61139_request.txt, ResponseCount=4817.0, __baseindex=28, __index=28}<br/>
+<a href="#Output-1338435446" onClick='toggleBox("Output-1338435446", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1338435446" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1338435446">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61139_request.txt" and compare "4817.0" and file "61139_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>114</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_29, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61140_response.txt, RequestFile=61140_request.txt, ResponseCount=524.0, __baseindex=29, __index=29}<br/>
+<a href="#Output-1231370129" onClick='toggleBox("Output-1231370129", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1231370129" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1231370129">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61140_request.txt" and compare "524.0" and file "61140_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_30, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61143_response.txt, RequestFile=61143_request.txt, ResponseCount=4808.0, __baseindex=30, __index=30}<br/>
+<a href="#Output-1188100252" onClick='toggleBox("Output-1188100252", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1188100252" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1188100252">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61143_request.txt" and compare "4808.0" and file "61143_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>114</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_31, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61144_response.txt, RequestFile=61144_request.txt, ResponseCount=524.0, __baseindex=31, __index=31}<br/>
+<a href="#Output-2013683661" onClick='toggleBox("Output-2013683661", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2013683661" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2013683661">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61144_request.txt" and compare "524.0" and file "61144_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_32, TestFileName=IDC T series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61145_response.txt, RequestFile=61145_request.txt, ResponseCount=4817.0, __baseindex=32, __index=32}<br/>
+<a href="#Output-1001114349" onClick='toggleBox("Output-1001114349", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1001114349" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1001114349">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61145_request.txt" and compare "4817.0" and file "61145_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>115</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_33, TestFileName=SPOT Tokyo, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61146_response.txt, RequestFile=61146_request.txt, ResponseCount=2.0, __baseindex=33, __index=33}<br/>
+<a href="#Output-1041571359" onClick='toggleBox("Output-1041571359", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1041571359" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1041571359">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61146_request.txt" and compare "2.0" and file "61146_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_34, TestFileName=Forward London, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61147_response.txt, RequestFile=61147_request.txt, ResponseCount=3.0, __baseindex=34, __index=34}<br/>
+<a href="#Output-11913474" onClick='toggleBox("Output-11913474", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11913474" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11913474">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61147_request.txt" and compare "3.0" and file "61147_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_35, TestFileName=APAC, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61148_response.txt, RequestFile=61148_request.txt, ResponseCount=12.0, __baseindex=35, __index=35}<br/>
+<a href="#Output-1256142210" onClick='toggleBox("Output-1256142210", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1256142210" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1256142210">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61148_request.txt" and compare "12.0" and file "61148_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_36, TestFileName=APAC CPN, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61149_response.txt, RequestFile=61149_request.txt, ResponseCount=2.0, __baseindex=36, __index=36}<br/>
+<a href="#Output-1534265514" onClick='toggleBox("Output-1534265514", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1534265514" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1534265514">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61149_request.txt" and compare "2.0" and file "61149_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_37, TestFileName=EMEA, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61150_response.txt, RequestFile=61150_request.txt, ResponseCount=7.0, __baseindex=37, __index=37}<br/>
+<a href="#Output-300430509" onClick='toggleBox("Output-300430509", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-300430509" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-300430509">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61150_request.txt" and compare "7.0" and file "61150_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.DataDrivenScenario.Verify InstrumentDetails Api()'><b>Verify InstrumentDetails Api</b><br>Test class: com.qmetry.qaf.automation.step.client.DataDrivenScenario (Verify InstrumentDetails Api)<br>Parameters: {TestCaseID=TC_38, TestFileName=IBOR, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61151_response.txt, RequestFile=61151_request.txt, ResponseCount=4.0, __baseindex=38, __index=38}<br/>
+<a href="#Output-1154759881" onClick='toggleBox("Output-1154759881", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1154759881" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1154759881">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61151_request.txt" and compare "4.0" and file "61151_response.txt"</div></div><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8</td></tr>
+</table><p>
+</body>
+</html>

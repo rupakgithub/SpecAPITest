@@ -1,0 +1,89 @@
+{
+    "InstrumentType" : "Prices",
+    "ClientCode" : "BNPP",
+    "View" : "Global",
+    "SecurityList" : [ 
+        {
+            "Identifier" : "US912796TG47",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796TH20",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796TK58",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796TQ29",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS1303929894",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }
+    ],
+    "InstrumentFilters" : [ 
+        {
+            "Condition" : "Source",
+            "Value" : "BBG",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DateRange",
+            "Value" : "20200213|20200213",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "GetLatest",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsEOD",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "ProgramFlag",
+            "Value" : "Oneshot",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "Delay",
+            "Value" : "15",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "GetHistory",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DP|Discount Mid Price",
+            "Value" : "true",
+            "Clause" : "Exists"
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }
+    ]
+}

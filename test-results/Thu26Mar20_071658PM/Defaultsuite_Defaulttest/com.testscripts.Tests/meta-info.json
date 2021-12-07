@@ -1,0 +1,20 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "f",
+        "resultFileName": "F",
+        "sign": "Tests.f()[pri:0, instance:com.testscripts.Tests@727803de]"
+      },
+      "dependsOn": [],
+      "startTime": 1585230418403,
+      "duration": 1024,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

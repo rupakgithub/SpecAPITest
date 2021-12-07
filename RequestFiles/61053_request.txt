@@ -1,0 +1,439 @@
+{
+    "InstrumentType" : "Prices",
+    "ClientCode" : "BNPP",
+    "View" : "Global",
+    "SecurityList" : [ 
+        {
+            "Identifier" : "CADHUF",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CADJPY",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CADRUB",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPYRUB",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPYSEK",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPYSGD",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPYTHB",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPYTWD",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPYZAR",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NOKHUF",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NOKRUB",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NZDHUF",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NZDJPY",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NZDRUB",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NZDUSD",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SGDHUF",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AUDHUF",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AUDJPY",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CHFHUF",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CHFJPY",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AUDRUB",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AUDUSD",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CHFRUB",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CNYHUF",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CNYRUB",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EURHUF",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EURJPY",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EURRUB",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EURUSD",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GBPHUF",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GBPJPY",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GBPNZD",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GBPRUB",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GBPUSD",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HKDRUB",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HKDHUF",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPYBRL",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPYCNH",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPYCNY",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPYHKD",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPYHUF",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPYIDR",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPYINR",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPYKRW",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPYMXN",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPYMYR",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPYNOK",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPYPHP",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SGDRUB",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDBRL",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDCAD",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDCHF",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDCNH",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDCNY",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDCZK",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDHKD",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDHUF",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDIDR",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDINR",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDJPY",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDKRW",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDMXN",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDMYR",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDNOK",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDPHP",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDRUB",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDSEK",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDSGD",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDTHB",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDTRY",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDTWD",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USDZAR",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TRYJPY",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }
+    ],
+    "InstrumentFilters" : [ 
+        {
+            "Condition" : "Source",
+            "Value" : "BBG",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DateRange",
+            "Value" : "20200213|20200213",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "GetLatest",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsEOD",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "Snaptime",
+            "Value" : "20:55 EST",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "ProgramFlag",
+            "Value" : "Oneshot",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "Delay",
+            "Value" : "15",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "FxTypeTimeZone",
+            "Value" : "BGN",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "MHIS_CLOSE_ON_PX",
+            "Value" : "20200213",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "isMhistoricalDate",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }
+    ]
+}

@@ -1,0 +1,2540 @@
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<meta charset='UTF-8' /> 
+	<meta name='description' content='' />
+	<meta name='robots' content='noodp, noydir' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+	
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+		<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/b4a58fcfd1e137bd9287244035a7c80d3d73b3af/dist/css/extent.css' type='text/css' rel='stylesheet' />
+	
+	<title>RDM Sanity suite</title>
+
+	<style type='text/css'>
+			
+            
+                .report-name { padding-left: 10px; } .report-name > img { float: left;height: 90%;margin-right: 30px;margin-top: 0px;width: auto; } span[class*="label blue darken-3"]	{display:none} 
+                 span[class*="label suite-start-time blue darken-3"] {font-size: 100%} div#charts-row > div:last-child {display:none} a[class*="brand-logo blue darken-3"] {text-indent: -9999px;
+  				line-height: 0; padding-left:0px; width:0px;} a[class*="brand-logo blue darken-3"]:after {content: 'GR automation test report '; text-indent: 0;line-height: initial;display: block;font-size:20px; }
+  				div#charts-row > div:first-child {width:100%} div[class$="test-content"]  > .test-desc {font-style: italic;}
+  				
+            
+		
+	</style>
+</head>
+
+	<body class='extent dark default hide-overflow '>
+		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+			<span><i class='material-icons'>desktop_windows</i></span>
+		</div>
+
+<nav>
+	<div class="nav-wrapper">
+		<a href="#!" class="brand-logo blue darken-3">Extent</a>
+
+		<!-- slideout menu -->
+		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
+		</ul>
+
+		<!-- report name -->
+		<span class='report-name'><img src='C:\Rupak\WorkSpace_new\RDMAPI\ExtentReportConfigs\Tranhub_logo.PNG'/></span>
+		
+		<!-- report headline -->
+		<span class='report-headline'></span>
+
+		<!-- nav-right -->
+		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+			<li>
+                <a href='#!'>
+                    <span class='label suite-start-time blue darken-3'>Feb 21, 2020 06:36:13 PM</span>
+				</a>
+			</li>
+			<li>
+                <a href='#!'>
+                    <span class='label blue darken-3'>3.1.5</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+		<!-- container -->
+		<div class='container'>
+
+<div id='test-view' class='view'>
+				
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- test toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+					<i class='material-icons'>warning</i> Status
+				</a>
+				<ul id='tests-toggle' class='dropdown-content'>
+											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+					<li class='divider'></li>
+					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+				</ul>
+			</div>
+			<!-- test toggle -->
+
+			<!-- category toggle -->
+			<!-- category toggle -->
+
+			<!-- clear filters -->
+			<div class='chip transparent hide'>
+				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+					<i class='material-icons'>close</i> Clear
+				</a>
+			</div>
+			<!-- clear filters -->
+
+			<!-- enable dashboard -->
+			<div id='toggle-test-view-charts' class='chip transparent'>
+				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+					<i class='material-icons'>track_changes</i> Dashboard
+				</a>
+			</div>
+			<!-- enable dashboard -->
+
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+					<i class='material-icons'>search</i> Search
+				</a>
+
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+				
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+
+
+<div id='test-view-charts' class='subview-full'>
+	<div id='charts-row' class='row nm-v nm-h'>
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Tests</div>
+				<div class='chart-box'>
+					<canvas id='parent-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>2</span> test(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
+		
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Steps</div>
+				<div class='chart-box'>
+					<canvas id='child-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='12.5%'><span class='strong'>1</span> step(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='12.5%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='75%'>6</span> others
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+	<div class='subview-left left'>
+		
+		<div class='view-summary'>
+			<h5>Tests</h5>
+			<ul id='test-collection' class='test-collection'>
+				
+				
+				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='1'>
+					<div class='test-heading'>
+						<span class='test-name'>TestCase No: TC_04 - Spot BGN 20.55 EST</span>
+						<span class='test-time'>Feb 21, 2020 06:36:17 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 21, 2020 06:36:17 PM</span>
+	<span class='label end-time'>Feb 21, 2020 06:36:21 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+693ms</span>
+</div>
+	<div class='test-desc'><pre>Verify InstrumentDetails Api</pre> </div>
+	<ul class='collapsible node-list' data-collapsible='accordion'>
+		
+				<li class='node level-1 leaf pass' status='pass' test-id='2'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>Request Body for Test Case</h5>
+						<span class="node-time label grey lighten-1 white-text">Feb 21, 2020 06:36:21 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 0m 3s+20ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='info'>
+													<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+													<td class='timestamp'>6:36:18 PM</td>
+													<td class='step-details'><span class='label white-text green'>Test Case Response Body</span></td>
+												</tr>
+												<tr class='log' status='info'>
+													<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+													<td class='timestamp'>6:36:18 PM</td>
+													<td class='step-details'><details><summary><b><font color=green>Request Parameters: Click to view</font></b ></summary><pre>{
+  "InstrumentType": "Prices",
+  "ClientCode": "BNPP",
+  "SecurityList": [
+    {
+      "Identifier": "CADHUF",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "CADJPY",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "CADRUB",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "JPYRUB",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "JPYSEK",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "JPYSGD",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "JPYTHB",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "JPYTWD",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "JPYZAR",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "NOKHUF",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "NOKRUB",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "NZDHUF",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "NZDJPY",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "NZDRUB",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "NZDUSD",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "SGDHUF",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "AUDHUF",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "AUDJPY",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "CHFHUF",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "CHFJPY",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "AUDRUB",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "AUDUSD",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "CHFRUB",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "CNYHUF",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "CNYRUB",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "EURHUF",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "EURJPY",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "EURRUB",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "EURUSD",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "GBPHUF",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "GBPJPY",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "GBPNZD",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "GBPRUB",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "GBPUSD",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "HKDRUB",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "HKDHUF",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "JPYBRL",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "JPYCNH",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "JPYCNY",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "JPYHKD",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "JPYHUF",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "JPYIDR",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "JPYINR",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "JPYKRW",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "JPYMXN",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "JPYMYR",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "JPYNOK",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "JPYPHP",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "SGDRUB",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDBRL",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDCAD",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDCHF",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDCNH",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDCNY",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDCZK",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDHKD",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDHUF",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDIDR",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDINR",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDJPY",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDKRW",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDMXN",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDMYR",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDNOK",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDPHP",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDRUB",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDSEK",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDSGD",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDTHB",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDTRY",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDTWD",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "USDZAR",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    },
+    {
+      "Identifier": "TRYJPY",
+      "MarketSector": "Curncy",
+      "SecurityIdentifier": "Ticker"
+    }
+  ],
+  "View": "Global",
+  "InstrumentFilters": [
+    {
+      "Condition": "Source",
+      "Value": "BBG"
+    },
+    {
+      "Condition": "DateRange",
+      "Value": "20200213|20200213"
+    },
+    {
+      "Condition": "GetLatest",
+      "Value": "true"
+    },
+    {
+      "Condition": "IsEOD",
+      "Value": "false"
+    },
+    {
+      "Condition": "Snaptime",
+      "Value": "20:55 EST"
+    },
+    {
+      "Condition": "ProgramFlag",
+      "Value": "Oneshot"
+    },
+    {
+      "Condition": "Delay",
+      "Value": "15"
+    },
+    {
+      "Condition": "FxTypeTimeZone",
+      "Value": "BGN"
+    },
+    {
+      "Condition": "MHIS_CLOSE_ON_PX",
+      "Value": "20200213"
+    },
+    {
+      "Condition": "isMhistoricalDate",
+      "Value": "true"
+    },
+    {
+      "Condition": "IsCoupon",
+      "Value": "false"
+    },
+    {
+      "Condition": "IsCoupon",
+      "Value": "false"
+    },
+    {
+      "Condition": "IsCoupon",
+      "Value": "false"
+    }
+  ]
+}</pre></details></td>
+												</tr>
+												<tr class='log' status='info'>
+													<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+													<td class='timestamp'>6:36:21 PM</td>
+													<td class='step-details'><span class='label white-text green'>API Response Time</span></td>
+												</tr>
+												<tr class='log' status='info'>
+													<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+													<td class='timestamp'>6:36:21 PM</td>
+													<td class='step-details'><pre>API took 2977 milliseconds to return response.</pre></td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+				<li class='node level-1 leaf pass' status='pass' test-id='3'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>Verify Status Code</h5>
+						<span class="node-time label grey lighten-1 white-text">Feb 21, 2020 06:36:21 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='info'>
+													<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+													<td class='timestamp'>6:36:21 PM</td>
+													<td class='step-details'><span class='label white-text green'>Status Code validation.</span></td>
+												</tr>
+												<tr class='log' status='pass'>
+													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+													<td class='timestamp'>6:36:21 PM</td>
+													<td class='step-details'><pre>Status code from API returned is 200.</pre></td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+				<li class='node level-1 leaf fail' status='fail' test-id='4'>
+					<div class='collapsible-header'>
+						<h5 class='node-name'>Response body validation</h5>
+						<span class="node-time label grey lighten-1 white-text">Feb 21, 2020 06:36:21 PM</span>
+						<span class='node-duration label grey lighten-1 white-text'>0h 0m 0s+58ms</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+						<div class='collapsible-body'>
+								<div class='node-steps'>
+									<table class='bordered table-results'>
+										<thead>
+											<tr>
+												<th>Status</th>
+												<th>Timestamp</th>
+												<th>Details</th>
+											</tr>
+										</thead>
+										<tbody>
+												<tr class='log' status='info'>
+													<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+													<td class='timestamp'>6:36:21 PM</td>
+													<td class='step-details'><span class='label white-text red'>API response comparison</span></td>
+												</tr>
+												<tr class='log' status='fail'>
+													<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+													<td class='timestamp'>6:36:21 PM</td>
+													<td class='step-details'><details><summary><b><font color=red>Exception Occured:Click to see</font></b ></summary><pre>Response is not matched with expected response file. 
+
+Data[0].Information.BBGGlobalID
+Expected: BBG0013HPB86
+     got: BBG0013HP9X3
+ ; Data[0].Information.InstrumentID
+Expected: 32
+     got: 400
+ ; Data[0].Information.Last Price
+Expected: 235.110000
+     got: 209.609000
+ ; Data[0].Information.Mhistorical Price
+Expected: 234.84
+     got: 209.331
+ ; Data[0].Information.Security Description
+Expected: CADHUF BGN Curncy
+     got: AUDHUF BGN Curncy
+ ; Data[0].Information.Ticker
+Expected: CADHUF
+     got: AUDHUF
+ ; Data[0].InstrumentID
+Expected: 32
+     got: 400
+ ; Data[0].RequesterID.Ticker
+Expected: CADHUF
+     got: AUDHUF
+ ; Data[10].Information.BBGGlobalID
+Expected: BBG0013HQ846
+     got: BBG0013HXXD3
+ ; Data[10].Information.Currency
+Expected: RUB
+     got: HUF
+ ; Data[10].Information.Date Of Last Update
+Expected: 20200214
+     got: 20200213
+ ; Data[10].Information.InstrumentID
+Expected: 230
+     got: 639
+ ; Data[10].Information.Last Price
+Expected: 68.698900
+     got: N.A.
+ ; Data[10].Information.Mhistorical Price
+Expected: 68.8328
+     got: N.A.
+ ; Data[10].Information.Quotation Factor
+Expected: 10.0000
+     got: 1.0000
+ ; Data[10].Information.Security Description
+Expected: NOKRUB BGN Curncy
+     got: CNYHUF BGN Curncy
+ ; Data[10].Information.Ticker
+Expected: NOKRUB
+     got: CNYHUF
+ ; Data[10].InstrumentID
+Expected: 230
+     got: 639
+ ; Data[10].RequesterID.Ticker
+Expected: NOKRUB
+     got: CNYHUF
+ ; Data[11].Information.BBGGlobalID
+Expected: BBG0013HXNX3
+     got: BBG0013HRTL0
+ ; Data[11].Information.Currency
+Expected: HUF
+     got: RUB
+ ; Data[11].Information.Date Of Last Update
+Expected: 20200213
+     got: 20200214
+ ; Data[11].Information.InstrumentID
+Expected: 286
+     got: 671
+ ; Data[11].Information.Last Price
+Expected: N.A.
+     got: 9.115900
+ ; Data[11].Information.Mhistorical Price
+Expected: N.A.
+     got: 9.0996
+ ; Data[11].Information.Security Description
+Expected: NZDHUF BGN Curncy
+     got: CNYRUB BGN Curncy
+ ; Data[11].Information.Ticker
+Expected: NZDHUF
+     got: CNYRUB
+ ; Data[11].InstrumentID
+Expected: 286
+     got: 671
+ ; Data[11].RequesterID.Ticker
+Expected: NZDHUF
+     got: CNYRUB
+ ; Data[12].Information.BBGGlobalID
+Expected: BBG0013HJ5R5
+     got: BBG0013HR505
+ ; Data[12].Information.Currency
+Expected: JPY
+     got: HUF
+ ; Data[12].Information.InstrumentID
+Expected: 293
+     got: 745
+ ; Data[12].Information.Last Price
+Expected: 70.657000
+     got: 337.840000
+ ; Data[12].Information.Mhistorical Price
+Expected: 70.693
+     got: 337.54
+ ; Data[12].Information.Security Description
+Expected: NZDJPY BGN Curncy
+     got: EURHUF BGN Curncy
+ ; Data[12].Information.Ticker
+Expected: NZDJPY
+     got: EURHUF
+ ; Data[12].InstrumentID
+Expected: 293
+     got: 745
+ ; Data[12].RequesterID.Ticker
+Expected: NZDJPY
+     got: EURHUF
+ ; Data[13].Information.BBGGlobalID
+Expected: BBG0013HWM75
+     got: BBG0013HQG84
+ ; Data[13].Information.Currency
+Expected: RUB
+     got: JPY
+ ; Data[13].Information.Date Of Last Update
+Expected: 20200213
+     got: 20200214
+ ; Data[13].Information.InstrumentID
+Expected: 325
+     got: 754
+ ; Data[13].Information.Last Price
+Expected: N.A.
+     got: 119.000000
+ ; Data[13].Information.Mhistorical Price
+Expected: N.A.
+     got: 119.06
+ ; Data[13].Information.Security Description
+Expected: NZDRUB BGN Curncy
+     got: EURJPY BGN Curncy
+ ; Data[13].Information.Ticker
+Expected: NZDRUB
+     got: EURJPY
+ ; Data[13].InstrumentID
+Expected: 325
+     got: 754
+ ; Data[13].RequesterID.Ticker
+Expected: NZDRUB
+     got: EURJPY
+ ; Data[14].Information.BBGGlobalID
+Expected: BBG0013HFKT4
+     got: BBG0013HJJ31
+ ; Data[14].Information.Currency
+Expected: USD
+     got: RUB
+ ; Data[14].Information.InstrumentID
+Expected: 340
+     got: 802
+ ; Data[14].Information.Last Price
+Expected: .643500
+     got: 68.927200
+ ; Data[14].Information.Mhistorical Price
+Expected: 0.6437
+     got: 69.0195
+ ; Data[14].Information.Security Description
+Expected: NZDUSD BGN Curncy
+     got: EURRUB BGN Curncy
+ ; Data[14].Information.Ticker
+Expected: NZDUSD
+     got: EURRUB
+ ; Data[14].InstrumentID
+Expected: 340
+     got: 802
+ ; Data[14].RequesterID.Ticker
+Expected: NZDUSD
+     got: EURRUB
+ ; Data[15].Information.BBGGlobalID
+Expected: BBG0013HX483
+     got: BBG0013HGRV5
+ ; Data[15].Information.Currency
+Expected: HUF
+     got: USD
+ ; Data[15].Information.Date Of Last Update
+Expected: 20200213
+     got: 20200214
+ ; Data[15].Information.InstrumentID
+Expected: 386
+     got: 827
+ ; Data[15].Information.Last Price
+Expected: N.A.
+     got: 1.083700
+ ; Data[15].Information.Mhistorical Price
+Expected: N.A.
+     got: 1.0841
+ ; Data[15].Information.Security Description
+Expected: SGDHUF BGN Curncy
+     got: EURUSD BGN Curncy
+ ; Data[15].Information.Ticker
+Expected: SGDHUF
+     got: EURUSD
+ ; Data[15].InstrumentID
+Expected: 386
+     got: 827
+ ; Data[15].RequesterID.Ticker
+Expected: SGDHUF
+     got: EURUSD
+ ; Data[16].Information.BBGGlobalID
+Expected: BBG0013HP9X3
+     got: BBG0013HPDC7
+ ; Data[16].Information.InstrumentID
+Expected: 400
+     got: 890
+ ; Data[16].Information.Last Price
+Expected: 209.609000
+     got: 406.544000
+ ; Data[16].Information.Mhistorical Price
+Expected: 209.331
+     got: 406.225
+ ; Data[16].Information.Security Description
+Expected: AUDHUF BGN Curncy
+     got: GBPHUF BGN Curncy
+ ; Data[16].Information.Ticker
+Expected: AUDHUF
+     got: GBPHUF
+ ; Data[16].InstrumentID
+Expected: 400
+     got: 890
+ ; Data[16].RequesterID.Ticker
+Expected: AUDHUF
+     got: GBPHUF
+ ; Data[17].Information.BBGGlobalID
+Expected: BBG0013J11D4
+     got: BBG0013HKQQ8
+ ; Data[17].Information.InstrumentID
+Expected: 408
+     got: 899
+ ; Data[17].Information.Last Price
+Expected: 73.830000
+     got: 143.240000
+ ; Data[17].Information.Mhistorical Price
+Expected: 73.796
+     got: 143.306
+ ; Data[17].Information.Security Description
+Expected: AUDJPY BGN Curncy
+     got: GBPJPY BGN Curncy
+ ; Data[17].Information.Ticker
+Expected: AUDJPY
+     got: GBPJPY
+ ; Data[17].InstrumentID
+Expected: 408
+     got: 899
+ ; Data[17].RequesterID.Ticker
+Expected: AUDJPY
+     got: GBPJPY
+ ; Data[18].Information.BBGGlobalID
+Expected: BBG0013HP8X5
+     got: BBG0013HM591
+ ; Data[18].Information.Currency
+Expected: HUF
+     got: NZD
+ ; Data[18].Information.InstrumentID
+Expected: 471
+     got: 934
+ ; Data[18].Information.Last Price
+Expected: 318.213000
+     got: 2.027200
+ ; Data[18].Information.Mhistorical Price
+Expected: 318.092
+     got: 2.0268
+ ; Data[18].Information.Security Description
+Expected: CHFHUF BGN Curncy
+     got: GBPNZD BGN Curncy
+ ; Data[18].Information.Ticker
+Expected: CHFHUF
+     got: GBPNZD
+ ; Data[18].InstrumentID
+Expected: 471
+     got: 934
+ ; Data[18].RequesterID.Ticker
+Expected: CHFHUF
+     got: GBPNZD
+ ; Data[19].Information.BBGGlobalID
+Expected: BBG0013HKSD8
+     got: BBG0013HQ5F0
+ ; Data[19].Information.Currency
+Expected: JPY
+     got: RUB
+ ; Data[19].Information.InstrumentID
+Expected: 478
+     got: 947
+ ; Data[19].Information.Last Price
+Expected: 112.079000
+     got: 82.945000
+ ; Data[19].Information.Mhistorical Price
+Expected: 112.154
+     got: 83.0217
+ ; Data[19].Information.Security Description
+Expected: CHFJPY BGN Curncy
+     got: GBPRUB BGN Curncy
+ ; Data[19].Information.Ticker
+Expected: CHFJPY
+     got: GBPRUB
+ ; Data[19].InstrumentID
+Expected: 478
+     got: 947
+ ; Data[19].RequesterID.Ticker
+Expected: CHFJPY
+     got: GBPRUB
+ ; Data[1].Information.BBGGlobalID
+Expected: BBG0013HJFP5
+     got: BBG0013J11D4
+ ; Data[1].Information.InstrumentID
+Expected: 39
+     got: 408
+ ; Data[1].Information.Last Price
+Expected: 82.810000
+     got: 73.830000
+ ; Data[1].Information.Mhistorical Price
+Expected: 82.777
+     got: 73.796
+ ; Data[1].Information.Security Description
+Expected: CADJPY BGN Curncy
+     got: AUDJPY BGN Curncy
+ ; Data[1].Information.Ticker
+Expected: CADJPY
+     got: AUDJPY
+ ; Data[1].InstrumentID
+Expected: 39
+     got: 408
+ ; Data[1].RequesterID.Ticker
+Expected: CADJPY
+     got: AUDJPY
+ ; Data[20].Information.BBGGlobalID
+Expected: BBG0013HQ7X6
+     got: BBG0013HFH84
+ ; Data[20].Information.Currency
+Expected: RUB
+     got: USD
+ ; Data[20].Information.Date Of Last Update
+Expected: 20200213
+     got: 20200214
+ ; Data[20].Information.InstrumentID
+Expected: 492
+     got: 968
+ ; Data[20].Information.Last Price
+Expected: N.A.
+     got: 1.304400
+ ; Data[20].Information.Mhistorical Price
+Expected: N.A.
+     got: 1.3046
+ ; Data[20].Information.Security Description
+Expected: AUDRUB BGN Curncy
+     got: GBPUSD BGN Curncy
+ ; Data[20].Information.Ticker
+Expected: AUDRUB
+     got: GBPUSD
+ ; Data[20].InstrumentID
+Expected: 492
+     got: 968
+ ; Data[20].RequesterID.Ticker
+Expected: AUDRUB
+     got: GBPUSD
+ ; Data[21].Information.BBGGlobalID
+Expected: BBG0013HFHG5
+     got: BBG0013HX9Y3
+ ; Data[21].Information.Currency
+Expected: USD
+     got: HUF
+ ; Data[21].Information.Date Of Last Update
+Expected: 20200214
+     got: 20200213
+ ; Data[21].Information.InstrumentID
+Expected: 511
+     got: 1059
+ ; Data[21].Information.Last Price
+Expected: .672300
+     got: N.A.
+ ; Data[21].Information.Mhistorical Price
+Expected: 0.6719
+     got: N.A.
+ ; Data[21].Information.Security Description
+Expected: AUDUSD BGN Curncy
+     got: HKDHUF BGN Curncy
+ ; Data[21].Information.Ticker
+Expected: AUDUSD
+     got: HKDHUF
+ ; Data[21].InstrumentID
+Expected: 511
+     got: 1059
+ ; Data[21].RequesterID.Ticker
+Expected: AUDUSD
+     got: HKDHUF
+ ; Data[22].Information.BBGGlobalID
+Expected: BBG0013HQ5K4
+     got: BBG0013HSW87
+ ; Data[22].Information.InstrumentID
+Expected: 593
+     got: 1006
+ ; Data[22].Information.Security Description
+Expected: CHFRUB BGN Curncy
+     got: HKDRUB BGN Curncy
+ ; Data[22].Information.Ticker
+Expected: CHFRUB
+     got: HKDRUB
+ ; Data[22].InstrumentID
+Expected: 593
+     got: 1006
+ ; Data[22].RequesterID.Ticker
+Expected: CHFRUB
+     got: HKDRUB
+ ; Data[23].Information.BBGGlobalID
+Expected: BBG0013HXXD3
+     got: BBG0013HT4K4
+ ; Data[23].Information.Currency
+Expected: HUF
+     got: BRL
+ ; Data[23].Information.InstrumentID
+Expected: 639
+     got: 1082
+ ; Data[23].Information.Security Description
+Expected: CNYHUF BGN Curncy
+     got: JPYBRL BGN Curncy
+ ; Data[23].Information.Ticker
+Expected: CNYHUF
+     got: JPYBRL
+ ; Data[23].InstrumentID
+Expected: 639
+     got: 1082
+ ; Data[23].RequesterID.Ticker
+Expected: CNYHUF
+     got: JPYBRL
+ ; Data[24].Information.BBGGlobalID
+Expected: BBG0013HRTL0
+     got: BBG001736GN6
+ ; Data[24].Information.Currency
+Expected: RUB
+     got: CNH
+ ; Data[24].Information.Date Of Last Update
+Expected: 20200214
+     got: 20200213
+ ; Data[24].Information.InstrumentID
+Expected: 671
+     got: 1087
+ ; Data[24].Information.Last Price
+Expected: 9.115900
+     got: N.A.
+ ; Data[24].Information.Mhistorical Price
+Expected: 9.0996
+     got: N.A.
+ ; Data[24].Information.Quotation Factor
+Expected: 1.0000
+     got: 100.0000
+ ; Data[24].Information.Security Description
+Expected: CNYRUB BGN Curncy
+     got: JPYCNH BGN Curncy
+ ; Data[24].Information.Ticker
+Expected: CNYRUB
+     got: JPYCNH
+ ; Data[24].InstrumentID
+Expected: 671
+     got: 1087
+ ; Data[24].RequesterID.Ticker
+Expected: CNYRUB
+     got: JPYCNH
+ ; Data[25].Information.BBGGlobalID
+Expected: BBG0013HR505
+     got: BBG0013HR7C8
+ ; Data[25].Information.Currency
+Expected: HUF
+     got: CNY
+ ; Data[25].Information.InstrumentID
+Expected: 745
+     got: 1088
+ ; Data[25].Information.Last Price
+Expected: 337.840000
+     got: .063577
+ ; Data[25].Information.Mhistorical Price
+Expected: 337.54
+     got: 0.063592
+ ; Data[25].Information.Security Description
+Expected: EURHUF BGN Curncy
+     got: JPYCNY BGN Curncy
+ ; Data[25].Information.Ticker
+Expected: EURHUF
+     got: JPYCNY
+ ; Data[25].InstrumentID
+Expected: 745
+     got: 1088
+ ; Data[25].RequesterID.Ticker
+Expected: EURHUF
+     got: JPYCNY
+ ; Data[26].Information.BBGGlobalID
+Expected: BBG0013HQG84
+     got: BBG0013HNFZ9
+ ; Data[26].Information.Currency
+Expected: JPY
+     got: HKD
+ ; Data[26].Information.InstrumentID
+Expected: 754
+     got: 1103
+ ; Data[26].Information.Last Price
+Expected: 119.000000
+     got: 7.073600
+ ; Data[26].Information.Mhistorical Price
+Expected: 119.06
+     got: 7.0722
+ ; Data[26].Information.Quotation Factor
+Expected: 1.0000
+     got: 100.0000
+ ; Data[26].Information.Security Description
+Expected: EURJPY BGN Curncy
+     got: JPYHKD BGN Curncy
+ ; Data[26].Information.Ticker
+Expected: EURJPY
+     got: JPYHKD
+ ; Data[26].InstrumentID
+Expected: 754
+     got: 1103
+ ; Data[26].RequesterID.Ticker
+Expected: EURJPY
+     got: JPYHKD
+ ; Data[27].Information.BBGGlobalID
+Expected: BBG0013HJJ31
+     got: BBG0013HPZX5
+ ; Data[27].Information.Currency
+Expected: RUB
+     got: HUF
+ ; Data[27].Information.Date Of Last Update
+Expected: 20200214
+     got: 20200213
+ ; Data[27].Information.InstrumentID
+Expected: 802
+     got: 1105
+ ; Data[27].Information.Last Price
+Expected: 68.927200
+     got: N.A.
+ ; Data[27].Information.Mhistorical Price
+Expected: 69.0195
+     got: N.A.
+ ; Data[27].Information.Quotation Factor
+Expected: 1.0000
+     got: 100.0000
+ ; Data[27].Information.Security Description
+Expected: EURRUB BGN Curncy
+     got: JPYHUF BGN Curncy
+ ; Data[27].Information.Ticker
+Expected: EURRUB
+     got: JPYHUF
+ ; Data[27].InstrumentID
+Expected: 802
+     got: 1105
+ ; Data[27].RequesterID.Ticker
+Expected: EURRUB
+     got: JPYHUF
+ ; Data[28].Information.BBGGlobalID
+Expected: BBG0013HGRV5
+     got: BBG0013HNKS6
+ ; Data[28].Information.Currency
+Expected: USD
+     got: IDR
+ ; Data[28].Information.InstrumentID
+Expected: 827
+     got: 1106
+ ; Data[28].Information.Last Price
+Expected: 1.083700
+     got: 124.790000
+ ; Data[28].Information.Mhistorical Price
+Expected: 1.0841
+     got: 124.75
+ ; Data[28].Information.Security Description
+Expected: EURUSD BGN Curncy
+     got: JPYIDR BGN Curncy
+ ; Data[28].Information.Ticker
+Expected: EURUSD
+     got: JPYIDR
+ ; Data[28].InstrumentID
+Expected: 827
+     got: 1106
+ ; Data[28].RequesterID.Ticker
+Expected: EURUSD
+     got: JPYIDR
+ ; Data[29].Information.BBGGlobalID
+Expected: BBG0013HPDC7
+     got: BBG0013HHKZ5
+ ; Data[29].Information.Currency
+Expected: HUF
+     got: INR
+ ; Data[29].Information.InstrumentID
+Expected: 890
+     got: 1108
+ ; Data[29].Information.Last Price
+Expected: 406.544000
+     got: .649600
+ ; Data[29].Information.Mhistorical Price
+Expected: 406.225
+     got: 0.6495
+ ; Data[29].Information.Security Description
+Expected: GBPHUF BGN Curncy
+     got: JPYINR BGN Curncy
+ ; Data[29].Information.Ticker
+Expected: GBPHUF
+     got: JPYINR
+ ; Data[29].InstrumentID
+Expected: 890
+     got: 1108
+ ; Data[29].RequesterID.Ticker
+Expected: GBPHUF
+     got: JPYINR
+ ; Data[2].Information.BBGGlobalID
+Expected: BBG0013HQ819
+     got: BBG0013HQ7X6
+ ; Data[2].Information.InstrumentID
+Expected: 80
+     got: 492
+ ; Data[2].Information.Security Description
+Expected: CADRUB BGN Curncy
+     got: AUDRUB BGN Curncy
+ ; Data[2].Information.Ticker
+Expected: CADRUB
+     got: AUDRUB
+ ; Data[2].InstrumentID
+Expected: 80
+     got: 492
+ ; Data[2].RequesterID.Ticker
+Expected: CADRUB
+     got: AUDRUB
+ ; Data[30].Information.BBGGlobalID
+Expected: BBG0013HKQQ8
+     got: BBG0013HP8L8
+ ; Data[30].Information.Currency
+Expected: JPY
+     got: KRW
+ ; Data[30].Information.InstrumentID
+Expected: 899
+     got: 1117
+ ; Data[30].Information.Last Price
+Expected: 143.240000
+     got: 10.773400
+ ; Data[30].Information.Mhistorical Price
+Expected: 143.306
+     got: 10.7723
+ ; Data[30].Information.Security Description
+Expected: GBPJPY BGN Curncy
+     got: JPYKRW BGN Curncy
+ ; Data[30].Information.Ticker
+Expected: GBPJPY
+     got: JPYKRW
+ ; Data[30].InstrumentID
+Expected: 899
+     got: 1117
+ ; Data[30].RequesterID.Ticker
+Expected: GBPJPY
+     got: JPYKRW
+ ; Data[31].Information.BBGGlobalID
+Expected: BBG0013HM591
+     got: BBG0013HTPY2
+ ; Data[31].Information.Currency
+Expected: NZD
+     got: MXN
+ ; Data[31].Information.InstrumentID
+Expected: 934
+     got: 1134
+ ; Data[31].Information.Last Price
+Expected: 2.027200
+     got: .169000
+ ; Data[31].Information.Mhistorical Price
+Expected: 2.0268
+     got: 0.169
+ ; Data[31].Information.Security Description
+Expected: GBPNZD BGN Curncy
+     got: JPYMXN BGN Curncy
+ ; Data[31].Information.Ticker
+Expected: GBPNZD
+     got: JPYMXN
+ ; Data[31].InstrumentID
+Expected: 934
+     got: 1134
+ ; Data[31].RequesterID.Ticker
+Expected: GBPNZD
+     got: JPYMXN
+ ; Data[32].Information.BBGGlobalID
+Expected: BBG0013HQ5F0
+     got: BBG0013HM3S5
+ ; Data[32].Information.Currency
+Expected: RUB
+     got: MYR
+ ; Data[32].Information.InstrumentID
+Expected: 947
+     got: 1135
+ ; Data[32].Information.Last Price
+Expected: 82.945000
+     got: 3.772600
+ ; Data[32].Information.Mhistorical Price
+Expected: 83.0217
+     got: 3.7705
+ ; Data[32].Information.Quotation Factor
+Expected: 1.0000
+     got: 100.0000
+ ; Data[32].Information.Security Description
+Expected: GBPRUB BGN Curncy
+     got: JPYMYR BGN Curncy
+ ; Data[32].Information.Ticker
+Expected: GBPRUB
+     got: JPYMYR
+ ; Data[32].InstrumentID
+Expected: 947
+     got: 1135
+ ; Data[32].RequesterID.Ticker
+Expected: GBPRUB
+     got: JPYMYR
+ ; Data[33].Information.BBGGlobalID
+Expected: BBG0013HFH84
+     got: BBG0013HLVQ6
+ ; Data[33].Information.Currency
+Expected: USD
+     got: NOK
+ ; Data[33].Information.InstrumentID
+Expected: 968
+     got: 1137
+ ; Data[33].Information.Last Price
+Expected: 1.304400
+     got: 8.430500
+ ; Data[33].Information.Mhistorical Price
+Expected: 1.3046
+     got: 8.4228
+ ; Data[33].Information.Quotation Factor
+Expected: 1.0000
+     got: 100.0000
+ ; Data[33].Information.Security Description
+Expected: GBPUSD BGN Curncy
+     got: JPYNOK BGN Curncy
+ ; Data[33].Information.Ticker
+Expected: GBPUSD
+     got: JPYNOK
+ ; Data[33].InstrumentID
+Expected: 968
+     got: 1137
+ ; Data[33].RequesterID.Ticker
+Expected: GBPUSD
+     got: JPYNOK
+ ; Data[34].Information.BBGGlobalID
+Expected: BBG0013HSW87
+     got: BBG0013HTT65
+ ; Data[34].Information.Currency
+Expected: RUB
+     got: PHP
+ ; Data[34].Information.InstrumentID
+Expected: 1006
+     got: 1141
+ ; Data[34].Information.Security Description
+Expected: HKDRUB BGN Curncy
+     got: JPYPHP BGN Curncy
+ ; Data[34].Information.Ticker
+Expected: HKDRUB
+     got: JPYPHP
+ ; Data[34].InstrumentID
+Expected: 1006
+     got: 1141
+ ; Data[34].RequesterID.Ticker
+Expected: HKDRUB
+     got: JPYPHP
+ ; Data[35].Information.BBGGlobalID
+Expected: BBG0013HX9Y3
+     got: BBG0013HQ524
+ ; Data[35].Information.Currency
+Expected: HUF
+     got: RUB
+ ; Data[35].Information.InstrumentID
+Expected: 1059
+     got: 133
+ ; Data[35].Information.Quotation Factor
+Expected: 1.0000
+     got: 100.0000
+ ; Data[35].Information.Security Description
+Expected: HKDHUF BGN Curncy
+     got: JPYRUB BGN Curncy
+ ; Data[35].Information.Ticker
+Expected: HKDHUF
+     got: JPYRUB
+ ; Data[35].InstrumentID
+Expected: 1059
+     got: 133
+ ; Data[35].RequesterID.Ticker
+Expected: HKDHUF
+     got: JPYRUB
+ ; Data[36].Information.BBGGlobalID
+Expected: BBG0013HT4K4
+     got: BBG0013HMP24
+ ; Data[36].Information.Currency
+Expected: BRL
+     got: SEK
+ ; Data[36].Information.Date Of Last Update
+Expected: 20200213
+     got: 20200214
+ ; Data[36].Information.InstrumentID
+Expected: 1082
+     got: 138
+ ; Data[36].Information.Last Price
+Expected: N.A.
+     got: 8.812300
+ ; Data[36].Information.Mhistorical Price
+Expected: N.A.
+     got: 8.8082
+ ; Data[36].Information.Quotation Factor
+Expected: 1.0000
+     got: 100.0000
+ ; Data[36].Information.Security Description
+Expected: JPYBRL BGN Curncy
+     got: JPYSEK BGN Curncy
+ ; Data[36].Information.Ticker
+Expected: JPYBRL
+     got: JPYSEK
+ ; Data[36].InstrumentID
+Expected: 1082
+     got: 138
+ ; Data[36].RequesterID.Ticker
+Expected: JPYBRL
+     got: JPYSEK
+ ; Data[37].Information.BBGGlobalID
+Expected: BBG001736GN6
+     got: BBG0013HM3K3
+ ; Data[37].Information.Currency
+Expected: CNH
+     got: SGD
+ ; Data[37].Information.Date Of Last Update
+Expected: 20200213
+     got: 20200214
+ ; Data[37].Information.InstrumentID
+Expected: 1087
+     got: 139
+ ; Data[37].Information.Last Price
+Expected: N.A.
+     got: 1.265700
+ ; Data[37].Information.Mhistorical Price
+Expected: N.A.
+     got: 1.265
+ ; Data[37].Information.Security Description
+Expected: JPYCNH BGN Curncy
+     got: JPYSGD BGN Curncy
+ ; Data[37].Information.Ticker
+Expected: JPYCNH
+     got: JPYSGD
+ ; Data[37].InstrumentID
+Expected: 1087
+     got: 139
+ ; Data[37].RequesterID.Ticker
+Expected: JPYCNH
+     got: JPYSGD
+ ; Data[38].Information.BBGGlobalID
+Expected: BBG0013HR7C8
+     got: BBG0013HM3Y8
+ ; Data[38].Information.Currency
+Expected: CNY
+     got: THB
+ ; Data[38].Information.Date Of Last Update
+Expected: 20200214
+     got: 20200213
+ ; Data[38].Information.InstrumentID
+Expected: 1088
+     got: 143
+ ; Data[38].Information.Last Price
+Expected: .063577
+     got: N.A.
+ ; Data[38].Information.Mhistorical Price
+Expected: 0.063592
+     got: N.A.
+ ; Data[38].Information.Quotation Factor
+Expected: 1.0000
+     got: 100.0000
+ ; Data[38].Information.Security Description
+Expected: JPYCNY BGN Curncy
+     got: JPYTHB BGN Curncy
+ ; Data[38].Information.Ticker
+Expected: JPYCNY
+     got: JPYTHB
+ ; Data[38].InstrumentID
+Expected: 1088
+     got: 143
+ ; Data[38].RequesterID.Ticker
+Expected: JPYCNY
+     got: JPYTHB
+ ; Data[39].Information.BBGGlobalID
+Expected: BBG0013HNFZ9
+     got: BBG0013HHT59
+ ; Data[39].Information.Currency
+Expected: HKD
+     got: TWD
+ ; Data[39].Information.InstrumentID
+Expected: 1103
+     got: 146
+ ; Data[39].Information.Last Price
+Expected: 7.073600
+     got: .273100
+ ; Data[39].Information.Mhistorical Price
+Expected: 7.0722
+     got: 0.2733
+ ; Data[39].Information.Quotation Factor
+Expected: 100.0000
+     got: 1.0000
+ ; Data[39].Information.Security Description
+Expected: JPYHKD BGN Curncy
+     got: JPYTWD BGN Curncy
+ ; Data[39].Information.Ticker
+Expected: JPYHKD
+     got: JPYTWD
+ ; Data[39].InstrumentID
+Expected: 1103
+     got: 146
+ ; Data[39].RequesterID.Ticker
+Expected: JPYHKD
+     got: JPYTWD
+ ; Data[3].Information.BBGGlobalID
+Expected: BBG0013HQ524
+     got: BBG0013HFHG5
+ ; Data[3].Information.Currency
+Expected: RUB
+     got: USD
+ ; Data[3].Information.Date Of Last Update
+Expected: 20200213
+     got: 20200214
+ ; Data[3].Information.InstrumentID
+Expected: 133
+     got: 511
+ ; Data[3].Information.Last Price
+Expected: N.A.
+     got: .672300
+ ; Data[3].Information.Mhistorical Price
+Expected: N.A.
+     got: 0.6719
+ ; Data[3].Information.Quotation Factor
+Expected: 100.0000
+     got: 1.0000
+ ; Data[3].Information.Security Description
+Expected: JPYRUB BGN Curncy
+     got: AUDUSD BGN Curncy
+ ; Data[3].Information.Ticker
+Expected: JPYRUB
+     got: AUDUSD
+ ; Data[3].InstrumentID
+Expected: 133
+     got: 511
+ ; Data[3].RequesterID.Ticker
+Expected: JPYRUB
+     got: AUDUSD
+ ; Data[40].Information.BBGGlobalID
+Expected: BBG0013HPZX5
+     got: BBG0013HMN47
+ ; Data[40].Information.Currency
+Expected: HUF
+     got: ZAR
+ ; Data[40].Information.Date Of Last Update
+Expected: 20200213
+     got: 20200214
+ ; Data[40].Information.InstrumentID
+Expected: 1105
+     got: 157
+ ; Data[40].Information.Last Price
+Expected: N.A.
+     got: .136000
+ ; Data[40].Information.Mhistorical Price
+Expected: N.A.
+     got: 0.1362
+ ; Data[40].Information.Quotation Factor
+Expected: 100.0000
+     got: 1.0000
+ ; Data[40].Information.Security Description
+Expected: JPYHUF BGN Curncy
+     got: JPYZAR BGN Curncy
+ ; Data[40].Information.Ticker
+Expected: JPYHUF
+     got: JPYZAR
+ ; Data[40].InstrumentID
+Expected: 1105
+     got: 157
+ ; Data[40].RequesterID.Ticker
+Expected: JPYHUF
+     got: JPYZAR
+ ; Data[41].Information.BBGGlobalID
+Expected: BBG0013HNKS6
+     got: BBG0013HPXS6
+ ; Data[41].Information.Currency
+Expected: IDR
+     got: HUF
+ ; Data[41].Information.Date Of Last Update
+Expected: 20200214
+     got: 20200213
+ ; Data[41].Information.InstrumentID
+Expected: 1106
+     got: 193
+ ; Data[41].Information.Last Price
+Expected: 124.790000
+     got: N.A.
+ ; Data[41].Information.Mhistorical Price
+Expected: 124.75
+     got: N.A.
+ ; Data[41].Information.Security Description
+Expected: JPYIDR BGN Curncy
+     got: NOKHUF BGN Curncy
+ ; Data[41].Information.Ticker
+Expected: JPYIDR
+     got: NOKHUF
+ ; Data[41].InstrumentID
+Expected: 1106
+     got: 193
+ ; Data[41].RequesterID.Ticker
+Expected: JPYIDR
+     got: NOKHUF
+ ; Data[42].Information.BBGGlobalID
+Expected: BBG0013HHKZ5
+     got: BBG0013HQ846
+ ; Data[42].Information.Currency
+Expected: INR
+     got: RUB
+ ; Data[42].Information.InstrumentID
+Expected: 1108
+     got: 230
+ ; Data[42].Information.Last Price
+Expected: .649600
+     got: 68.698900
+ ; Data[42].Information.Mhistorical Price
+Expected: 0.6495
+     got: 68.8328
+ ; Data[42].Information.Quotation Factor
+Expected: 1.0000
+     got: 10.0000
+ ; Data[42].Information.Security Description
+Expected: JPYINR BGN Curncy
+     got: NOKRUB BGN Curncy
+ ; Data[42].Information.Ticker
+Expected: JPYINR
+     got: NOKRUB
+ ; Data[42].InstrumentID
+Expected: 1108
+     got: 230
+ ; Data[42].RequesterID.Ticker
+Expected: JPYINR
+     got: NOKRUB
+ ; Data[43].Information.BBGGlobalID
+Expected: BBG0013HP8L8
+     got: BBG0013HXNX3
+ ; Data[43].Information.Currency
+Expected: KRW
+     got: HUF
+ ; Data[43].Information.Date Of Last Update
+Expected: 20200214
+     got: 20200213
+ ; Data[43].Information.InstrumentID
+Expected: 1117
+     got: 286
+ ; Data[43].Information.Last Price
+Expected: 10.773400
+     got: N.A.
+ ; Data[43].Information.Mhistorical Price
+Expected: 10.7723
+     got: N.A.
+ ; Data[43].Information.Security Description
+Expected: JPYKRW BGN Curncy
+     got: NZDHUF BGN Curncy
+ ; Data[43].Information.Ticker
+Expected: JPYKRW
+     got: NZDHUF
+ ; Data[43].InstrumentID
+Expected: 1117
+     got: 286
+ ; Data[43].RequesterID.Ticker
+Expected: JPYKRW
+     got: NZDHUF
+ ; Data[44].Information.BBGGlobalID
+Expected: BBG0013HTPY2
+     got: BBG0013HJ5R5
+ ; Data[44].Information.Currency
+Expected: MXN
+     got: JPY
+ ; Data[44].Information.InstrumentID
+Expected: 1134
+     got: 293
+ ; Data[44].Information.Last Price
+Expected: .169000
+     got: 70.657000
+ ; Data[44].Information.Mhistorical Price
+Expected: 0.169
+     got: 70.693
+ ; Data[44].Information.Security Description
+Expected: JPYMXN BGN Curncy
+     got: NZDJPY BGN Curncy
+ ; Data[44].Information.Ticker
+Expected: JPYMXN
+     got: NZDJPY
+ ; Data[44].InstrumentID
+Expected: 1134
+     got: 293
+ ; Data[44].RequesterID.Ticker
+Expected: JPYMXN
+     got: NZDJPY
+ ; Data[45].Information.BBGGlobalID
+Expected: BBG0013HM3S5
+     got: BBG0013HWM75
+ ; Data[45].Information.Currency
+Expected: MYR
+     got: RUB
+ ; Data[45].Information.Date Of Last Update
+Expected: 20200214
+     got: 20200213
+ ; Data[45].Information.InstrumentID
+Expected: 1135
+     got: 325
+ ; Data[45].Information.Last Price
+Expected: 3.772600
+     got: N.A.
+ ; Data[45].Information.Mhistorical Price
+Expected: 3.7705
+     got: N.A.
+ ; Data[45].Information.Quotation Factor
+Expected: 100.0000
+     got: 1.0000
+ ; Data[45].Information.Security Description
+Expected: JPYMYR BGN Curncy
+     got: NZDRUB BGN Curncy
+ ; Data[45].Information.Ticker
+Expected: JPYMYR
+     got: NZDRUB
+ ; Data[45].InstrumentID
+Expected: 1135
+     got: 325
+ ; Data[45].RequesterID.Ticker
+Expected: JPYMYR
+     got: NZDRUB
+ ; Data[46].Information.BBGGlobalID
+Expected: BBG0013HLVQ6
+     got: BBG0013HFKT4
+ ; Data[46].Information.Currency
+Expected: NOK
+     got: USD
+ ; Data[46].Information.InstrumentID
+Expected: 1137
+     got: 340
+ ; Data[46].Information.Last Price
+Expected: 8.430500
+     got: .643500
+ ; Data[46].Information.Mhistorical Price
+Expected: 8.4228
+     got: 0.6437
+ ; Data[46].Information.Quotation Factor
+Expected: 100.0000
+     got: 1.0000
+ ; Data[46].Information.Security Description
+Expected: JPYNOK BGN Curncy
+     got: NZDUSD BGN Curncy
+ ; Data[46].Information.Ticker
+Expected: JPYNOK
+     got: NZDUSD
+ ; Data[46].InstrumentID
+Expected: 1137
+     got: 340
+ ; Data[46].RequesterID.Ticker
+Expected: JPYNOK
+     got: NZDUSD
+ ; Data[47].Information.BBGGlobalID
+Expected: BBG0013HTT65
+     got: BBG0013HX483
+ ; Data[47].Information.Currency
+Expected: PHP
+     got: HUF
+ ; Data[47].Information.InstrumentID
+Expected: 1141
+     got: 386
+ ; Data[47].Information.Security Description
+Expected: JPYPHP BGN Curncy
+     got: SGDHUF BGN Curncy
+ ; Data[47].Information.Ticker
+Expected: JPYPHP
+     got: SGDHUF
+ ; Data[47].InstrumentID
+Expected: 1141
+     got: 386
+ ; Data[47].RequesterID.Ticker
+Expected: JPYPHP
+     got: SGDHUF
+ ; Data[4].Information.BBGGlobalID
+Expected: BBG0013HMP24
+     got: BBG0013HPB86
+ ; Data[4].Information.Currency
+Expected: SEK
+     got: HUF
+ ; Data[4].Information.InstrumentID
+Expected: 138
+     got: 32
+ ; Data[4].Information.Last Price
+Expected: 8.812300
+     got: 235.110000
+ ; Data[4].Information.Mhistorical Price
+Expected: 8.8082
+     got: 234.84
+ ; Data[4].Information.Quotation Factor
+Expected: 100.0000
+     got: 1.0000
+ ; Data[4].Information.Security Description
+Expected: JPYSEK BGN Curncy
+     got: CADHUF BGN Curncy
+ ; Data[4].Information.Ticker
+Expected: JPYSEK
+     got: CADHUF
+ ; Data[4].InstrumentID
+Expected: 138
+     got: 32
+ ; Data[4].RequesterID.Ticker
+Expected: JPYSEK
+     got: CADHUF
+ ; Data[57].Information.BBGGlobalID
+Expected: BBG0013HFYW0
+     got: BBG0013HTJ12
+ ; Data[57].Information.Currency
+Expected: BRL
+     got: JPY
+ ; Data[57].Information.Date Of Last Update
+Expected: 20200213
+     got: 20200214
+ ; Data[57].Information.Last Price
+Expected: 4.353700
+     got: 18.176000
+ ; Data[57].Information.Mhistorical Price
+Expected: 4.3537
+     got: 18.1705
+ ; Data[57].Information.Security Description
+Expected: USDBRL BGN Curncy
+     got: TRYJPY BGN Curncy
+ ; Data[57].Information.Ticker
+Expected: USDBRL
+     got: TRYJPY
+ ; Data[57].RequesterID.Ticker
+Expected: USDBRL
+     got: TRYJPY
+ ; Data[58].Information.BBGGlobalID
+Expected: BBG0013HFN45
+     got: BBG0013HFYW0
+ ; Data[58].Information.Currency
+Expected: CHF
+     got: BRL
+ ; Data[58].Information.Date Of Last Update
+Expected: 20200214
+     got: 20200213
+ ; Data[58].Information.Last Price
+Expected: .979800
+     got: 4.353700
+ ; Data[58].Information.Mhistorical Price
+Expected: 0.9793
+     got: 4.3537
+ ; Data[58].Information.Security Description
+Expected: USDCHF BGN Curncy
+     got: USDBRL BGN Curncy
+ ; Data[58].Information.Ticker
+Expected: USDCHF
+     got: USDBRL
+ ; Data[58].RequesterID.Ticker
+Expected: USDCHF
+     got: USDBRL
+ ; Data[59].Information.BBGGlobalID
+Expected: BBG0014V5GM9
+     got: BBG0013HFN45
+ ; Data[59].Information.Currency
+Expected: CNH
+     got: CHF
+ ; Data[59].Information.Last Price
+Expected: 6.984400
+     got: .979800
+ ; Data[59].Information.Mhistorical Price
+Expected: 6.9891
+     got: 0.9793
+ ; Data[59].Information.Security Description
+Expected: USDCNH BGN Curncy
+     got: USDCHF BGN Curncy
+ ; Data[59].Information.Ticker
+Expected: USDCNH
+     got: USDCHF
+ ; Data[59].RequesterID.Ticker
+Expected: USDCNH
+     got: USDCHF
+ ; Data[5].Information.BBGGlobalID
+Expected: BBG0013HM3K3
+     got: BBG0013HJFP5
+ ; Data[5].Information.Currency
+Expected: SGD
+     got: JPY
+ ; Data[5].Information.InstrumentID
+Expected: 139
+     got: 39
+ ; Data[5].Information.Last Price
+Expected: 1.265700
+     got: 82.810000
+ ; Data[5].Information.Mhistorical Price
+Expected: 1.265
+     got: 82.777
+ ; Data[5].Information.Quotation Factor
+Expected: 100.0000
+     got: 1.0000
+ ; Data[5].Information.Security Description
+Expected: JPYSGD BGN Curncy
+     got: CADJPY BGN Curncy
+ ; Data[5].Information.Ticker
+Expected: JPYSGD
+     got: CADJPY
+ ; Data[5].InstrumentID
+Expected: 139
+     got: 39
+ ; Data[5].RequesterID.Ticker
+Expected: JPYSGD
+     got: CADJPY
+ ; Data[60].Information.BBGGlobalID
+Expected: BBG0013HFRM6
+     got: BBG0014V5GM9
+ ; Data[60].Information.Currency
+Expected: CNY
+     got: CNH
+ ; Data[60].Information.Last Price
+Expected: 6.981700
+     got: 6.984400
+ ; Data[60].Information.Mhistorical Price
+Expected: 6.9772
+     got: 6.9891
+ ; Data[60].Information.Security Description
+Expected: USDCNY BGN Curncy
+     got: USDCNH BGN Curncy
+ ; Data[60].Information.Ticker
+Expected: USDCNY
+     got: USDCNH
+ ; Data[60].RequesterID.Ticker
+Expected: USDCNY
+     got: USDCNH
+ ; Data[61].Information.BBGGlobalID
+Expected: BBG0013HG5F1
+     got: BBG0013HFRM6
+ ; Data[61].Information.Currency
+Expected: CZK
+     got: CNY
+ ; Data[61].Information.Last Price
+Expected: 22.948200
+     got: 6.981700
+ ; Data[61].Information.Mhistorical Price
+Expected: 22.9429
+     got: 6.9772
+ ; Data[61].Information.Security Description
+Expected: USDCZK BGN Curncy
+     got: USDCNY BGN Curncy
+ ; Data[61].Information.Ticker
+Expected: USDCZK
+     got: USDCNY
+ ; Data[61].RequesterID.Ticker
+Expected: USDCZK
+     got: USDCNY
+ ; Data[62].Information.BBGGlobalID
+Expected: BBG0013HGDM6
+     got: BBG0013HG5F1
+ ; Data[62].Information.Currency
+Expected: HKD
+     got: CZK
+ ; Data[62].Information.Last Price
+Expected: 7.767300
+     got: 22.948200
+ ; Data[62].Information.Mhistorical Price
+Expected: 7.7671
+     got: 22.9429
+ ; Data[62].Information.Security Description
+Expected: USDHKD BGN Curncy
+     got: USDCZK BGN Curncy
+ ; Data[62].Information.Ticker
+Expected: USDHKD
+     got: USDCZK
+ ; Data[62].RequesterID.Ticker
+Expected: USDHKD
+     got: USDCZK
+ ; Data[63].Information.BBGGlobalID
+Expected: BBG0013HG7B1
+     got: BBG0013HGDM6
+ ; Data[63].Information.Currency
+Expected: HUF
+     got: HKD
+ ; Data[63].Information.Last Price
+Expected: 311.740000
+     got: 7.767300
+ ; Data[63].Information.Mhistorical Price
+Expected: 311.28
+     got: 7.7671
+ ; Data[63].Information.Security Description
+Expected: USDHUF BGN Curncy
+     got: USDHKD BGN Curncy
+ ; Data[63].Information.Ticker
+Expected: USDHUF
+     got: USDHKD
+ ; Data[63].RequesterID.Ticker
+Expected: USDHUF
+     got: USDHKD
+ ; Data[64].Information.BBGGlobalID
+Expected: BBG0013HFYM1
+     got: BBG0013HG7B1
+ ; Data[64].Information.Currency
+Expected: MXN
+     got: HUF
+ ; Data[64].Information.Last Price
+Expected: 18.595400
+     got: 311.740000
+ ; Data[64].Information.Mhistorical Price
+Expected: 18.5993
+     got: 311.28
+ ; Data[64].Information.Security Description
+Expected: USDMXN BGN Curncy
+     got: USDHUF BGN Curncy
+ ; Data[64].Information.Ticker
+Expected: USDMXN
+     got: USDHUF
+ ; Data[64].RequesterID.Ticker
+Expected: USDMXN
+     got: USDHUF
+ ; Data[65].Information.BBGGlobalID
+Expected: BBG0013HFKN0
+     got: BBG0013HFYM1
+ ; Data[65].Information.Currency
+Expected: MYR
+     got: MXN
+ ; Data[65].Information.Last Price
+Expected: 4.142500
+     got: 18.595400
+ ; Data[65].Information.Mhistorical Price
+Expected: 4.141
+     got: 18.5993
+ ; Data[65].Information.Security Description
+Expected: USDMYR BGN Curncy
+     got: USDMXN BGN Curncy
+ ; Data[65].Information.Ticker
+Expected: USDMYR
+     got: USDMXN
+ ; Data[65].RequesterID.Ticker
+Expected: USDMYR
+     got: USDMXN
+ ; Data[66].Information.BBGGlobalID
+Expected: BBG0013HFL85
+     got: BBG0013HFKN0
+ ; Data[66].Information.Currency
+Expected: NOK
+     got: MYR
+ ; Data[66].Information.Last Price
+Expected: 9.256700
+     got: 4.142500
+ ; Data[66].Information.Mhistorical Price
+Expected: 9.2507
+     got: 4.141
+ ; Data[66].Information.Security Description
+Expected: USDNOK BGN Curncy
+     got: USDMYR BGN Curncy
+ ; Data[66].Information.Ticker
+Expected: USDNOK
+     got: USDMYR
+ ; Data[66].RequesterID.Ticker
+Expected: USDNOK
+     got: USDMYR
+ ; Data[67].Information.BBGGlobalID
+Expected: BBG0013HGFT4
+     got: BBG0013HFL85
+ ; Data[67].Information.Currency
+Expected: RUB
+     got: NOK
+ ; Data[67].Information.Last Price
+Expected: 63.596100
+     got: 9.256700
+ ; Data[67].Information.Mhistorical Price
+Expected: 63.6636
+     got: 9.2507
+ ; Data[67].Information.Security Description
+Expected: USDRUB BGN Curncy
+     got: USDNOK BGN Curncy
+ ; Data[67].Information.Ticker
+Expected: USDRUB
+     got: USDNOK
+ ; Data[67].RequesterID.Ticker
+Expected: USDRUB
+     got: USDNOK
+ ; Data[68].Information.BBGGlobalID
+Expected: BBG0013HFJF2
+     got: BBG0013HGFT4
+ ; Data[68].Information.Currency
+Expected: SGD
+     got: RUB
+ ; Data[68].Information.Last Price
+Expected: 1.389800
+     got: 63.596100
+ ; Data[68].Information.Mhistorical Price
+Expected: 1.3894
+     got: 63.6636
+ ; Data[68].Information.Security Description
+Expected: USDSGD BGN Curncy
+     got: USDRUB BGN Curncy
+ ; Data[68].Information.Ticker
+Expected: USDSGD
+     got: USDRUB
+ ; Data[68].RequesterID.Ticker
+Expected: USDSGD
+     got: USDRUB
+ ; Data[69].Information.BBGGlobalID
+Expected: BBG0013HFNL6
+     got: BBG0013HFJF2
+ ; Data[69].Information.Currency
+Expected: THB
+     got: SGD
+ ; Data[69].Information.Last Price
+Expected: 31.145000
+     got: 1.389800
+ ; Data[69].Information.Mhistorical Price
+Expected: 31.138
+     got: 1.3894
+ ; Data[69].Information.Security Description
+Expected: USDTHB BGN Curncy
+     got: USDSGD BGN Curncy
+ ; Data[69].Information.Ticker
+Expected: USDTHB
+     got: USDSGD
+ ; Data[69].RequesterID.Ticker
+Expected: USDTHB
+     got: USDSGD
+ ; Data[6].Information.BBGGlobalID
+Expected: BBG0013HM3Y8
+     got: BBG0013HQ819
+ ; Data[6].Information.Currency
+Expected: THB
+     got: RUB
+ ; Data[6].Information.InstrumentID
+Expected: 143
+     got: 80
+ ; Data[6].Information.Quotation Factor
+Expected: 100.0000
+     got: 1.0000
+ ; Data[6].Information.Security Description
+Expected: JPYTHB BGN Curncy
+     got: CADRUB BGN Curncy
+ ; Data[6].Information.Ticker
+Expected: JPYTHB
+     got: CADRUB
+ ; Data[6].InstrumentID
+Expected: 143
+     got: 80
+ ; Data[6].RequesterID.Ticker
+Expected: JPYTHB
+     got: CADRUB
+ ; Data[70].Information.BBGGlobalID
+Expected: BBG0013HFND5
+     got: BBG0013HFNL6
+ ; Data[70].Information.Currency
+Expected: TWD
+     got: THB
+ ; Data[70].Information.Last Price
+Expected: 29.986000
+     got: 31.145000
+ ; Data[70].Information.Mhistorical Price
+Expected: 30.018
+     got: 31.138
+ ; Data[70].Information.Security Description
+Expected: USDTWD BGN Curncy
+     got: USDTHB BGN Curncy
+ ; Data[70].Information.Ticker
+Expected: USDTWD
+     got: USDTHB
+ ; Data[70].RequesterID.Ticker
+Expected: USDTWD
+     got: USDTHB
+ ; Data[71].Information.BBGGlobalID
+Expected: BBG0013HFSP1
+     got: BBG0013HFND5
+ ; Data[71].Information.Currency
+Expected: ZAR
+     got: TWD
+ ; Data[71].Information.Last Price
+Expected: 14.932500
+     got: 29.986000
+ ; Data[71].Information.Mhistorical Price
+Expected: 14.9557
+     got: 30.018
+ ; Data[71].Information.Security Description
+Expected: USDZAR BGN Curncy
+     got: USDTWD BGN Curncy
+ ; Data[71].Information.Ticker
+Expected: USDZAR
+     got: USDTWD
+ ; Data[71].RequesterID.Ticker
+Expected: USDZAR
+     got: USDTWD
+ ; Data[72].Information.BBGGlobalID
+Expected: BBG0013HTJ12
+     got: BBG0013HFSP1
+ ; Data[72].Information.Currency
+Expected: JPY
+     got: ZAR
+ ; Data[72].Information.Last Price
+Expected: 18.176000
+     got: 14.932500
+ ; Data[72].Information.Mhistorical Price
+Expected: 18.1705
+     got: 14.9557
+ ; Data[72].Information.Security Description
+Expected: TRYJPY BGN Curncy
+     got: USDZAR BGN Curncy
+ ; Data[72].Information.Ticker
+Expected: TRYJPY
+     got: USDZAR
+ ; Data[72].RequesterID.Ticker
+Expected: TRYJPY
+     got: USDZAR
+ ; Data[7].Information.BBGGlobalID
+Expected: BBG0013HHT59
+     got: BBG0013HP8X5
+ ; Data[7].Information.Currency
+Expected: TWD
+     got: HUF
+ ; Data[7].Information.InstrumentID
+Expected: 146
+     got: 471
+ ; Data[7].Information.Last Price
+Expected: .273100
+     got: 318.213000
+ ; Data[7].Information.Mhistorical Price
+Expected: 0.2733
+     got: 318.092
+ ; Data[7].Information.Security Description
+Expected: JPYTWD BGN Curncy
+     got: CHFHUF BGN Curncy
+ ; Data[7].Information.Ticker
+Expected: JPYTWD
+     got: CHFHUF
+ ; Data[7].InstrumentID
+Expected: 146
+     got: 471
+ ; Data[7].RequesterID.Ticker
+Expected: JPYTWD
+     got: CHFHUF
+ ; Data[8].Information.BBGGlobalID
+Expected: BBG0013HMN47
+     got: BBG0013HKSD8
+ ; Data[8].Information.Currency
+Expected: ZAR
+     got: JPY
+ ; Data[8].Information.InstrumentID
+Expected: 157
+     got: 478
+ ; Data[8].Information.Last Price
+Expected: .136000
+     got: 112.079000
+ ; Data[8].Information.Mhistorical Price
+Expected: 0.1362
+     got: 112.154
+ ; Data[8].Information.Security Description
+Expected: JPYZAR BGN Curncy
+     got: CHFJPY BGN Curncy
+ ; Data[8].Information.Ticker
+Expected: JPYZAR
+     got: CHFJPY
+ ; Data[8].InstrumentID
+Expected: 157
+     got: 478
+ ; Data[8].RequesterID.Ticker
+Expected: JPYZAR
+     got: CHFJPY
+ ; Data[9].Information.BBGGlobalID
+Expected: BBG0013HPXS6
+     got: BBG0013HQ5K4
+ ; Data[9].Information.Currency
+Expected: HUF
+     got: RUB
+ ; Data[9].Information.InstrumentID
+Expected: 193
+     got: 593
+ ; Data[9].Information.Security Description
+Expected: NOKHUF BGN Curncy
+     got: CHFRUB BGN Curncy
+ ; Data[9].Information.Ticker
+Expected: NOKHUF
+     got: CHFRUB
+ ; Data[9].InstrumentID
+Expected: 193
+     got: 593
+ ; Data[9].RequesterID.Ticker
+Expected: NOKHUF
+     got: CHFRUB
+ ; 
+Unexpected: RequestID
+</pre></details></td>
+												</tr>
+										</tbody>
+									</table>
+								</div>
+						</div>
+				</li>
+	</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- subview left -->
+
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='test-name'></h5>
+
+			<div id='step-filters' class="right">
+				<span class="blue-text" status="info" alt="info" title="info"><i class="material-icons">info_outline</i></span>
+				<span class="green-text" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></span>
+				<span class="red-text" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></span>
+				<span class="red-text text-darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></span>
+				<span class="pink-text text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></span>
+				<span class="orange-text" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></span>
+				<span class="teal-text" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></span>
+				<span status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></span>
+			</div>
+		</div>
+	</div>
+	<!-- subview right -->
+
+</div>
+<!-- test view -->
+<!-- category view -->
+<!-- exception view -->
+<div id='dashboard-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>Dashboard</h5>
+
+		<div class='row'>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Tests
+					<div class='panel-lead'>3</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Steps
+					<div class='panel-lead'>8</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Start
+					<div class='panel-lead'>Feb 21, 2020 06:36:13 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+			 		End
+			 		<div class='panel-lead'>Feb 21, 2020 06:36:21 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Time Taken
+					<div class='panel-lead'>0h 0m 7s+960ms</div>
+				</div>
+			</div>
+			<div class='col s4'>
+				<div class='card-panel dashboard-environment'>
+					<span class='right label cyan white-text'>Environment</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Value</th>
+						</tr>
+							<tr>
+								<td>User Name</td>
+								<td>rupak.b</td>
+							</tr>
+							<tr>
+								<td>Environment</td>
+								<td>DEV</td>
+							</tr>
+							<tr>
+								<td>Project</td>
+								<td>VU Masters</td>
+							</tr>
+							<tr>
+								<td>OS</td>
+								<td>WINDOWS</td>
+							</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- dashboard view -->
+<!-- testrunner-logs view -->
+		</div>
+		<!-- container -->
+
+		<script>
+			var statusGroup = {
+				passParent: 2,
+				failParent: 1,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 0,
+				skipParent: 0,
+				exceptionsParent: 1,
+				
+				passChild: 1,
+				failChild: 1,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 6,
+				exceptionsChild: 1,
+				
+				passGrandChild: 0,
+				failGrandChild: 0,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 0,
+				infoGrandChild: 0,
+				exceptionsGrandChild: 0,
+			};
+		</script>
+		
+			<script src='https://cdn.rawgit.com/anshooarora/extentreports-java/fca20fb7653aade98810546ab96a2a4360e3e712/dist/js/extent.js' type='text/javascript'></script>
+		
+		
+ 		<script type='text/javascript'>
+ 			
+      
+        $(document).ready(function() {
+          
+        });
+      
+		
+ 		</script>
+	</body>
+	
+</html>

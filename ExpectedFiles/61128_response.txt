@@ -1,0 +1,97 @@
+{
+    
+    "MessageCode" : 111,
+    "Message" : "Completed , All data available locally",
+    "Data" : [ 
+        {
+            "InstrumentID" : "141602",
+            "RequesterID" : {
+                "ISIN" : "US912796TG47"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US912796TG47 Govt",
+                "Date Of Last Close" : "20200213",
+                "BBGGlobalID" : "N.A.",
+                "Discount Mid Price" : "99.9746",
+                "InstrumentID" : "141602",
+                "CompositeCode" : "",
+                "Currency" : "USD",
+                "ISIN" : "US912796TG47",
+                "MarketSector" : "Govt"
+            }
+        }, 
+        {
+            "InstrumentID" : "142426",
+            "RequesterID" : {
+                "ISIN" : "US912796TH20"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US912796TH20 Govt",
+                "Date Of Last Close" : "20200213",
+                "BBGGlobalID" : "N.A.",
+                "Discount Mid Price" : "99.9149",
+                "InstrumentID" : "142426",
+                "CompositeCode" : "",
+                "Currency" : "USD",
+                "ISIN" : "US912796TH20",
+                "MarketSector" : "Govt"
+            }
+        }, 
+        {
+            "InstrumentID" : "142829",
+            "RequesterID" : {
+                "ISIN" : "US912796TK58"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US912796TK58 Govt",
+                "Date Of Last Close" : "20200213",
+                "BBGGlobalID" : "N.A.",
+                "Discount Mid Price" : "99.884",
+                "InstrumentID" : "142829",
+                "CompositeCode" : "",
+                "Currency" : "USD",
+                "ISIN" : "US912796TK58",
+                "MarketSector" : "Govt"
+            }
+        }, 
+        {
+            "InstrumentID" : "145760",
+            "RequesterID" : {
+                "ISIN" : "US912796TQ29"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US912796TQ29 Govt",
+                "Date Of Last Close" : "20200213",
+                "BBGGlobalID" : "N.A.",
+                "Discount Mid Price" : "99.7613",
+                "InstrumentID" : "145760",
+                "CompositeCode" : "",
+                "Currency" : "USD",
+                "ISIN" : "US912796TQ29",
+                "MarketSector" : "Govt"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "XS1303929894"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "XS1303929894 Govt",
+                "Date Of Last Close" : "20200213",
+                "BBGGlobalID" : "",
+                "Discount Mid Price" : "",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "XS1303929894",
+                "MarketSector" : "Govt"
+            }
+        }
+    ],
+    "Info" : {}
+}

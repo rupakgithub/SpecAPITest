@@ -1,0 +1,959 @@
+{
+    "InstrumentType" : "Prices",
+    "ClientCode" : "BNPP",
+    "View" : "Global",
+    "SecurityList" : [ 
+        {
+            "Identifier" : "EONIA",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JY00S/N",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SF00S/N",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BP00O/N",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EE00O/N",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SONIO/N",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "STIB1D",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "US00O/N",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BP0001W",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BP0002M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BP0003M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BP0006M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BP0012M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JY0001M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JY0001W",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JY0002M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JY0003M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JY0006M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JY0012M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NIBOR1M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NIBOR1W",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NIBOR2M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NIBOR3M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NIBOR6M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SF0001M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SF0001W",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SF0002M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SF0003M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SF0006M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SF0012M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "STIB1M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "STIB1W",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "STIB2M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "STIB3M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "STIB6M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "US0001M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "US0001W",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "US0002M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "US0003M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "US0006M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "US0012M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EUR001M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EUR003M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "H15T10Y",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "H15T5Y",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CIBO06M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EE0006M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "H15T30Y",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HIHD01M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LIBOR01M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WIBO1M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "H15T7Y",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EUR006M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BP0001M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USB3MTA",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "STIB1D Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "STIB1W Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "STIB1M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "STIB2M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "STIB3M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "STIB6M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "STIB9M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "STIB1Y Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BP0001W Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BP0002M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BP0003M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BP0006M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BP00O/N Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BP0012M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EUR001M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EUR001W Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EUR002M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EUR002W Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EUR003M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EUR006M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EUR009M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EUR012M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JY0001M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JY0001W Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JY0002M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JY0003M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JY00S/N Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JY0012M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NIBOR1M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NIBOR1W Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NIBOR2M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NIBOR3M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NIBOR6M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NIBORTN Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SF0001M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SF0001W Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SF0002M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SF0003M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SF0012M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SF00S/N Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SONIO/N Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "US0001M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "US0001W Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "US0002M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "US0003M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "US0006M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "US00O/N Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "US0012M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BP0001M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EE00O/N Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EE0001W Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EE0001M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EE0002M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EE0003M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EE0006M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EE0012M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JY0006M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SF0006M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FEDL01 Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JIBA3M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NFIX3FRA Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SORF6M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SORF6M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WIBR6M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PR046M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HIHD03M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "STBB3M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MXIBTIIE",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BUBOR06M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NFIX3FRA",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BUBOR06M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NDBB3M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NDBB3M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BUBOR03M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BUBOR03M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CDOR01",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CDOR03",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CDOR06",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CIB006M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HIHD06M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MUNIPSA",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NFIX3MID Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PR043M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SIBF3M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SIBF6M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TELBOR03",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TELBOR06",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USISDA01",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USISDA01 Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USISDA05",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USISDA05 Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USISDA10",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USISDA10  Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USSW10",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WIBR1Y",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WIBR1Y Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WIBR3M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WIBR6M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WIBR3M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USSW10 Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TELBOR03 Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TELBOR06 Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SIBF3M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SIBF6M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PR043M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PR046M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NFIX3MID",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MUNIPSA Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MXIBTIIE Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HIHD01M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HIHD03M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HIHD06M Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EUR012M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CIB006M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CDOR01 Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CDOR03 Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CDOR06 Index",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AU0006M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PRIB06M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "M7JP",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RUPRA",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RUGN",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RUGA",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "M1NA",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "VG00",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }
+    ],
+    "InstrumentFilters" : [ 
+        {
+            "Condition" : "Source",
+            "Value" : "BBG",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DateRange",
+            "Value" : "20200213|20200213",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "GetLatest",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsEOD",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "Snaptime",
+            "Value" : "21:50 EST",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "ProgramFlag",
+            "Value" : "Oneshot",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "Delay",
+            "Value" : "15",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }
+    ]
+}

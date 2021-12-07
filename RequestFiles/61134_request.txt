@@ -1,0 +1,4564 @@
+{
+    "InstrumentType" : "Prices",
+    "ClientCode" : "BNPP",
+    "View" : "Global",
+    "SecurityList" : [ 
+        {
+            "Identifier" : "FTCH  210115C00017000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "GPRO  210115C00010000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "GPRO  210115C00012000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "PSTG  210115C00035000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "PSTG  210115C00040000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "SBGI  210115C00090000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "SONO  210115C00022500",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "SPLK  210115P00090000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "TDC   201218C00042500",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "Z     210115C00070000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "ZS    210115C00125000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "ZS    210115C00085000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "DERM  200619C00019000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "FIT   201016C00007000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "ALXN  200214P00097000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "ANTM  200214P00262500",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "EEFT  200221P00140000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "ELAN  200221P00028000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "MRCY  200221P00070000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "NXPI  200214P00129000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "TMO   200221P00310000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "TXN   200214P00122000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "EURN  200221C00012500",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "FRO   200221C00013000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "ALBO  200221C00025000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "ALBO  200221P00022500",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "ALBO  200320P00015000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "ALBO  200320P00020000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "ALLK  200221C00080000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "ANAB  200221P00012500",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "ANAB  200515P00012500",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "ARNA  200221P00041500",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "CHNG  200221P00017500",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "CNST  200221P00030000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "CNST  200221P00035000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "IOVA  200221P00020000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "KURA  200221P00012500",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "KURA  200320P00010000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "NVRO  200221P00105000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "NVRO  200221P00092500",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "NVRO  200320P00105000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "NVST  200221P00027500",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "QURE  200221C00100000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "QURE  200221C00060000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "QURE  200221C00070000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "QURE  200221C00080000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "QURE  200221C00090000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "QURE  200320C00065000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "QURE  200320C00075000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "RETA  200221C00270000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "RETA  200221P00180000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "RETA  200320C00290000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "RETA  200320P00175000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "TXG   200221P00070000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "TXG   200221P00080000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "URGN  200221C00035000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "USPH  200221P00105000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "UTHR  200221P00085000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "UTHR  200221P00090000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "VCYT  200221C00030000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "WAT   200221P00210000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "DOMO  200221C00024000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "EB    200417C00020000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "QADA  200221C00045000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "GDOT  200619C00030000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "HABT  200320C00014000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "RACE  200228P00155000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "ARQL  200221C00020000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "NLOK  200221P00027000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "WMGI  200515P00030000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "DXCM  200320C00190000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "GPRO  200417C00008000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "RVLV  200320C00050000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "TENB  201218C00035000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "TENB  200320C00040000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "KWEB  200221C00049000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "KWEB  200221P00046000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "KWEB  200221P00049000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "QQQ   200331P00194000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "QQQ   200619P00196000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "EEM   200320C00050000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "EWZ   200320C00052000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "KRE   200320P00052000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "SNE   200221P00067500",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "TRVG  200417C00005000",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "BCC2G6179",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "53944MAA7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC27XXY6",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC28B573",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC28M6L7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC293K65",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2955A8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2A3UT2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2CDSF1",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2CFL22",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2CMI54",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2CSGN4",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2CZ930",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2D0084",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2D55Y1",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2D8JX2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2DAUT3",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2DIAE1",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2DKCZ7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2DN993",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2DNCJ7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2DTBX4",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2DWVT4",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2E0C64",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2E1LC9",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2E29W7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2EMF97",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2EP955",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2EQEB4",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2EW9X9",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2EX2C0",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2EYPQ2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2FWUH9",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2G5GH3",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2H6KA0",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2H78Z7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2HFCN1",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2HUCZ1",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2JHVI5",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2JJQE6",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2JVTQ9",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2KRYJ6",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2L0NU1",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2DNGV6",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2E1JK4",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2EJPC6",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2EPJD7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2ES4F2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2EXIE9",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2EXNP8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2F5PN1",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2FJI82",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2FJWL7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2FR752",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2FZ0F9",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2GDMR7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2H86H7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2HER57",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2DBKN5",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2EH9J3",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC27XQW8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2905U5",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2CDSG9",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2CZ963",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2E0CE7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2D3336",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2DK6U5",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2EH9U8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2EXV04",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2EYEM3",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2FK3G7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2H8UE7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2H8F20",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2HB8N5",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2HFCP6",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2HF020",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2HFYI8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2IVG35",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "00900BAC0",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "04015QAD9",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "04964YAE1",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "12548KAC3",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "12549LAJ5",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "12551BAC7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "12551NAC1",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "12554UAC2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "14315MAC6",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "14315MAE2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "17182HAE6",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "26244LAE4",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "393505PE6",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "393505T51",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "44933BAA3",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "55320TAD5",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "55817QAB5",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "55818NAJ4",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "55818TAE2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "55818WAC9",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "55819CAE8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "55819UAC2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "55819UAJ7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "55819VAC0",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "55820AAE9",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "55820EAC5",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "67591RAC8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "92330KAC7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2F0BQ0",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "USG521171",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC11DAI8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC0J57Y7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "001743AG8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "03764EAJ8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "04016KAA7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "04017AAA8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "06761DAA5",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "08180GAG4",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "08182JAA9",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "12548KAA7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "12548NAQ6",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "12551BAA1",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "19329MAE5",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "25820PAF6",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "26249BBA8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "26250UBA2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "27830BBJ2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "38137JBG8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "381724AA1",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "42086XAA4",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "46616EAE8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "48250JAG9",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "48252LAC1",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "48252VAA3",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "48253PAA5",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "55818JAC8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "55953AAQ1",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "55954JAC2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "56606MAA9",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "66859XAA8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "67108GAE4",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "67108XAG2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "67112QAA4",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "67577NAA9",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "67590ABM3",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "794107AN2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "83608FAK4",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "83609MAA0",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "83611FAA1",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "83614AAA9",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "87166DAC2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "87249DAA7",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "88432ABE9",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "92329UAA2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "92332JAA2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "92332PAA8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "94950MAA2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "94950XAA8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "98877HAA4",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC293RT8",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2JARX2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2JCIM2",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "BCC2JKM07",
+            "MarketSector" : "Mtge",
+            "SecurityIdentifier" : "CUSIP"
+        }, 
+        {
+            "Identifier" : "XS2042642954",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US69419WAA71",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US03969AAP57",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "BBG006MLXXJ6",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS2096039263",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS2082036570",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS1598221338",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS1580430681",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS2080541639",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS1897122278",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS2083219191",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "USP90CNTAB54",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS1645764694",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG0R38S1731",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG9546A4588",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG9546A4661",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG9546A4745",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG8T67V4528",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG8T67V4866",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG8T67V5103",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG8T67V5772",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG499082165",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG8T67V6762",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG9546A5650",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG9546A3671",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG9546A4174",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG8T67V1227",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG8T67V3959",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG499081902",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG9546A4091",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG9546A3598",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "KYG8T67V4296",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "USP7807HAK16",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US364725BA84",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US364725BE07",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US451102BF38",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US681904AS77",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US675232AA07",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US858119BD11",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US78388JAT34",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US688239AE25",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US035287AG69",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US226373AL21",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US60740FAM77",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US749571AD71",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "USU5521WAK19",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US29355XAG25",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US03755LAC81",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US257867AW18",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US26885GAB59",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US459902AT95",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US69318UAB17",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS2114413565",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US172967MB43",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US59217GEF28",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US58989VAA26",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US87164DQS26",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US64952WDM29",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS2121441856",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS2121408996",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US29273VAG59",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US880345AB97",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US459902AS13",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US92658TAQ13",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US00508XAF15",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS1884003614",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS2011172835",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US02076XAB82",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US85440KAA25",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "USU7410EAC94",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US161478AB83",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US15346WAC47",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796TG47",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796TH20",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796TK58",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796TQ29",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS1303929894",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796SV23",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796TL32",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796TR02",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796TV14",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796UB31",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796WW59",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796SD25",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796SH39",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796SM24",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796SR11",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796SZ37",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796TS84",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796TT67",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796TX79",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796TZ28",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796WX33",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796WY16",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796WZ80",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796TM15",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US912796TW96",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US91514AGU34",
+            "MarketSector" : "Muni",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS1993770780",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS1123743889",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS1239210112",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS1082775054",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "DE000A0N0N07",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS0188912397",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS0278964720",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS0336868111",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US86732YAD13",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS0143136488",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS1189729293",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS0182997634",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US74732WAA71",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US761283AC43",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US143905AM99",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US63633DAE40",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US45845PAB40",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US42330PAJ66",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US88688TAB61",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US30050BAB71",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "US09739CAB81",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "2303 TT_USD",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SPSN VX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QIA US_USD",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JE/ LN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QMS AU",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "300122 CH (CNH)",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DELB BB",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "1797 HK PUT 06MAY20 P25.3894",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "1797 HK PUT 28APR20 P25.6411",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "1797 HK PUT 29APR20 P25.3894",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "3690 HK PUT 28APR20 P96.50",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "700 HK PUT 06APR20 P357.26",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "700 HK PUT 06APR20 P357.453365",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ANDAR US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ANDD US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMULCD LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MLMIUSD ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "000000047564",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SE US PUT 07APR20 P38.50",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BPA 4 P460 20200417",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BTG LN 02/21/20 C210",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "4104$ TT SWAP RTS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "1782265D LN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AGBA US RTS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ALDR CVR",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CMTA US RTS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CORI CVR",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DOVA US WRT",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ELAN CVR",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FLLC US RTS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GIX US RTS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "INNL CVR",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MEG RTS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PAAC US RTS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PAAS US RIGHTS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PATH US RTS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TBRA CVR",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AMPE US RTS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WMGIZ US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSLDLQI LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "INIVF IN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "UMMUPMD ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GSYLIAT ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PGUSTIA ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GSGFIAN LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMIXUS LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LSGOHSA ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NOUCBIU LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NUSTBIU LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TGTRFIA LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WAMOAAU ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WELGUAH ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LGMCBIM LE",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LGTBEIM LE",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LGTSRIM LE",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMMHYIM LE",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ARTGVIG ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BNUHGEH ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSLEUIA LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSLUSLI LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ABHC2ND NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ARCHRND ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DNBHGYD NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HLBRGKR NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PARHYNA LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SIMPFOB SS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ORBRRF5 LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GUGEIMU ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KILGEID ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LVGEUEJ LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RAEMECU ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SCAPGRU ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SOMEGMB LN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "VERGLAU ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WBEMLGA LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DOCGLAB ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FSMEQIA LN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FTGEMUK ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ICSSLHI ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MORGBRZ LX GBP",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NUSHIGH ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PIMEMGU ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PIMEMHS ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PIMHHAS ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PUTHYSI ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SCHIEUA LN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WAMOPHG ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MWFJBUH ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ABEMCIE LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CPRGHYP FP",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BAHYBDN ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DCIDEFI ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AEMSDIU LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MFEMBC0 LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NGHYIUH ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SFGHAAU ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "UBGACUS LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KFNIEKL DC",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CARSUOS FH",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SASFIIG FH",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NSUINDK FH",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ARCNWED ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ORFINBC NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HQSVERA SS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LANSMAA SS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ABPENGE NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DANILII NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GFLIKVI NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HOLIKV1 NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ABNIGIN NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AFOBL3 NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AIOBLIG NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DANINOI NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DANNDKH DC",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DKKROBL NO",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BGAGLA2 LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HSAXJXC LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IGFIAGU LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSLFELD LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BYRFIAE ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KBGTREV ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KBGLTRU ID",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QQQS IM_USD",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AQRMFAU LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DGCXX US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IJTXX US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPLIQIN LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSUXX US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "600074_UVF6",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "600074_UVF1",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "600074_UVF11",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "600074_UVF5",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "600074_UVF12",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "COAZ2796003",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "COZQ2388465",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "COZS5603148_USD",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "Judo Capital Holdings Class A",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSJIMOT13",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSMGITCH INDEX",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XIN9I  (CNH)",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MLMGGSPP",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MLMGRNBL",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMGAFFH",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMGATHL",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMGCRED",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMGINRB",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMGITOS",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMGNATH",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMGSWEP",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMGSWWP",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LVMH 0 2021 OPT",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HIH20C Y 30000",
+            "MarketSector" : "Index_",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "VVG20P Y 12.0 US",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "X5H20P 3005 US",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "UEG20C Y 7750",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "UEG20C Y 7800",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BZG0",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MODACIN WARRANT",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "Flexiti Warrant 1",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "Flexiti Warrant 2",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "Horsepower Warrant",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "0772894D US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "8173734Z US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GGH US PFD SA",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CBB 6.75 Pfd",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "D 7 1/4 06/01/22 Pfd",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EP0576462",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WTR 6 04/30/22",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "29272W208",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "74736A301",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "838518116",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AEP 6 1/8 03/05/22 Pfd",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AVTR 6 1/4 05/15/22 Pfd",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CNP 7 09/01/21 Pfd",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "Prosper Preferred",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "40390B208",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "9311 JP",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "304 HK",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EZRA SP",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RHT SP",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "773 HK",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "294630 KS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CRC/F TB",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TRENF KY Shar",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MODACIN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AKM AU",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "UOS AU",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ASPEN SP",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ALTG US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ALUS/U US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NEBUU US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NPAUU US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PIC/U US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SAMAU US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MA1OA AT",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RR/C LN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GENOMICS LN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "0115313D LN US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BLIPPAR D PREF",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "VEROLUBE",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HOE GR",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RFXCQ US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AVBH US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BOTJ US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BSFO US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DLMV US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FISB US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PWBO US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BRM-P",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "STUDIO-P",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "UBAB US-P",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EBODF US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NRTHF US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SHE1 US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SHE2 US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "Shopkeep New Series",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SHPK US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ACC CH",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ADELS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AGBA US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ANDA US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ASFZ US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BXTRR US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DEMO US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GYRO US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HCCO US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JTWO LN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MFAC US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MNCL US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PEXST US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PIC US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "REMCD US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "1734820D CN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "Step One CL A",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "STES SP",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SDL AU",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ABCP US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AVGOP PFD",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "Avant 2017-B MOA, LLC",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "Avant 2018-A MOA, LLC",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "Blackthorn Cayman LLC",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WTLC US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MEG US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WONEF CN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "000858 CH 06/22/2020 WTS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "600519 CH 02/25/2020 WTS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "600519 CH 10/28/2020 WTS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "000858 CH 04/23/2020 WTS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EZI SP WRT",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GSAH/WS US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PACQW US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MERRI1D7 LX",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AMNL US 12/14/22 WTS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PLM US 12/21/22 WTS",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AGBA US WRNT",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ANDAW US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FLLC US WRNT",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JTOW LN",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LATN US WRNT",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LFACW US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NEBUW US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "VTIQW US",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LAH0C 1800",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LAH0P 1700",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LAM0C 1900",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LAN0C 1900",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LAN0P 1600",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LLH0C 2025",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LLH0P 1800",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LLH0P 1900",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LNH0C 15000",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LNH0C 15500",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LNH0P 11750",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LNH0P 13000",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LNJ0C 14000",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LNJ0C 15000",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPH0C 6000",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPH0C 6300",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPH0C 6400",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPH0C 6500",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPH0C 6600",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPH0C 6700",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPH0C 6900",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPH0P 5400",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPH0P 5750",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPH0P 5900",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPH0P 6100",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPJ0C 6000",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPJ0C 6300",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPJ0P 5000",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPK0P 4500",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPM0C 6600",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPM0C 6900",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPM0P 4500",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPN0C 6200",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPN0C 6500",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPZ0P 4000",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LXH0P 2150",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LXH0P 2200",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTX0C  20.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTX0C  23.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTZ0C  20.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTZ0C  23.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "L H0C 99.500",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "L H0C 99.625",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "L H0C 99.750",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "L H0C 99.875",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NEXF1YC 38",
+            "MarketSector" : "Comdy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NEXF1YC 42",
+            "MarketSector" : "Comdy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTF1C  20.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTF1C  23.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTG1C  20.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTG1C  23.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTH0C  13.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTH0C  19.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTH0P 19.00",
+            "MarketSector" : "Comdty_Dummy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTH1C  20.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTH1C  23.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTJ0P  13.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTK0P  13.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTM0P  13.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTN0P  13.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTQ0P  13.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTU0P  13.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTV0C  20.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTV0C  23.00",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ERH0P 99.625",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ERH0P 99.875",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CUPF0 COMB",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200204",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200211",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200212",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200213",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200214",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200219",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200228",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200302",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200304",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200313",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200317",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200318",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200319",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200327",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200330",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200331",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200402",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200403",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200408",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200409",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200414",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200415",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200416",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200420",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200422",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200427",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200428",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200505",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200506",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200511",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200512",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200617",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200715",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20200916",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMAHDP 20201216",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200205",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200206",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200211",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200212",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200214",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200219",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200225",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200302",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200309",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200312",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200317",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200318",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200324",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200327",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200330",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200403",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200407",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200414",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200415",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200416",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200417",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200420",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200421",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200422",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200423",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200424",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200427",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200428",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200430",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200505",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200506",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200507",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200511",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200512",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200520",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200617",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200715",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20200916",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20201118",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20201216",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMCADP 20211215",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNADP 20200219",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNADP 20200228",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNADP 20200302",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNADP 20200318",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNADP 20200406",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNADP 20200407",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNADP 20200424",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNADP 20200506",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNADP 20200520",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNIDP 20200206",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNIDP 20200207",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNIDP 20200219",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNIDP 20200220",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNIDP 20200306",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNIDP 20200318",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNIDP 20200331",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNIDP 20200409",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNIDP 20200415",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNIDP 20200420",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNIDP 20200421",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNIDP 20200428",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNIDP 20200430",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNIDP 20200511",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNIDP 20200617",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNIDP 20200916",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMNIDP 20201216",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200213",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200214",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200219",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200225",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200318",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200403",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200406",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200407",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200409",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200414",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200415",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200416",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200417",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200420",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200424",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200427",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200428",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200429",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200430",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200505",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200506",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200507",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200511",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200512",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200520",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200617",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMPBDP 20200715",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMSNDP 20200219",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMSNDP 20200302",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMSNDP 20200303",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMSNDP 20200310",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMSNDP 20200311",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMSNDP 20200312",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMSNDP 20200313",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMSNDP 20200317",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMSNDP 20200318",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMSNDP 20200327",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMSNDP 20200407",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMSNDP 20200415",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200219",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200221",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200225",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200226",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200227",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200318",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200403",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200406",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200409",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200414",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200415",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200416",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200417",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200420",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200423",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200424",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200427",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200428",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200429",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200430",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200505",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200507",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200511",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200512",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200520",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20200617",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LMZSDP 20201216",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "OPEF0 COMB",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAF1",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAG0",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAG1",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAH0",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAH1",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAJ0",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAJ1",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAK0",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAK1",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAM0",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAM1",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAN0",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAN1",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAQ0",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAQ1",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAU0",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAU1",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAV0",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAV1",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAX0",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAX1",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAZ0",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAZ1",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NELF1Y",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NELG0M",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NELH0M",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NELJ0Q",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NELN0Q",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NELV0Q",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NEXF1Y",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NEXF2Y",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NEXG0M",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NEXH0M",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NEXJ0Q",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NEXN0Q",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NEXV0Q",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "COZ0",
+            "MarketSector" : "Comdty",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XUF0 COMB",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }
+    ],
+    "InstrumentFilters" : [ 
+        {
+            "Condition" : "Source",
+            "Value" : "BBG",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DateRange",
+            "Value" : "20200213|20200213",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "GetLatest",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsEOD",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "ProgramFlag",
+            "Value" : "Oneshot",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "Delay",
+            "Value" : "15",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DP|Discount Mid Price",
+            "Value" : "false",
+            "Clause" : "Exists"
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }
+    ]
+}

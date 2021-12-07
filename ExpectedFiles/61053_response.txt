@@ -1,0 +1,1618 @@
+{
+    
+    "MessageCode" : 111,
+    "Message" : "Completed , All data available locally",
+    "Data" : [ 
+        {
+            "InstrumentID" : "32",
+            "RequesterID" : {
+                "Ticker" : "CADHUF"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CADHUF BGN Curncy",
+                "BBGGlobalID" : "BBG0013HPB86",
+                "Currency" : "HUF",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "235.110000",
+                "InstrumentID" : "32",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "234.84",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "CADHUF",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "39",
+            "RequesterID" : {
+                "Ticker" : "CADJPY"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CADJPY BGN Curncy",
+                "BBGGlobalID" : "BBG0013HJFP5",
+                "Currency" : "JPY",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "82.810000",
+                "InstrumentID" : "39",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "82.777",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "CADJPY",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "80",
+            "RequesterID" : {
+                "Ticker" : "CADRUB"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CADRUB BGN Curncy",
+                "BBGGlobalID" : "BBG0013HQ819",
+                "Currency" : "RUB",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "InstrumentID" : "80",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "CADRUB",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "133",
+            "RequesterID" : {
+                "Ticker" : "JPYRUB"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JPYRUB BGN Curncy",
+                "BBGGlobalID" : "BBG0013HQ524",
+                "Currency" : "RUB",
+                "Quotation Factor" : "100.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "InstrumentID" : "133",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "JPYRUB",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "138",
+            "RequesterID" : {
+                "Ticker" : "JPYSEK"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JPYSEK BGN Curncy",
+                "BBGGlobalID" : "BBG0013HMP24",
+                "Currency" : "SEK",
+                "Quotation Factor" : "100.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "8.812300",
+                "InstrumentID" : "138",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "8.8082",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "JPYSEK",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "139",
+            "RequesterID" : {
+                "Ticker" : "JPYSGD"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JPYSGD BGN Curncy",
+                "BBGGlobalID" : "BBG0013HM3K3",
+                "Currency" : "SGD",
+                "Quotation Factor" : "100.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "1.265700",
+                "InstrumentID" : "139",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "1.265",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "JPYSGD",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "143",
+            "RequesterID" : {
+                "Ticker" : "JPYTHB"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JPYTHB BGN Curncy",
+                "BBGGlobalID" : "BBG0013HM3Y8",
+                "Currency" : "THB",
+                "Quotation Factor" : "100.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "InstrumentID" : "143",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "JPYTHB",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "146",
+            "RequesterID" : {
+                "Ticker" : "JPYTWD"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JPYTWD BGN Curncy",
+                "BBGGlobalID" : "BBG0013HHT59",
+                "Currency" : "TWD",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : ".273100",
+                "InstrumentID" : "146",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "0.2733",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "JPYTWD",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "157",
+            "RequesterID" : {
+                "Ticker" : "JPYZAR"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JPYZAR BGN Curncy",
+                "BBGGlobalID" : "BBG0013HMN47",
+                "Currency" : "ZAR",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : ".136000",
+                "InstrumentID" : "157",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "0.1362",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "JPYZAR",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "193",
+            "RequesterID" : {
+                "Ticker" : "NOKHUF"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "NOKHUF BGN Curncy",
+                "BBGGlobalID" : "BBG0013HPXS6",
+                "Currency" : "HUF",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "InstrumentID" : "193",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "NOKHUF",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "230",
+            "RequesterID" : {
+                "Ticker" : "NOKRUB"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "NOKRUB BGN Curncy",
+                "BBGGlobalID" : "BBG0013HQ846",
+                "Currency" : "RUB",
+                "Quotation Factor" : "10.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "68.698900",
+                "InstrumentID" : "230",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "68.8328",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "NOKRUB",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "286",
+            "RequesterID" : {
+                "Ticker" : "NZDHUF"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "NZDHUF BGN Curncy",
+                "BBGGlobalID" : "BBG0013HXNX3",
+                "Currency" : "HUF",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "InstrumentID" : "286",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "NZDHUF",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "293",
+            "RequesterID" : {
+                "Ticker" : "NZDJPY"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "NZDJPY BGN Curncy",
+                "BBGGlobalID" : "BBG0013HJ5R5",
+                "Currency" : "JPY",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "70.657000",
+                "InstrumentID" : "293",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "70.693",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "NZDJPY",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "325",
+            "RequesterID" : {
+                "Ticker" : "NZDRUB"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "NZDRUB BGN Curncy",
+                "BBGGlobalID" : "BBG0013HWM75",
+                "Currency" : "RUB",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "InstrumentID" : "325",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "NZDRUB",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "340",
+            "RequesterID" : {
+                "Ticker" : "NZDUSD"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "NZDUSD BGN Curncy",
+                "BBGGlobalID" : "BBG0013HFKT4",
+                "Currency" : "USD",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : ".643500",
+                "InstrumentID" : "340",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "0.6437",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "NZDUSD",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "386",
+            "RequesterID" : {
+                "Ticker" : "SGDHUF"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SGDHUF BGN Curncy",
+                "BBGGlobalID" : "BBG0013HX483",
+                "Currency" : "HUF",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "InstrumentID" : "386",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "SGDHUF",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "400",
+            "RequesterID" : {
+                "Ticker" : "AUDHUF"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "AUDHUF BGN Curncy",
+                "BBGGlobalID" : "BBG0013HP9X3",
+                "Currency" : "HUF",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "209.609000",
+                "InstrumentID" : "400",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "209.331",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "AUDHUF",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "408",
+            "RequesterID" : {
+                "Ticker" : "AUDJPY"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "AUDJPY BGN Curncy",
+                "BBGGlobalID" : "BBG0013J11D4",
+                "Currency" : "JPY",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "73.830000",
+                "InstrumentID" : "408",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "73.796",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "AUDJPY",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "471",
+            "RequesterID" : {
+                "Ticker" : "CHFHUF"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CHFHUF BGN Curncy",
+                "BBGGlobalID" : "BBG0013HP8X5",
+                "Currency" : "HUF",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "318.213000",
+                "InstrumentID" : "471",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "318.092",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "CHFHUF",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "478",
+            "RequesterID" : {
+                "Ticker" : "CHFJPY"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CHFJPY BGN Curncy",
+                "BBGGlobalID" : "BBG0013HKSD8",
+                "Currency" : "JPY",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "112.079000",
+                "InstrumentID" : "478",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "112.154",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "CHFJPY",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "492",
+            "RequesterID" : {
+                "Ticker" : "AUDRUB"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "AUDRUB BGN Curncy",
+                "BBGGlobalID" : "BBG0013HQ7X6",
+                "Currency" : "RUB",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "InstrumentID" : "492",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "AUDRUB",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "511",
+            "RequesterID" : {
+                "Ticker" : "AUDUSD"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "AUDUSD BGN Curncy",
+                "BBGGlobalID" : "BBG0013HFHG5",
+                "Currency" : "USD",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : ".672300",
+                "InstrumentID" : "511",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "0.6719",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "AUDUSD",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "593",
+            "RequesterID" : {
+                "Ticker" : "CHFRUB"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CHFRUB BGN Curncy",
+                "BBGGlobalID" : "BBG0013HQ5K4",
+                "Currency" : "RUB",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "InstrumentID" : "593",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "CHFRUB",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "639",
+            "RequesterID" : {
+                "Ticker" : "CNYHUF"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CNYHUF BGN Curncy",
+                "BBGGlobalID" : "BBG0013HXXD3",
+                "Currency" : "HUF",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "InstrumentID" : "639",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "CNYHUF",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "671",
+            "RequesterID" : {
+                "Ticker" : "CNYRUB"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CNYRUB BGN Curncy",
+                "BBGGlobalID" : "BBG0013HRTL0",
+                "Currency" : "RUB",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "9.115900",
+                "InstrumentID" : "671",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "9.0996",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "CNYRUB",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "745",
+            "RequesterID" : {
+                "Ticker" : "EURHUF"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EURHUF BGN Curncy",
+                "BBGGlobalID" : "BBG0013HR505",
+                "Currency" : "HUF",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "337.840000",
+                "InstrumentID" : "745",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "337.54",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "EURHUF",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "754",
+            "RequesterID" : {
+                "Ticker" : "EURJPY"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EURJPY BGN Curncy",
+                "BBGGlobalID" : "BBG0013HQG84",
+                "Currency" : "JPY",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "119.000000",
+                "InstrumentID" : "754",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "119.06",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "EURJPY",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "802",
+            "RequesterID" : {
+                "Ticker" : "EURRUB"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EURRUB BGN Curncy",
+                "BBGGlobalID" : "BBG0013HJJ31",
+                "Currency" : "RUB",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "68.927200",
+                "InstrumentID" : "802",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "69.0195",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "EURRUB",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "827",
+            "RequesterID" : {
+                "Ticker" : "EURUSD"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EURUSD BGN Curncy",
+                "BBGGlobalID" : "BBG0013HGRV5",
+                "Currency" : "USD",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "1.083700",
+                "InstrumentID" : "827",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "1.0841",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "EURUSD",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "890",
+            "RequesterID" : {
+                "Ticker" : "GBPHUF"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "GBPHUF BGN Curncy",
+                "BBGGlobalID" : "BBG0013HPDC7",
+                "Currency" : "HUF",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "406.544000",
+                "InstrumentID" : "890",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "406.225",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "GBPHUF",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "899",
+            "RequesterID" : {
+                "Ticker" : "GBPJPY"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "GBPJPY BGN Curncy",
+                "BBGGlobalID" : "BBG0013HKQQ8",
+                "Currency" : "JPY",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "143.240000",
+                "InstrumentID" : "899",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "143.306",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "GBPJPY",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "934",
+            "RequesterID" : {
+                "Ticker" : "GBPNZD"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "GBPNZD BGN Curncy",
+                "BBGGlobalID" : "BBG0013HM591",
+                "Currency" : "NZD",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "2.027200",
+                "InstrumentID" : "934",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "2.0268",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "GBPNZD",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "947",
+            "RequesterID" : {
+                "Ticker" : "GBPRUB"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "GBPRUB BGN Curncy",
+                "BBGGlobalID" : "BBG0013HQ5F0",
+                "Currency" : "RUB",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "82.945000",
+                "InstrumentID" : "947",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "83.0217",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "GBPRUB",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "968",
+            "RequesterID" : {
+                "Ticker" : "GBPUSD"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "GBPUSD BGN Curncy",
+                "BBGGlobalID" : "BBG0013HFH84",
+                "Currency" : "USD",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "1.304400",
+                "InstrumentID" : "968",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "1.3046",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "GBPUSD",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1006",
+            "RequesterID" : {
+                "Ticker" : "HKDRUB"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "HKDRUB BGN Curncy",
+                "BBGGlobalID" : "BBG0013HSW87",
+                "Currency" : "RUB",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "InstrumentID" : "1006",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "HKDRUB",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1059",
+            "RequesterID" : {
+                "Ticker" : "HKDHUF"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "HKDHUF BGN Curncy",
+                "BBGGlobalID" : "BBG0013HX9Y3",
+                "Currency" : "HUF",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "InstrumentID" : "1059",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "HKDHUF",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1082",
+            "RequesterID" : {
+                "Ticker" : "JPYBRL"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JPYBRL BGN Curncy",
+                "BBGGlobalID" : "BBG0013HT4K4",
+                "Currency" : "BRL",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "InstrumentID" : "1082",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "JPYBRL",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1087",
+            "RequesterID" : {
+                "Ticker" : "JPYCNH"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JPYCNH BGN Curncy",
+                "BBGGlobalID" : "BBG001736GN6",
+                "Currency" : "CNH",
+                "Quotation Factor" : "100.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "InstrumentID" : "1087",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "JPYCNH",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1088",
+            "RequesterID" : {
+                "Ticker" : "JPYCNY"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JPYCNY BGN Curncy",
+                "BBGGlobalID" : "BBG0013HR7C8",
+                "Currency" : "CNY",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : ".063577",
+                "InstrumentID" : "1088",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "0.063592",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "JPYCNY",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1103",
+            "RequesterID" : {
+                "Ticker" : "JPYHKD"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JPYHKD BGN Curncy",
+                "BBGGlobalID" : "BBG0013HNFZ9",
+                "Currency" : "HKD",
+                "Quotation Factor" : "100.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "7.073600",
+                "InstrumentID" : "1103",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "7.0722",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "JPYHKD",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1105",
+            "RequesterID" : {
+                "Ticker" : "JPYHUF"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JPYHUF BGN Curncy",
+                "BBGGlobalID" : "BBG0013HPZX5",
+                "Currency" : "HUF",
+                "Quotation Factor" : "100.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "InstrumentID" : "1105",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "JPYHUF",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1106",
+            "RequesterID" : {
+                "Ticker" : "JPYIDR"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JPYIDR BGN Curncy",
+                "BBGGlobalID" : "BBG0013HNKS6",
+                "Currency" : "IDR",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "124.790000",
+                "InstrumentID" : "1106",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "124.75",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "JPYIDR",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1108",
+            "RequesterID" : {
+                "Ticker" : "JPYINR"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JPYINR BGN Curncy",
+                "BBGGlobalID" : "BBG0013HHKZ5",
+                "Currency" : "INR",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : ".649600",
+                "InstrumentID" : "1108",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "0.6495",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "JPYINR",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1117",
+            "RequesterID" : {
+                "Ticker" : "JPYKRW"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JPYKRW BGN Curncy",
+                "BBGGlobalID" : "BBG0013HP8L8",
+                "Currency" : "KRW",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "10.773400",
+                "InstrumentID" : "1117",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "10.7723",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "JPYKRW",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1134",
+            "RequesterID" : {
+                "Ticker" : "JPYMXN"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JPYMXN BGN Curncy",
+                "BBGGlobalID" : "BBG0013HTPY2",
+                "Currency" : "MXN",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : ".169000",
+                "InstrumentID" : "1134",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "0.169",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "JPYMXN",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1135",
+            "RequesterID" : {
+                "Ticker" : "JPYMYR"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JPYMYR BGN Curncy",
+                "BBGGlobalID" : "BBG0013HM3S5",
+                "Currency" : "MYR",
+                "Quotation Factor" : "100.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "3.772600",
+                "InstrumentID" : "1135",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "3.7705",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "JPYMYR",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1137",
+            "RequesterID" : {
+                "Ticker" : "JPYNOK"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JPYNOK BGN Curncy",
+                "BBGGlobalID" : "BBG0013HLVQ6",
+                "Currency" : "NOK",
+                "Quotation Factor" : "100.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "8.430500",
+                "InstrumentID" : "1137",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "8.4228",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "JPYNOK",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1141",
+            "RequesterID" : {
+                "Ticker" : "JPYPHP"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JPYPHP BGN Curncy",
+                "BBGGlobalID" : "BBG0013HTT65",
+                "Currency" : "PHP",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "InstrumentID" : "1141",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "JPYPHP",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1181",
+            "RequesterID" : {
+                "Ticker" : "SGDRUB"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SGDRUB BGN Curncy",
+                "BBGGlobalID" : "BBG0013HJY01",
+                "Currency" : "RUB",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "InstrumentID" : "1181",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "SGDRUB",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1230",
+            "RequesterID" : {
+                "Ticker" : "USDCAD"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDCAD BGN Curncy",
+                "BBGGlobalID" : "BBG0013HG2R5",
+                "Currency" : "CAD",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "1.326000",
+                "InstrumentID" : "1230",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "1.3267",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDCAD",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1262",
+            "RequesterID" : {
+                "Ticker" : "USDIDR"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDIDR BGN Curncy",
+                "BBGGlobalID" : "BBG0013HFHZ4",
+                "Currency" : "IDR",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "13705.000000",
+                "InstrumentID" : "1262",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "13694",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDIDR",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1264",
+            "RequesterID" : {
+                "Ticker" : "USDINR"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDINR BGN Curncy",
+                "BBGGlobalID" : "BBG0013HGBC1",
+                "Currency" : "INR",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "71.330000",
+                "InstrumentID" : "1264",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "71.33",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDINR",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1270",
+            "RequesterID" : {
+                "Ticker" : "USDJPY"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDJPY BGN Curncy",
+                "BBGGlobalID" : "BBG0013HG3T1",
+                "Currency" : "JPY",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "109.810000",
+                "InstrumentID" : "1270",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "109.82",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDJPY",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1275",
+            "RequesterID" : {
+                "Ticker" : "USDKRW"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDKRW BGN Curncy",
+                "BBGGlobalID" : "BBG0013HFJ62",
+                "Currency" : "KRW",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "1183.440000",
+                "InstrumentID" : "1275",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "1182.9",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDKRW",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1309",
+            "RequesterID" : {
+                "Ticker" : "USDPHP"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDPHP BGN Curncy",
+                "BBGGlobalID" : "BBG0013HFJ99",
+                "Currency" : "PHP",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "50.450000",
+                "InstrumentID" : "1309",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "50.485",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDPHP",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1323",
+            "RequesterID" : {
+                "Ticker" : "USDSEK"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDSEK BGN Curncy",
+                "BBGGlobalID" : "BBG0013HFMZ3",
+                "Currency" : "SEK",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "9.676400",
+                "InstrumentID" : "1323",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "9.6737",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDSEK",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1336",
+            "RequesterID" : {
+                "Ticker" : "USDTRY"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDTRY BGN Curncy",
+                "BBGGlobalID" : "BBG0013HFWV5",
+                "Currency" : "TRY",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "6.041100",
+                "InstrumentID" : "1336",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "6.0396",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDTRY",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "USDBRL"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDBRL BGN Curncy",
+                "BBGGlobalID" : "BBG0013HFYW0",
+                "Currency" : "BRL",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "4.353700",
+                "InstrumentID" : "",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "4.3537",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDBRL",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "USDCHF"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDCHF BGN Curncy",
+                "BBGGlobalID" : "BBG0013HFN45",
+                "Currency" : "CHF",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : ".979800",
+                "InstrumentID" : "",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "0.9793",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDCHF",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "USDCNH"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDCNH BGN Curncy",
+                "BBGGlobalID" : "BBG0014V5GM9",
+                "Currency" : "CNH",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "6.984400",
+                "InstrumentID" : "",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "6.9891",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDCNH",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "USDCNY"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDCNY BGN Curncy",
+                "BBGGlobalID" : "BBG0013HFRM6",
+                "Currency" : "CNY",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "6.981700",
+                "InstrumentID" : "",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "6.9772",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDCNY",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "USDCZK"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDCZK BGN Curncy",
+                "BBGGlobalID" : "BBG0013HG5F1",
+                "Currency" : "CZK",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "22.948200",
+                "InstrumentID" : "",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "22.9429",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDCZK",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "USDHKD"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDHKD BGN Curncy",
+                "BBGGlobalID" : "BBG0013HGDM6",
+                "Currency" : "HKD",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "7.767300",
+                "InstrumentID" : "",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "7.7671",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDHKD",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "USDHUF"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDHUF BGN Curncy",
+                "BBGGlobalID" : "BBG0013HG7B1",
+                "Currency" : "HUF",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "311.740000",
+                "InstrumentID" : "",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "311.28",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDHUF",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "USDMXN"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDMXN BGN Curncy",
+                "BBGGlobalID" : "BBG0013HFYM1",
+                "Currency" : "MXN",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "18.595400",
+                "InstrumentID" : "",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "18.5993",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDMXN",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "USDMYR"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDMYR BGN Curncy",
+                "BBGGlobalID" : "BBG0013HFKN0",
+                "Currency" : "MYR",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "4.142500",
+                "InstrumentID" : "",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "4.141",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDMYR",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "USDNOK"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDNOK BGN Curncy",
+                "BBGGlobalID" : "BBG0013HFL85",
+                "Currency" : "NOK",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "9.256700",
+                "InstrumentID" : "",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "9.2507",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDNOK",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "USDRUB"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDRUB BGN Curncy",
+                "BBGGlobalID" : "BBG0013HGFT4",
+                "Currency" : "RUB",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "63.596100",
+                "InstrumentID" : "",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "63.6636",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDRUB",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "USDSGD"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDSGD BGN Curncy",
+                "BBGGlobalID" : "BBG0013HFJF2",
+                "Currency" : "SGD",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "1.389800",
+                "InstrumentID" : "",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "1.3894",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDSGD",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "USDTHB"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDTHB BGN Curncy",
+                "BBGGlobalID" : "BBG0013HFNL6",
+                "Currency" : "THB",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "31.145000",
+                "InstrumentID" : "",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "31.138",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDTHB",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "USDTWD"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDTWD BGN Curncy",
+                "BBGGlobalID" : "BBG0013HFND5",
+                "Currency" : "TWD",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "29.986000",
+                "InstrumentID" : "",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "30.018",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDTWD",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "USDZAR"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USDZAR BGN Curncy",
+                "BBGGlobalID" : "BBG0013HFSP1",
+                "Currency" : "ZAR",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "14.932500",
+                "InstrumentID" : "",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "14.9557",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "USDZAR",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "TRYJPY"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "TRYJPY BGN Curncy",
+                "BBGGlobalID" : "BBG0013HTJ12",
+                "Currency" : "JPY",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "18.176000",
+                "InstrumentID" : "",
+                "CompositeCode" : "BGN",
+                "Snaptime" : "20:55 EST",
+                "Mhistorical Price" : "18.1705",
+                "Mhistorical Date" : "20200213",
+                "Ticker" : "TRYJPY",
+                "MarketSector" : "Curncy"
+            }
+        }
+    ],
+    "Info" : {
+        "MissingSecurity" : {
+            "Ticker" : "USDCHF|USDCNH|USDSGD|TRYJPY"
+        }
+    }
+}

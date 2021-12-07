@@ -1,0 +1,114 @@
+{
+    "InstrumentType" : "Prices",
+    "RuleName" : null,
+    "ClientCode" : null,
+    "Source" : null,
+    "AssetType" : null,
+    "GetFromSource" : false,
+    "LicenceRuleCollection" : null,
+    "View" : "Global",
+    "SecurityList" : [ 
+        {
+            "Identifier" : "AAPL  200228P00297500",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "AlternateId1"
+        }, 
+        {
+            "Identifier" : "US912796TG47",
+            "MarketSector" : "Govt",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS1589374500",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "1888 HK",
+            "MarketSector" : "Equity",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AUDUSD CMPL",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AUDUSD CMPN",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AUDUSD CMPT",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CAH0",
+            "MarketSector" : "Index",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TWDUSD CMPL",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TWDUSD CMPN",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TWDUSD CMPT",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }
+    ],
+    "InstrumentFilters" : [ 
+        {
+            "Condition" : "Source",
+            "Value" : "BBG",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DateRange",
+            "Value" : "20200214|20200214",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "GetLatest",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsEOD",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "ProgramFlag",
+            "Value" : "Oneshot",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "Delay",
+            "Value" : "15",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }
+    ]
+}

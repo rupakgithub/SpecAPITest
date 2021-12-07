@@ -1,0 +1,84 @@
+{
+    "InstrumentType" : "Prices",
+    "RuleName" : null,
+    "ClientCode" : null,
+    "Source" : null,
+    "AssetType" : null,
+    "GetFromSource" : false,
+    "LicenceRuleCollection" : null,
+    "View" : "Global",
+    "SecurityList" : [ 
+        {
+            "Identifier" : "AUDUSD",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CHFNOK",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }
+    ],
+    "InstrumentFilters" : [ 
+        {
+            "Condition" : "Source",
+            "Value" : "BBG",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DateRange",
+            "Value" : "20200214|20200214",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "GetLatest",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsEOD",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "Snaptime",
+            "Value" : "14:30 IST",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "ProgramFlag",
+            "Value" : "Oneshot",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "Delay",
+            "Value" : "15",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "FxTypeTimeZone",
+            "Value" : "CMPT",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "PX_LAST",
+            "Value" : "20200203",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }
+    ]
+}

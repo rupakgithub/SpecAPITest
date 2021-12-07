@@ -1,0 +1,37 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "TestCaseID": "TC_39",
+          "Execute": "Y",
+          "Type": "POST",
+          "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+          "RequestFile": "61151_request.txt",
+          "__baseindex": 1,
+          "__index": 1
+        }
+      ],
+      "metaData": {
+        "datafile": "TestData/ApiStructure.json",
+        "description": "",
+        "filter": "Execute == \"Y\"",
+        "groups": [
+          "struc"
+        ],
+        "lineNo": 9,
+        "name": "Verify API structure",
+        "referece": "features/InstrumentDetails.feature",
+        "resultFileName": "TC_39",
+        "sign": "features.InstrumentDetails.feature.Verify API structure( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1583929609459,
+      "duration": 1996,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

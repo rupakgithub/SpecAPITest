@@ -1,0 +1,1748 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 11 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-RDM">
+              <span class="suite-name border-failed">RDM</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-RDM">
+                    <span>C:\Rupak\WorkSpace_new\RDMAPI\config\testrun_config.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-RDM">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-RDM">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-RDM">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-RDM">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-RDM">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-RDM">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">38 methods, 11 failed,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-RDM" class="hide-methods failed suite-RDM"> (hide)</a> <!-- hide-methods failed suite-RDM -->
+                      <a href="#" panel-name="suite-RDM" class="show-methods failed suite-RDM"> (show)</a> <!-- show-methods failed suite-RDM -->
+                    </span>
+                    <div class="method-list-content failed suite-RDM">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_16, TestFileName=Spot New York 20.00 GMT, Execute=Y, Type=POST, URL=https://vu-uat.cs...)">Verify InstrumentDetails Api({TestCaseID=TC_16, TestFileName=Spot New York 20.00 GMT, Execute=Y, Type=POST, URL=https://vu-uat.cs...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_19, TestFileName=Spot F160 18.40 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.lo...)">Verify InstrumentDetails Api({TestCaseID=TC_19, TestFileName=Spot F160 18.40 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.lo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_23, TestFileName=REDO Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)">Verify InstrumentDetails Api({TestCaseID=TC_23, TestFileName=REDO Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_17, TestFileName=APAC Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)">Verify InstrumentDetails Api({TestCaseID=TC_17, TestFileName=APAC Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_24, TestFileName=IDC B series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">Verify InstrumentDetails Api({TestCaseID=TC_24, TestFileName=IDC B series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_26, TestFileName=IDC D series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">Verify InstrumentDetails Api({TestCaseID=TC_26, TestFileName=IDC D series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_11, TestFileName=Spot Tokyo 14.30 IST, Execute=Y, Type=POST, URL=https://vu-uat.csg.l...)">Verify InstrumentDetails Api({TestCaseID=TC_11, TestFileName=Spot Tokyo 14.30 IST, Execute=Y, Type=POST, URL=https://vu-uat.csg.l...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_04, TestFileName=Spot BGN 20.55 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.loc...)">Verify InstrumentDetails Api({TestCaseID=TC_04, TestFileName=Spot BGN 20.55 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.loc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_13, TestFileName=Reuters PX Pricing, Execute=Y, Type=POST, URL=https://vu-uat.csg.loc...)">Verify InstrumentDetails Api({TestCaseID=TC_13, TestFileName=Reuters PX Pricing, Execute=Y, Type=POST, URL=https://vu-uat.csg.loc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_01, TestFileName=EMEA Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)">Verify InstrumentDetails Api({TestCaseID=TC_01, TestFileName=EMEA Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_14, TestFileName=IDC A series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">Verify InstrumentDetails Api({TestCaseID=TC_14, TestFileName=IDC A series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-RDM -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RDM" class="hide-methods passed suite-RDM"> (hide)</a> <!-- hide-methods passed suite-RDM -->
+                      <a href="#" panel-name="suite-RDM" class="show-methods passed suite-RDM"> (show)</a> <!-- show-methods passed suite-RDM -->
+                    </span>
+                    <div class="method-list-content passed suite-RDM">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_02, TestFileName=LME Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/...)">Verify InstrumentDetails Api({TestCaseID=TC_02, TestFileName=LME Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_27, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">Verify InstrumentDetails Api({TestCaseID=TC_27, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_37, TestFileName=EMEA, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/...)">Verify InstrumentDetails Api({TestCaseID=TC_37, TestFileName=EMEA, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_32, TestFileName=IDC T series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">Verify InstrumentDetails Api({TestCaseID=TC_32, TestFileName=IDC T series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_15, TestFileName=Forward L160 11.30 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg...)">Verify InstrumentDetails Api({TestCaseID=TC_15, TestFileName=Forward L160 11.30 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_33, TestFileName=SPOT Tokyo, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMAp...)">Verify InstrumentDetails Api({TestCaseID=TC_33, TestFileName=SPOT Tokyo, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMAp...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_31, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">Verify InstrumentDetails Api({TestCaseID=TC_31, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_30, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">Verify InstrumentDetails Api({TestCaseID=TC_30, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_12, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">Verify InstrumentDetails Api({TestCaseID=TC_12, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_07, TestFileName=Spot WM Reuters Pricing 21.50 EST, Execute=Y, Type=POST, URL=https:/...)">Verify InstrumentDetails Api({TestCaseID=TC_07, TestFileName=Spot WM Reuters Pricing 21.50 EST, Execute=Y, Type=POST, URL=https:/...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_22, TestFileName=Coupon Rate Pricing Run - 09.45 IST, Execute=Y, Type=POST, URL=https...)">Verify InstrumentDetails Api({TestCaseID=TC_22, TestFileName=Coupon Rate Pricing Run - 09.45 IST, Execute=Y, Type=POST, URL=https...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_36, TestFileName=APAC CPN, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/...)">Verify InstrumentDetails Api({TestCaseID=TC_36, TestFileName=APAC CPN, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_35, TestFileName=APAC, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/...)">Verify InstrumentDetails Api({TestCaseID=TC_35, TestFileName=APAC, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_38, TestFileName=IBOR, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/...)">Verify InstrumentDetails Api({TestCaseID=TC_38, TestFileName=IBOR, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_08, TestFileName=Forward WMReuters Pricing 22.00 EST, Execute=Y, Type=POST, URL=https...)">Verify InstrumentDetails Api({TestCaseID=TC_08, TestFileName=Forward WMReuters Pricing 22.00 EST, Execute=Y, Type=POST, URL=https...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_25, TestFileName=IDC C series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">Verify InstrumentDetails Api({TestCaseID=TC_25, TestFileName=IDC C series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_05, TestFileName=AMER Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)">Verify InstrumentDetails Api({TestCaseID=TC_05, TestFileName=AMER Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_18, TestFileName=Coupon Rate Pricing Run - 04.30 IST, Execute=Y, Type=POST, URL=https...)">Verify InstrumentDetails Api({TestCaseID=TC_18, TestFileName=Coupon Rate Pricing Run - 04.30 IST, Execute=Y, Type=POST, URL=https...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_03, TestFileName=Coupon Rate Pricing Run - 06.15 IST, Execute=Y, Type=POST, URL=https...)">Verify InstrumentDetails Api({TestCaseID=TC_03, TestFileName=Coupon Rate Pricing Run - 06.15 IST, Execute=Y, Type=POST, URL=https...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_10, TestFileName=FOF Multi Days Historical Pricing Run, Execute=Y, Type=POST, URL=htt...)">Verify InstrumentDetails Api({TestCaseID=TC_10, TestFileName=FOF Multi Days Historical Pricing Run, Execute=Y, Type=POST, URL=htt...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_28, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">Verify InstrumentDetails Api({TestCaseID=TC_28, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_21, TestFileName=JPY Dividend Extra Run, Execute=Y, Type=POST, URL=https://vu-uat.csg...)">Verify InstrumentDetails Api({TestCaseID=TC_21, TestFileName=JPY Dividend Extra Run, Execute=Y, Type=POST, URL=https://vu-uat.csg...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_09, TestFileName=PNOTE Multi Days Historical Pricing Run, Execute=Y, Type=POST, URL=h...)">Verify InstrumentDetails Api({TestCaseID=TC_09, TestFileName=PNOTE Multi Days Historical Pricing Run, Execute=Y, Type=POST, URL=h...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_29, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">Verify InstrumentDetails Api({TestCaseID=TC_29, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_06, TestFileName=Reuters FX Pricing, Execute=Y, Type=POST, URL=https://vu-uat.csg.loc...)">Verify InstrumentDetails Api({TestCaseID=TC_06, TestFileName=Reuters FX Pricing, Execute=Y, Type=POST, URL=https://vu-uat.csg.loc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_34, TestFileName=Forward London, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/R...)">Verify InstrumentDetails Api({TestCaseID=TC_34, TestFileName=Forward London, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/R...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RDM" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Verify InstrumentDetails Api({TestCaseID=TC_20, TestFileName=IBOR Rates 21.50 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.l...)">Verify InstrumentDetails Api({TestCaseID=TC_20, TestFileName=IBOR Rates 21.50 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.l...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RDM -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RDM" class="panel RDM">
+          <div class="suite-RDM-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qmetry.qaf.automation.step.client.DataDrivenScenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_16, TestFileName=Spot New York 20.00 GMT, Execute=Y, Type=POST, URL=https://vu-uat.cs...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_16, TestFileName=Spot New York 20.00 GMT, Execute=Y, Type=POST, URL=https://vu-uat.cs...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_16, TestFileName=Spot New York 20.00 GMT, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61126_response.txt, RequestFile=61126_request.txt, ResponseCount=379.0, __baseindex=16, __index=16})</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_19, TestFileName=Spot F160 18.40 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.lo...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_19, TestFileName=Spot F160 18.40 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.lo...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_19, TestFileName=Spot F160 18.40 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61129_response.txt, RequestFile=61129_request.txt, ResponseCount=375.0, __baseindex=19, __index=19})</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_23, TestFileName=REDO Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_23, TestFileName=REDO Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_23, TestFileName=REDO Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61134_response.txt, RequestFile=61134_request.txt, ResponseCount=609.0, __baseindex=23, __index=23})</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_17, TestFileName=APAC Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_17, TestFileName=APAC Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_17, TestFileName=APAC Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61127_response.txt, RequestFile=61127_request.txt, ResponseCount=5051.0, __baseindex=17, __index=17})</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_24, TestFileName=IDC B series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_24, TestFileName=IDC B series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_24, TestFileName=IDC B series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61135_response.txt, RequestFile=61135_request.txt, ResponseCount=1383.0, __baseindex=24, __index=24})</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_26, TestFileName=IDC D series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_26, TestFileName=IDC D series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_26, TestFileName=IDC D series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61137_response.txt, RequestFile=61137_request.txt, ResponseCount=54.0, __baseindex=26, __index=26})</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_11, TestFileName=Spot Tokyo 14.30 IST, Execute=Y, Type=POST, URL=https://vu-uat.csg.l...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_11, TestFileName=Spot Tokyo 14.30 IST, Execute=Y, Type=POST, URL=https://vu-uat.csg.l...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_11, TestFileName=Spot Tokyo 14.30 IST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61065_response.txt, RequestFile=61065_request.txt, ResponseCount=380.0, __baseindex=11, __index=11})</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_04, TestFileName=Spot BGN 20.55 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.loc...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_04, TestFileName=Spot BGN 20.55 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.loc...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_04, TestFileName=Spot BGN 20.55 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61053_response.txt, RequestFile=61053_request.txt, ResponseCount=73.0, __baseindex=4, __index=4})</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_13, TestFileName=Reuters PX Pricing, Execute=Y, Type=POST, URL=https://vu-uat.csg.loc...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_13, TestFileName=Reuters PX Pricing, Execute=Y, Type=POST, URL=https://vu-uat.csg.loc...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_13, TestFileName=Reuters PX Pricing, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61067_response.txt, RequestFile=61067_request.txt, ResponseCount=1938.0, __baseindex=13, __index=13})</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_01, TestFileName=EMEA Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_01, TestFileName=EMEA Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_01, TestFileName=EMEA Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61050_response.txt, RequestFile=61050_request.txt, ResponseCount=2027.0, __baseindex=1, __index=1})</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_14, TestFileName=IDC A series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_14, TestFileName=IDC A series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_14, TestFileName=IDC A series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61069_response.txt, RequestFile=61069_request.txt, ResponseCount=654.0, __baseindex=14, __index=14})</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at .When User made &quot;${Type}&quot; request to &quot;${URL}&quot; with &quot;${RequestFile}&quot; and compare &quot;${ResponseCount}&quot; and file &quot;${ExpectedFile}&quot;(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RDM-class-failed -->
+          <div class="suite-RDM-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qmetry.qaf.automation.step.client.DataDrivenScenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_02, TestFileName=LME Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_02, TestFileName=LME Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_02, TestFileName=LME Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61051_response.txt, RequestFile=61051_request.txt, ResponseCount=430.0, __baseindex=2, __index=2})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_27, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_27, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_27, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61138_response.txt, RequestFile=61138_request.txt, ResponseCount=4824.0, __baseindex=27, __index=27})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_37, TestFileName=EMEA, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_37, TestFileName=EMEA, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_37, TestFileName=EMEA, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61150_response.txt, RequestFile=61150_request.txt, ResponseCount=7.0, __baseindex=37, __index=37})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_32, TestFileName=IDC T series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_32, TestFileName=IDC T series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_32, TestFileName=IDC T series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61145_response.txt, RequestFile=61145_request.txt, ResponseCount=4817.0, __baseindex=32, __index=32})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_15, TestFileName=Forward L160 11.30 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_15, TestFileName=Forward L160 11.30 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_15, TestFileName=Forward L160 11.30 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61125_response.txt, RequestFile=61125_request.txt, ResponseCount=1095.0, __baseindex=15, __index=15})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_33, TestFileName=SPOT Tokyo, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMAp...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_33, TestFileName=SPOT Tokyo, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMAp...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_33, TestFileName=SPOT Tokyo, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61146_response.txt, RequestFile=61146_request.txt, ResponseCount=2.0, __baseindex=33, __index=33})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_31, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_31, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_31, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61144_response.txt, RequestFile=61144_request.txt, ResponseCount=524.0, __baseindex=31, __index=31})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_30, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_30, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_30, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61143_response.txt, RequestFile=61143_request.txt, ResponseCount=4808.0, __baseindex=30, __index=30})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_12, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_12, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_12, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61066_response.txt, RequestFile=61066_request.txt, ResponseCount=4831.0, __baseindex=12, __index=12})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_07, TestFileName=Spot WM Reuters Pricing 21.50 EST, Execute=Y, Type=POST, URL=https:/...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_07, TestFileName=Spot WM Reuters Pricing 21.50 EST, Execute=Y, Type=POST, URL=https:/...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_07, TestFileName=Spot WM Reuters Pricing 21.50 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61057_response.txt, RequestFile=61057_request.txt, ResponseCount=32.0, __baseindex=7, __index=7})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_22, TestFileName=Coupon Rate Pricing Run - 09.45 IST, Execute=Y, Type=POST, URL=https...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_22, TestFileName=Coupon Rate Pricing Run - 09.45 IST, Execute=Y, Type=POST, URL=https...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_22, TestFileName=Coupon Rate Pricing Run - 09.45 IST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61133_response.txt, RequestFile=61133_request.txt, ResponseCount=25.0, __baseindex=22, __index=22})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_36, TestFileName=APAC CPN, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_36, TestFileName=APAC CPN, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_36, TestFileName=APAC CPN, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61149_response.txt, RequestFile=61149_request.txt, ResponseCount=2.0, __baseindex=36, __index=36})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_35, TestFileName=APAC, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_35, TestFileName=APAC, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_35, TestFileName=APAC, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61148_response.txt, RequestFile=61148_request.txt, ResponseCount=12.0, __baseindex=35, __index=35})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_38, TestFileName=IBOR, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_38, TestFileName=IBOR, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_38, TestFileName=IBOR, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61151_response.txt, RequestFile=61151_request.txt, ResponseCount=4.0, __baseindex=38, __index=38})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_08, TestFileName=Forward WMReuters Pricing 22.00 EST, Execute=Y, Type=POST, URL=https...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_08, TestFileName=Forward WMReuters Pricing 22.00 EST, Execute=Y, Type=POST, URL=https...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_08, TestFileName=Forward WMReuters Pricing 22.00 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61058_response.txt, RequestFile=61058_request.txt, ResponseCount=267.0, __baseindex=8, __index=8})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_25, TestFileName=IDC C series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_25, TestFileName=IDC C series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_25, TestFileName=IDC C series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61136_response.txt, RequestFile=61136_request.txt, ResponseCount=10.0, __baseindex=25, __index=25})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_05, TestFileName=AMER Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_05, TestFileName=AMER Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_05, TestFileName=AMER Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61054_response.txt, RequestFile=61054_request.txt, ResponseCount=1805.0, __baseindex=5, __index=5})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_18, TestFileName=Coupon Rate Pricing Run - 04.30 IST, Execute=Y, Type=POST, URL=https...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_18, TestFileName=Coupon Rate Pricing Run - 04.30 IST, Execute=Y, Type=POST, URL=https...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_18, TestFileName=Coupon Rate Pricing Run - 04.30 IST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61128_response.txt, RequestFile=61128_request.txt, ResponseCount=5.0, __baseindex=18, __index=18})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_03, TestFileName=Coupon Rate Pricing Run - 06.15 IST, Execute=Y, Type=POST, URL=https...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_03, TestFileName=Coupon Rate Pricing Run - 06.15 IST, Execute=Y, Type=POST, URL=https...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_03, TestFileName=Coupon Rate Pricing Run - 06.15 IST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61052_response.txt, RequestFile=61052_request.txt, ResponseCount=25.0, __baseindex=3, __index=3})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_10, TestFileName=FOF Multi Days Historical Pricing Run, Execute=Y, Type=POST, URL=htt...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_10, TestFileName=FOF Multi Days Historical Pricing Run, Execute=Y, Type=POST, URL=htt...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_10, TestFileName=FOF Multi Days Historical Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61060_response.txt, RequestFile=61060_request.txt, ResponseCount=743.0, __baseindex=10, __index=10})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_28, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_28, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_28, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61139_response.txt, RequestFile=61139_request.txt, ResponseCount=4817.0, __baseindex=28, __index=28})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_21, TestFileName=JPY Dividend Extra Run, Execute=Y, Type=POST, URL=https://vu-uat.csg...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_21, TestFileName=JPY Dividend Extra Run, Execute=Y, Type=POST, URL=https://vu-uat.csg...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_21, TestFileName=JPY Dividend Extra Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61131_response.txt, RequestFile=61131_request.txt, ResponseCount=2038.0, __baseindex=21, __index=21})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_09, TestFileName=PNOTE Multi Days Historical Pricing Run, Execute=Y, Type=POST, URL=h...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_09, TestFileName=PNOTE Multi Days Historical Pricing Run, Execute=Y, Type=POST, URL=h...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_09, TestFileName=PNOTE Multi Days Historical Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61059_response.txt, RequestFile=61059_request.txt, ResponseCount=18.0, __baseindex=9, __index=9})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_29, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_29, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_29, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61140_response.txt, RequestFile=61140_request.txt, ResponseCount=524.0, __baseindex=29, __index=29})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_06, TestFileName=Reuters FX Pricing, Execute=Y, Type=POST, URL=https://vu-uat.csg.loc...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_06, TestFileName=Reuters FX Pricing, Execute=Y, Type=POST, URL=https://vu-uat.csg.loc...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_06, TestFileName=Reuters FX Pricing, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61055_response.txt, RequestFile=61055_request.txt, ResponseCount=1613.0, __baseindex=6, __index=6})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_34, TestFileName=Forward London, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/R...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_34, TestFileName=Forward London, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/R...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_34, TestFileName=Forward London, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61147_response.txt, RequestFile=61147_request.txt, ResponseCount=3.0, __baseindex=34, __index=34})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify InstrumentDetails Api({TestCaseID=TC_20, TestFileName=IBOR Rates 21.50 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.l...)">
+                  </a> <!-- Verify InstrumentDetails Api({TestCaseID=TC_20, TestFileName=IBOR Rates 21.50 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.l...) -->
+                  <span class="method-name">Verify InstrumentDetails Api</span>
+                  <span class="parameters">({TestCaseID=TC_20, TestFileName=IBOR Rates 21.50 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61130_response.txt, RequestFile=61130_request.txt, ResponseCount=133.0, __baseindex=20, __index=20})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RDM-class-passed -->
+        </div> <!-- panel RDM -->
+        <div panel-name="test-xml-RDM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Rupak\WorkSpace_new\RDMAPI\config\testrun_config.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;RDM&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.common.listers.MyListner&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;method-selectors&gt;
+  &lt;method-selector&gt;
+    &lt;selector-class name=&quot;com.qmetry.qaf.automation.testng.pro.QAFMethodSelector&quot; priority=&quot;0&quot;/&gt;
+  &lt;/method-selector&gt;
+  &lt;/method-selectors&gt;
+  &lt;test name=&quot;RDM API Regression&quot;&gt;
+    &lt;method-selectors&gt;
+      &lt;method-selector&gt;
+        &lt;selector-class name=&quot;com.qmetry.qaf.automation.testng.pro.QAFMethodSelector&quot; priority=&quot;0&quot;/&gt;
+      &lt;/method-selector&gt;
+    &lt;/method-selectors&gt;
+    &lt;parameter name=&quot;include&quot; value=&quot;{&amp;#039;groups&amp;#039;:[static]}&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qmetry.qaf.automation.step.client.text.BDDTestFactory2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RDM API Regression --&gt;
+&lt;/suite&gt; &lt;!-- RDM --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RDM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RDM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RDM API Regression (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RDM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RDM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">static</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify InstrumentDetails Api</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RDM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RDM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RDM');
+function tableData_RDM() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(38);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Verify InstrumentDetails Api')
+data.setCell(0, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(0, 3, 656773);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Verify InstrumentDetails Api')
+data.setCell(1, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(1, 3, 222290);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Verify InstrumentDetails Api')
+data.setCell(2, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(2, 3, 215992);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Verify InstrumentDetails Api')
+data.setCell(3, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(3, 3, 207256);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Verify InstrumentDetails Api')
+data.setCell(4, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(4, 3, 142366);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Verify InstrumentDetails Api')
+data.setCell(5, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(5, 3, 115858);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Verify InstrumentDetails Api')
+data.setCell(6, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(6, 3, 115445);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Verify InstrumentDetails Api')
+data.setCell(7, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(7, 3, 114962);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Verify InstrumentDetails Api')
+data.setCell(8, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(8, 3, 114771);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Verify InstrumentDetails Api')
+data.setCell(9, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(9, 3, 89754);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Verify InstrumentDetails Api')
+data.setCell(10, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(10, 3, 76733);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Verify InstrumentDetails Api')
+data.setCell(11, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(11, 3, 76285);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Verify InstrumentDetails Api')
+data.setCell(12, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(12, 3, 62021);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Verify InstrumentDetails Api')
+data.setCell(13, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(13, 3, 53885);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Verify InstrumentDetails Api')
+data.setCell(14, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(14, 3, 47043);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Verify InstrumentDetails Api')
+data.setCell(15, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(15, 3, 34040);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Verify InstrumentDetails Api')
+data.setCell(16, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(16, 3, 30571);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Verify InstrumentDetails Api')
+data.setCell(17, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(17, 3, 29857);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Verify InstrumentDetails Api')
+data.setCell(18, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(18, 3, 22451);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Verify InstrumentDetails Api')
+data.setCell(19, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(19, 3, 19818);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Verify InstrumentDetails Api')
+data.setCell(20, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(20, 3, 11295);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Verify InstrumentDetails Api')
+data.setCell(21, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(21, 3, 10934);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Verify InstrumentDetails Api')
+data.setCell(22, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(22, 3, 10838);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Verify InstrumentDetails Api')
+data.setCell(23, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(23, 3, 9916);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Verify InstrumentDetails Api')
+data.setCell(24, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(24, 3, 5868);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Verify InstrumentDetails Api')
+data.setCell(25, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(25, 3, 5455);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Verify InstrumentDetails Api')
+data.setCell(26, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(26, 3, 4126);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Verify InstrumentDetails Api')
+data.setCell(27, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(27, 3, 2480);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Verify InstrumentDetails Api')
+data.setCell(28, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(28, 3, 2130);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Verify InstrumentDetails Api')
+data.setCell(29, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(29, 3, 1768);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'Verify InstrumentDetails Api')
+data.setCell(30, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(30, 3, 1436);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'Verify InstrumentDetails Api')
+data.setCell(31, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(31, 3, 1046);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'Verify InstrumentDetails Api')
+data.setCell(32, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(32, 3, 1034);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'Verify InstrumentDetails Api')
+data.setCell(33, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(33, 3, 943);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'Verify InstrumentDetails Api')
+data.setCell(34, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(34, 3, 875);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'Verify InstrumentDetails Api')
+data.setCell(35, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(35, 3, 718);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'Verify InstrumentDetails Api')
+data.setCell(36, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(36, 3, 670);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'Verify InstrumentDetails Api')
+data.setCell(37, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(37, 3, 504);
+window.suiteTableData['RDM']= { tableData: data, tableDiv: 'times-div-RDM'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 42 minutes</span>
+              <div id="times-div-RDM">
+              </div> <!-- times-div-RDM -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RDM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RDM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_02, TestFileName=LME Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61051_request.txt" and compare "430.0" and file "61051_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_27, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61138_request.txt" and compare "4824.0" and file "61138_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_37, TestFileName=EMEA, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61150_request.txt" and compare "7.0" and file "61150_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_32, TestFileName=IDC T series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61145_request.txt" and compare "4817.0" and file "61145_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_15, TestFileName=Forward L160 11.30 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61125_request.txt" and compare "1095.0" and file "61125_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_33, TestFileName=SPOT Tokyo, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMAp...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61146_request.txt" and compare "2.0" and file "61146_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_31, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61144_request.txt" and compare "524.0" and file "61144_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_30, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61143_request.txt" and compare "4808.0" and file "61143_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_12, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61066_request.txt" and compare "4831.0" and file "61066_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_07, TestFileName=Spot WM Reuters Pricing 21.50 EST, Execute=Y, Type=POST, URL=https:/...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61057_request.txt" and compare "32.0" and file "61057_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_22, TestFileName=Coupon Rate Pricing Run - 09.45 IST, Execute=Y, Type=POST, URL=https...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61133_request.txt" and compare "25.0" and file "61133_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_36, TestFileName=APAC CPN, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61149_request.txt" and compare "2.0" and file "61149_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_35, TestFileName=APAC, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61148_request.txt" and compare "12.0" and file "61148_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_38, TestFileName=IBOR, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61151_request.txt" and compare "4.0" and file "61151_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_08, TestFileName=Forward WMReuters Pricing 22.00 EST, Execute=Y, Type=POST, URL=https...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61058_request.txt" and compare "267.0" and file "61058_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_25, TestFileName=IDC C series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61136_request.txt" and compare "10.0" and file "61136_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_05, TestFileName=AMER Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61054_request.txt" and compare "1805.0" and file "61054_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_18, TestFileName=Coupon Rate Pricing Run - 04.30 IST, Execute=Y, Type=POST, URL=https...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61128_request.txt" and compare "5.0" and file "61128_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_03, TestFileName=Coupon Rate Pricing Run - 06.15 IST, Execute=Y, Type=POST, URL=https...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61052_request.txt" and compare "25.0" and file "61052_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_10, TestFileName=FOF Multi Days Historical Pricing Run, Execute=Y, Type=POST, URL=htt...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61060_request.txt" and compare "743.0" and file "61060_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_28, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61139_request.txt" and compare "4817.0" and file "61139_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_21, TestFileName=JPY Dividend Extra Run, Execute=Y, Type=POST, URL=https://vu-uat.csg...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61131_request.txt" and compare "2038.0" and file "61131_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_09, TestFileName=PNOTE Multi Days Historical Pricing Run, Execute=Y, Type=POST, URL=h...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61059_request.txt" and compare "18.0" and file "61059_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_29, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61140_request.txt" and compare "524.0" and file "61140_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_06, TestFileName=Reuters FX Pricing, Execute=Y, Type=POST, URL=https://vu-uat.csg.loc...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61055_request.txt" and compare "1613.0" and file "61055_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_34, TestFileName=Forward London, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/R...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61147_request.txt" and compare "3.0" and file "61147_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_20, TestFileName=IBOR Rates 21.50 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.l...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61130_request.txt" and compare "133.0" and file "61130_response.txt"</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_16, TestFileName=Spot New York 20.00 GMT, Execute=Y, Type=POST, URL=https://vu-uat.cs...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61126_request.txt" and compare "379.0" and file "61126_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_19, TestFileName=Spot F160 18.40 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.lo...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61129_request.txt" and compare "375.0" and file "61129_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_23, TestFileName=REDO Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61134_request.txt" and compare "609.0" and file "61134_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_17, TestFileName=APAC Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61127_request.txt" and compare "5051.0" and file "61127_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_24, TestFileName=IDC B series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61135_request.txt" and compare "1383.0" and file "61135_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_26, TestFileName=IDC D series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61137_request.txt" and compare "54.0" and file "61137_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_11, TestFileName=Spot Tokyo 14.30 IST, Execute=Y, Type=POST, URL=https://vu-uat.csg.l...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61065_request.txt" and compare "380.0" and file "61065_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_04, TestFileName=Spot BGN 20.55 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.loc...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61053_request.txt" and compare "73.0" and file "61053_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_13, TestFileName=Reuters PX Pricing, Execute=Y, Type=POST, URL=https://vu-uat.csg.loc...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61067_request.txt" and compare "1938.0" and file "61067_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_01, TestFileName=EMEA Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61050_request.txt" and compare "2027.0" and file "61050_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verify InstrumentDetails Api({TestCaseID=TC_14, TestFileName=IDC A series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61069_request.txt" and compare "654.0" and file "61069_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RDM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.qmetry.qaf.automation.step.client.DataDrivenScenario</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Verify InstrumentDetails Api</span>
+                <br/>
+                <span class="ignored-method-name">Verify API structure</span>
+                <br/>
+                <span class="ignored-method-name">Verify API structure</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RDM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qmetry.qaf.automation.step.client.DataDrivenScenario</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuit(org.testng.TestRunner@3e2e18f2)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@3e2e18f2)</span>
+                <span class="method-start">3419 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@3e2e18f2)</span>
+                <span class="method-start">3428 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">4895 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_01, TestFileName=EMEA Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)</span>
+                <span class="method-start">4896 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=FAILURE method=...)</span>
+                <span class="method-start">95128 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">95129 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_02, TestFileName=LME Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/...)</span>
+                <span class="method-start">95130 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">105170 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_03, TestFileName=Coupon Rate Pricing Run - 06.15 IST, Execute=Y, Type=POST, URL=https...)</span>
+                <span class="method-start">105171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">105171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">110784 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">110785 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_04, TestFileName=Spot BGN 20.55 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.loc...)</span>
+                <span class="method-start">110787 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=FAILURE method=...)</span>
+                <span class="method-start">187150 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_05, TestFileName=AMER Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)</span>
+                <span class="method-start">187151 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">187151 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">263968 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">263969 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_06, TestFileName=Reuters FX Pricing, Execute=Y, Type=POST, URL=https://vu-uat.csg.loc...)</span>
+                <span class="method-start">263970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">294614 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_07, TestFileName=Spot WM Reuters Pricing 21.50 EST, Execute=Y, Type=POST, URL=https:/...)</span>
+                <span class="method-start">294615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">294615 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">295853 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">295854 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_08, TestFileName=Forward WMReuters Pricing 22.00 EST, Execute=Y, Type=POST, URL=https...)</span>
+                <span class="method-start">295855 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">301800 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">301800 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_09, TestFileName=PNOTE Multi Days Historical Pricing Run, Execute=Y, Type=POST, URL=h...)</span>
+                <span class="method-start">301801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">303411 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_10, TestFileName=FOF Multi Days Historical Pricing Run, Execute=Y, Type=POST, URL=htt...)</span>
+                <span class="method-start">303412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">303412 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">350579 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">350580 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_11, TestFileName=Spot Tokyo 14.30 IST, Execute=Y, Type=POST, URL=https://vu-uat.csg.l...)</span>
+                <span class="method-start">350581 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=FAILURE method=...)</span>
+                <span class="method-start">361592 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_12, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+                <span class="method-start">361593 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">361593 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">577667 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_13, TestFileName=Reuters PX Pricing, Execute=Y, Type=POST, URL=https://vu-uat.csg.loc...)</span>
+                <span class="method-start">577668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">577668 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=FAILURE method=...)</span>
+                <span class="method-start">800036 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_14, TestFileName=IDC A series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+                <span class="method-start">800037 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">800037 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=FAILURE method=...)</span>
+                <span class="method-start">834158 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">834158 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_15, TestFileName=Forward L160 11.30 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg...)</span>
+                <span class="method-start">834159 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">976602 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">976602 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_16, TestFileName=Spot New York 20.00 GMT, Execute=Y, Type=POST, URL=https://vu-uat.cs...)</span>
+                <span class="method-start">976603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=FAILURE method=...)</span>
+                <span class="method-start">1038708 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">1038709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_17, TestFileName=APAC Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)</span>
+                <span class="method-start">1038710 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=FAILURE method=...)</span>
+                <span class="method-start">1695570 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">1695570 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_18, TestFileName=Coupon Rate Pricing Run - 04.30 IST, Execute=Y, Type=POST, URL=https...)</span>
+                <span class="method-start">1695571 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">1696511 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">1696512 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_19, TestFileName=Spot F160 18.40 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.lo...)</span>
+                <span class="method-start">1696513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=FAILURE method=...)</span>
+                <span class="method-start">1716434 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_20, TestFileName=IBOR Rates 21.50 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.l...)</span>
+                <span class="method-start">1716435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">1716435 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">1719098 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_21, TestFileName=JPY Dividend Extra Run, Execute=Y, Type=POST, URL=https://vu-uat.csg...)</span>
+                <span class="method-start">1719099 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">1719099 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">1926446 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_22, TestFileName=Coupon Rate Pricing Run - 09.45 IST, Execute=Y, Type=POST, URL=https...)</span>
+                <span class="method-start">1926447 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">1926447 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">1927539 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">1927540 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_23, TestFileName=REDO Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local...)</span>
+                <span class="method-start">1927541 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=FAILURE method=...)</span>
+                <span class="method-start">1950098 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_24, TestFileName=IDC B series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+                <span class="method-start">1950099 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">1950099 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=FAILURE method=...)</span>
+                <span class="method-start">2004077 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_25, TestFileName=IDC C series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+                <span class="method-start">2004078 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">2004078 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">2008390 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_26, TestFileName=IDC D series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+                <span class="method-start">2008392 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">2008392 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=FAILURE method=...)</span>
+                <span class="method-start">2038343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">2038343 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_27, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+                <span class="method-start">2038344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">2153883 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_28, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+                <span class="method-start">2153884 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">2153884 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">2268752 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_29, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+                <span class="method-start">2268753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">2268753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">2280187 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">2280187 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_30, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+                <span class="method-start">2280188 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">2395257 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_31, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+                <span class="method-start">2395258 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">2395258 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">2406221 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_32, TestFileName=IDC T series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDM...)</span>
+                <span class="method-start">2406222 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">2406222 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">2522194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_33, TestFileName=SPOT Tokyo, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMAp...)</span>
+                <span class="method-start">2522195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">2522195 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">2524236 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_34, TestFileName=Forward London, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/R...)</span>
+                <span class="method-start">2524237 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">2524237 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">2525360 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">2525360 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_35, TestFileName=APAC, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/...)</span>
+                <span class="method-start">2525361 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">2527708 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_36, TestFileName=APAC CPN, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/...)</span>
+                <span class="method-start">2527709 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">2527709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">2528436 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_37, TestFileName=EMEA, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/...)</span>
+                <span class="method-start">2528438 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">2528438 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">2529372 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify InstrumentDetails Api({TestCaseID=TC_38, TestFileName=IBOR, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/...)</span>
+                <span class="method-start">2529373 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">2529373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@3e2e18f2, [TestResult name=Verify InstrumentDetails Api status=SUCCESS method=...)</span>
+                <span class="method-start">2530602 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@3e2e18f2)</span>
+                <span class="method-start">2530603 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@3e2e18f2)</span>
+                <span class="method-start">2530605 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuit(org.testng.TestRunner@3e2e18f2)</span>
+                <span class="method-start">2530672 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

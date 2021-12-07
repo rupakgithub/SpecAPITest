@@ -1,0 +1,34 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.testscripts.Tests"
+  ],
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "15",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "20-Nov-2019 22:28:06"
+    },
+    "run-parameters": {
+      "resources": "resources",
+      "username": "consultant63@viteos.com"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_211",
+      "os.arch": "amd64",
+      "host": "CSUATRDP01",
+      "os.name": "Windows Server 2008 R2",
+      "user.name": "rupak.b",
+      "os.version": "6.1"
+    }
+  },
+  "startTime": 1585230337091,
+  "endTime": 1585230337250
+}

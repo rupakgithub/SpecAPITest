@@ -1,0 +1,54 @@
+{
+    
+    "MessageCode" : 111,
+    "Message" : "Completed , All data available locally",
+    "Data" : [ 
+        {
+            "InstrumentID" : "141602",
+            "RequesterID" : {
+                "ISIN" : "US912796TG47"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US912796TG47 Govt",
+                "BBGGlobalID" : "BBG00PZTL570",
+                "Currency" : "USD",
+                "Exchange Code" : "N.A.",
+                "Feed Source" : "BGN",
+                "Quotation Factor" : "",
+                "Scaling Factor" : "1",
+                "Volume" : "",
+                "Last Price as of End of Day" : "1.515000",
+                "End of Day Bid Price" : "1.555000",
+                "End of Day Mid Price" : "1.535000",
+                "Settlement Price" : "",
+                "Yesterday's Normalized Futures Price" : "",
+                "Date Of Last Close" : "20200214",
+                "End of Day Ask Price" : "1.515000",
+                "InstrumentID" : "141602",
+                "CompositeCode" : "",
+                "ISIN" : "US912796TG47",
+                "MarketSector" : "Govt"
+            }
+        }, 
+        {
+            "InstrumentID" : "142426",
+            "RequesterID" : {
+                "ISIN" : "US912796TH20"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US912796TH20 Govt",
+                "Date Of Last Close" : "20200214",
+                "BBGGlobalID" : "N.A.",
+                "Discount Mid Price" : "99.9314",
+                "InstrumentID" : "142426",
+                "CompositeCode" : "",
+                "Currency" : "USD",
+                "ISIN" : "US912796TH20",
+                "MarketSector" : "Govt"
+            }
+        }
+    ],
+    "Info" : {}
+}

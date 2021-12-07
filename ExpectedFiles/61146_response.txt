@@ -1,0 +1,52 @@
+{
+  
+    "MessageCode" : 111,
+    "Message" : "Completed , All data available locally",
+    "Data" : [ 
+        {
+            "InstrumentID" : "511",
+            "RequesterID" : {
+                "Ticker" : "AUDUSD"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "AUDUSD CMPT Curncy",
+                "BBGGlobalID" : "BBG0013HFHG5",
+                "Currency" : "USD",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : ".671800",
+                "InstrumentID" : "511",
+                "CompositeCode" : "CMPT",
+                "Snaptime" : "14:30 IST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200215",
+                "Ticker" : "AUDUSD",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "581",
+            "RequesterID" : {
+                "Ticker" : "CHFNOK"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CHFNOK CMPT Curncy",
+                "BBGGlobalID" : "BBG0013HLWX6",
+                "Currency" : "NOK",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "9.440300",
+                "InstrumentID" : "581",
+                "CompositeCode" : "CMPT",
+                "Snaptime" : "14:30 IST",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200215",
+                "Ticker" : "CHFNOK",
+                "MarketSector" : "Curncy"
+            }
+        }
+    ],
+    "Info" : {}
+}

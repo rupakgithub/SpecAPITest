@@ -1,0 +1,2774 @@
+{
+    "InstrumentType" : "Prices",
+    "ClientCode" : "BNPP",
+    "View" : "Global",
+    "SecurityList" : [ 
+        {
+            "Identifier" : "1163593",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1304079",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1162802",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1155512",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1153709",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1643976",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1703933",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1310225",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1639674",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1296132",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1289671",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1281194",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1305168",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1648272",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1634572",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1262694",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1627293",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1000292",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1140121",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1006494",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1298547",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1153936",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1704453",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1294910",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1081907",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1289217",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1644418",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1078631",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1278301",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1319998",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1634873",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1307089",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1142213",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1311507",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1295957",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1303322",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1297782",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1002016",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1648573",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1295537",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1297975",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1645927",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1266663",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1621455",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1306097",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1013621",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1703041",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1629921",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1035313",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1303894",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1320161",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1144361",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1121427",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1006911",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1000344",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1142495",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1277159",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1317505",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1016006",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1279791",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1308565",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1008434",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1290576",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1315026",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1673133",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1285163",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1617272",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1295838",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1282874",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1308736",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1320097",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1625060",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1289604",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1302578",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1283383",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1640870",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1575499",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1313224",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1644742",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1302620",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1292583",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1007624",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1293917",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1633074",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1269350",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1019533",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1629987",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1308123",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1630707",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1321056",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1307324",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1080915",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1281224",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1154586",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1258518",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1316676",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1023965",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1009727",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1311790",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1279014",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1277320",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1617249",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1019351",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1001596",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1320581",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1297834",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1631249",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1296596",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1258529",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1310775",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1628230",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1277773",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1294396",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1578108",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1619029",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1135376",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1276800",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1641679",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1257407",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1305298",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1312083",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1287954",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1007840",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1279401",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1148909",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1318832",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1008951",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1002889",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1282131",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1009028",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1006535",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1276394",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1307603",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1077564",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1299034",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1081673",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1291546",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1025154",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1305469",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1635229",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1635951",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1079106",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1627969",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1311712",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1647699",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1144156",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1280458",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1006427",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1006018",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1315349",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1647860",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1163043",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1275681",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1153583",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1165812",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1283123",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1141726",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1306934",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1310065",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1277706",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1630462",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1296626",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1155482",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1647923",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1636415",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1531446",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1622878",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1082405",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1305544",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1320398",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1321454",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1315457",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1311121",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1287750",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1078794",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1307045",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1295184",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1294783",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1314012",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1316256",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1616332",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1318382",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1217070",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1299595",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1279520",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1010569",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1024485",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1294051",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1155136",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1285594",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1025057",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1301973",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1318166",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1143959",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1009266",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1630763",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1283112",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1284427",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1644861",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1297920",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1276606",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1217166",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1154155",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1622920",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1624517",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1303225",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1630020",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1277104",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1001712",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1306398",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1291609",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1321302",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1633728",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1277784",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1265358",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1299540",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1259298",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1626029",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1574601",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1278237",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1646306",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1304121",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1003291",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1142257",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1624915",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1286133",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1286973",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1294589",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1216594",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1305470",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1636534",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1282227",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1627260",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1013858",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1644355",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1628218",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1300624",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1582983",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1293144",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1281655",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1279832",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1151952",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1306901",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1288786",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1630127",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1308725",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1291933",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1647268",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1531747",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1601253",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1620797",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1216572",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1634798",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1300981",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1305180",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1626461",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1285215",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1277290",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1311552",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1274729",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1120231",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1216970",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1280555",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1290899",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1300323",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1623127",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1069884",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1276941",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1019157",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1001897",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1000010",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1648982",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1637128",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1097799",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1621648",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1010901",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1163537",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1000076",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1275669",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1633364",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1143186",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1139475",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1283167",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1258886",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1313525",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1688762",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1299283",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1141715",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1019340",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1531521",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1140358",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1000377",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1280834",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1082171",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1575206",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1300743",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1635360",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1286542",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1148697",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1719178",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1637548",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1258433",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1316182",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1215513",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1636266",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1290929",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1216657",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1288173",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1645132",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1303883",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1282625",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1013803",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1000225",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1012628",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1632402",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1635069",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1284944",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1142815",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1271452",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1303117",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1023954",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1296002",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1298354",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1308424",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1299409",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1002630",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1315435",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1291030",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1646685",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1642036",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1082212",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1009761",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1318036",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1142116",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1210875",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1647666",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1216055",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1731699",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1153679",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1164239",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1315338",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1296176",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1634691",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1297050",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1636620",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1300408",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1137985",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1623871",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1632695",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1280674",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1005703",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1624164",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1320514",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1319910",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1310838",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1139884",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1312287",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1716414",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1082665",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1307874",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1308286",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1306536",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1312072",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1302192",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1083204",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1259403",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1311626",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1078783",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1082892",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1292442",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1294363",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1142053",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1035487",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1623882",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1633632",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1282948",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1703096",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1266685",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1140400",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1290952",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1024504",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1008371",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1306600",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1275885",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1318520",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1009307",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1314090",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1025325",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1299067",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1311659",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1287932",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1155352",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1163504",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1635199",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1293564",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1077575",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1319932",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1007947",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1305492",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1288388",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1319523",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1695795",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1216152",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1008575",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1288322",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1276598",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1283792",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1275175",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1217155",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1297135",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1643932",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1011302",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1313042",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1163333",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1574946",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1014185",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1618725",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1636727",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1008177",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1312737",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1304488",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1281105",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1320417",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1618338",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1005565",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1035539",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1012695",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1282807",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1824674",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1278271",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1141629",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1293456",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1621477",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1010644",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1155307",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1306730",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1637894",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1262780",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1516153",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1299755",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1142161",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1011636",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1317732",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1736069",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1290639",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1313053",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1301649",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1286962",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1154683",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1142967",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1275153",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1639265",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1319620",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1642649",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1215751",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1504426",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1645972",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1571185",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1140983",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1283004",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1154746",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1275465",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1314346",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1627044",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1010309",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1290004",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1623893",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1644366",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1575596",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1301014",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1148835",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1285271",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1703115",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1262724",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1292981",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1630569",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1630581",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1008542",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1277375",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1309698",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1506604",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1010729",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1008702",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1296563",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1648175",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1214899",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1286252",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1621507",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1140905",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1082881",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1280533",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1293111",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1632468",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1009813",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1632253",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1291052",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1574731",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1278248",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1006201",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1645303",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1316814",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1275852",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1285464",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1283037",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1316104",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1642122",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1258262",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1258187",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1300367",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1011982",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1279661",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1275551",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1648636",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1292754",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1276048",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1317163",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1009750",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1274859",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1633041",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1023749",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1301791",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1300345",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1002890",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1285895",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1215977",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1025660",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1303805",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1163797",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1531264",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1619320",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1290059",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1638079",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1673207",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1170054",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1303623",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1215319",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1010581",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1314432",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1575411",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1296369",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1300840",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1306633",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1001682",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }, 
+        {
+            "Identifier" : "1287352",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "IDII"
+        }
+    ],
+    "InstrumentFilters" : [ 
+        {
+            "Condition" : "Source",
+            "Value" : "ICE",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DateRange",
+            "Value" : "20200213|20200213",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "GetLatest",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsEOD",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DP|FileSeries",
+            "Value" : "N",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "LastPriceValue",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }
+    ]
+}

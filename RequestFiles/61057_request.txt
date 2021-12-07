@@ -1,0 +1,209 @@
+{
+    "InstrumentType" : "Prices",
+    "ClientCode" : "BNPP",
+    "View" : "Global",
+    "SecurityList" : [ 
+        {
+            "Identifier" : "USDGBPFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDNZDFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDBRLFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCADFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCHFFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCLPFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNHFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNYFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCOPFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCZKFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDDKKFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDHUFFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDIDRFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDINRFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDJPYFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDKRWFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMXNFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMYRFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDNOKFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPENFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPHPFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPLNFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDRUBFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDSEKFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDSGDFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTHBFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTRYFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTWDFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDZARFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDAUDFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDEURFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDHKDFIX=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }
+    ],
+    "InstrumentFilters" : [ 
+        {
+            "Condition" : "Source",
+            "Value" : "RTX",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DateRange",
+            "Value" : "20200213|20200213",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "GetLatest",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsEOD",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "Snaptime",
+            "Value" : "21:50 EST",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }
+    ]
+}

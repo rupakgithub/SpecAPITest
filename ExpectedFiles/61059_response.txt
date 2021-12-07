@@ -1,0 +1,393 @@
+{
+    
+    "MessageCode" : 107,
+    "Message" : "Partial data available locally  - Validation Failed - Licence Code not provided",
+    "Data" : [ 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "CWN564923795"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CWN564923795 Corp",
+                "Date Of Last Close" : "20200211",
+                "BBGGlobalID" : "N.A.",
+                "Last Price as of End of Day" : "22.52",
+                "End of Day Ask Price" : "22.63",
+                "End of Day Bid Price" : "22.52",
+                "End of Day Mid Price" : "22.575",
+                "Currency" : "N.A.",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "CWN564923795",
+                "MarketSector" : "Corp"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "CWN564923878"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CWN564923878 Corp",
+                "Date Of Last Close" : "20200211",
+                "BBGGlobalID" : "N.A.",
+                "Last Price as of End of Day" : "7.94",
+                "End of Day Ask Price" : "7.98",
+                "End of Day Bid Price" : "7.94",
+                "End of Day Mid Price" : "7.96",
+                "Currency" : "N.A.",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "CWN564923878",
+                "MarketSector" : "Corp"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "CWN564924298"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CWN564924298 Corp",
+                "Date Of Last Close" : "20200211",
+                "BBGGlobalID" : "N.A.",
+                "Last Price as of End of Day" : "26.39",
+                "End of Day Ask Price" : "26.44",
+                "End of Day Bid Price" : "26.39",
+                "End of Day Mid Price" : "26.415",
+                "Currency" : "N.A.",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "CWN564924298",
+                "MarketSector" : "Corp"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "CWN564927754"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CWN564927754 Corp",
+                "Date Of Last Close" : "20200211",
+                "BBGGlobalID" : "N.A.",
+                "Last Price as of End of Day" : "19.43",
+                "End of Day Ask Price" : "19.54",
+                "End of Day Bid Price" : "19.43",
+                "End of Day Mid Price" : "19.485",
+                "Currency" : "N.A.",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "CWN564927754",
+                "MarketSector" : "Corp"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "XS2088751750"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "XS2088751750 Corp",
+                "Date Of Last Close" : "20200211",
+                "BBGGlobalID" : "",
+                "Last Price as of End of Day" : "",
+                "End of Day Ask Price" : "",
+                "End of Day Bid Price" : "",
+                "End of Day Mid Price" : "",
+                "Currency" : "",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "XS2088751750",
+                "MarketSector" : "Corp"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "XS2091117726"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "XS2091117726 Corp",
+                "Date Of Last Close" : "20200211",
+                "BBGGlobalID" : "",
+                "Last Price as of End of Day" : "",
+                "End of Day Ask Price" : "",
+                "End of Day Bid Price" : "",
+                "End of Day Mid Price" : "",
+                "Currency" : "",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "XS2091117726",
+                "MarketSector" : "Corp"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "CWN564923795"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CWN564923795 Corp",
+                "Date Of Last Close" : "20200212",
+                "BBGGlobalID" : "N.A.",
+                "Last Price as of End of Day" : "22.15",
+                "End of Day Ask Price" : "22.36",
+                "End of Day Bid Price" : "22.15",
+                "End of Day Mid Price" : "22.255",
+                "Currency" : "N.A.",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "CWN564923795",
+                "MarketSector" : "Corp"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "CWN564923878"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CWN564923878 Corp",
+                "Date Of Last Close" : "20200212",
+                "BBGGlobalID" : "N.A.",
+                "Last Price as of End of Day" : "7.91",
+                "End of Day Ask Price" : "7.93",
+                "End of Day Bid Price" : "7.91",
+                "End of Day Mid Price" : "7.92",
+                "Currency" : "N.A.",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "CWN564923878",
+                "MarketSector" : "Corp"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "CWN564924298"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CWN564924298 Corp",
+                "Date Of Last Close" : "20200212",
+                "BBGGlobalID" : "N.A.",
+                "Last Price as of End of Day" : "26.26",
+                "End of Day Ask Price" : "26.28",
+                "End of Day Bid Price" : "26.26",
+                "End of Day Mid Price" : "26.27",
+                "Currency" : "N.A.",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "CWN564924298",
+                "MarketSector" : "Corp"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "CWN564927754"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CWN564927754 Corp",
+                "Date Of Last Close" : "20200212",
+                "BBGGlobalID" : "N.A.",
+                "Last Price as of End of Day" : "19.86",
+                "End of Day Ask Price" : "19.91",
+                "End of Day Bid Price" : "19.86",
+                "End of Day Mid Price" : "19.885",
+                "Currency" : "N.A.",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "CWN564927754",
+                "MarketSector" : "Corp"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "XS2088751750"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "XS2088751750 Corp",
+                "Date Of Last Close" : "20200212",
+                "BBGGlobalID" : "",
+                "Last Price as of End of Day" : "",
+                "End of Day Ask Price" : "",
+                "End of Day Bid Price" : "",
+                "End of Day Mid Price" : "",
+                "Currency" : "",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "XS2088751750",
+                "MarketSector" : "Corp"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "XS2091117726"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "XS2091117726 Corp",
+                "Date Of Last Close" : "20200212",
+                "BBGGlobalID" : "",
+                "Last Price as of End of Day" : "",
+                "End of Day Ask Price" : "",
+                "End of Day Bid Price" : "",
+                "End of Day Mid Price" : "",
+                "Currency" : "",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "XS2091117726",
+                "MarketSector" : "Corp"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "CWN564923795"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CWN564923795 Corp",
+                "Date Of Last Close" : "20200213",
+                "BBGGlobalID" : "N.A.",
+                "Last Price as of End of Day" : "22.1",
+                "End of Day Ask Price" : "22.26",
+                "End of Day Bid Price" : "22.1",
+                "End of Day Mid Price" : "22.18",
+                "Currency" : "N.A.",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "CWN564923795",
+                "MarketSector" : "Corp"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "CWN564923878"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CWN564923878 Corp",
+                "Date Of Last Close" : "20200213",
+                "BBGGlobalID" : "N.A.",
+                "Last Price as of End of Day" : "7.86",
+                "End of Day Ask Price" : "7.89",
+                "End of Day Bid Price" : "7.86",
+                "End of Day Mid Price" : "7.875",
+                "Currency" : "N.A.",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "CWN564923878",
+                "MarketSector" : "Corp"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "CWN564924298"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CWN564924298 Corp",
+                "Date Of Last Close" : "20200213",
+                "BBGGlobalID" : "N.A.",
+                "Last Price as of End of Day" : "26.44",
+                "End of Day Ask Price" : "26.52",
+                "End of Day Bid Price" : "26.44",
+                "End of Day Mid Price" : "26.48",
+                "Currency" : "N.A.",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "CWN564924298",
+                "MarketSector" : "Corp"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "CWN564927754"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CWN564927754 Corp",
+                "Date Of Last Close" : "20200213",
+                "BBGGlobalID" : "N.A.",
+                "Last Price as of End of Day" : "20.52",
+                "End of Day Ask Price" : "20.66",
+                "End of Day Bid Price" : "20.52",
+                "End of Day Mid Price" : "20.59",
+                "Currency" : "N.A.",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "CWN564927754",
+                "MarketSector" : "Corp"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "XS2088751750"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "XS2088751750 Corp",
+                "Date Of Last Close" : "20200213",
+                "BBGGlobalID" : "",
+                "Last Price as of End of Day" : "",
+                "End of Day Ask Price" : "",
+                "End of Day Bid Price" : "",
+                "End of Day Mid Price" : "",
+                "Currency" : "",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "XS2088751750",
+                "MarketSector" : "Corp"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "ISIN" : "XS2091117726"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "XS2091117726 Corp",
+                "Date Of Last Close" : "20200213",
+                "BBGGlobalID" : "",
+                "Last Price as of End of Day" : "",
+                "End of Day Ask Price" : "",
+                "End of Day Bid Price" : "",
+                "End of Day Mid Price" : "",
+                "Currency" : "",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "ISIN" : "XS2091117726",
+                "MarketSector" : "Corp"
+            }
+        }
+    ],
+    "PendingDataFor" : {
+        "ISIN" : "XS1711235694"
+    },
+    "Info" : {
+        "MissingSecurity" : {
+            "ISIN" : "XS1711235694"
+        }
+    }
+}

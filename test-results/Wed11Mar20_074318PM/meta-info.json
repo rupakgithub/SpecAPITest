@@ -1,0 +1,13 @@
+{
+  "name": "RDM",
+  "status": "fail",
+  "tests": [
+    "RDM_RDMAPIRegression"
+  ],
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "startTime": 1583935998495,
+  "endTime": 1583936005435
+}

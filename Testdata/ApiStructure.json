@@ -1,0 +1,10 @@
+[
+	{
+		"TestCaseID": "TC_39",
+		"TestFileName": "IBOR",
+		"Execute": "Y",
+		"Type": "POST",
+		"URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+		"RequestFile": "61151_request.txt"
+	}
+]

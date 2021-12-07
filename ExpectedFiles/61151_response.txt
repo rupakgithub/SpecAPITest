@@ -1,0 +1,108 @@
+{
+   
+    "MessageCode" : 111,
+    "Message" : "Completed , All data available locally",
+    "Data" : [ 
+        {
+            "InstrumentID" : "23776",
+            "RequesterID" : {
+                "Ticker" : "MXIBTIIE Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "MXIBTIIE Index Curncy",
+                "BBGGlobalID" : "BBG002SCLDP9",
+                "Currency" : "MXN",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "7.330000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "7.330000",
+                "Closing Date 2 Days Ago" : "20200212",
+                "Closing Price 2 Days Ago" : "7.481200",
+                "InstrumentID" : "23776",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "MXIBTIIE Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "HIHD01M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "HIHD01M Index Curncy",
+                "BBGGlobalID" : "BBG002SBPZT4",
+                "Currency" : "HKD",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "1.776070",
+                "Ask Price" : "1.776070",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200212",
+                "Closing Price 2 Days Ago" : "1.792020",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "HIHD01M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "SF0001M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SF0001M Curncy",
+                "BBGGlobalID" : "BBG002SCHM74",
+                "Currency" : "CHF",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "-.777200",
+                "Ask Price" : "-.777200",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200212",
+                "Closing Price 2 Days Ago" : "-.770800",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SF0001M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "SF0001M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SF0001M Index Curncy",
+                "BBGGlobalID" : "BBG002SCHM74",
+                "Currency" : "CHF",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "-.777200",
+                "Ask Price" : "-.777200",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200212",
+                "Closing Price 2 Days Ago" : "-.770800",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SF0001M Index",
+                "MarketSector" : "Curncy"
+            }
+        }
+    ],
+    "Info" : {
+        "MissingSecurity" : {
+            "Ticker" : "SF0001M|SF0001M Index|HIHD01M Index"
+        }
+    }
+}

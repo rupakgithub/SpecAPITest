@@ -1,0 +1,40 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "TestCaseID": "TC_14",
+          "TestFileName": "IDC A series",
+          "Execute": "YD",
+          "Type": "POST",
+          "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+          "ExpectedFile": "61069_response.txt",
+          "RequestFile": "61069_request.txt",
+          "ResponseCount": 657.0,
+          "__baseindex": 14,
+          "__index": 1
+        }
+      ],
+      "metaData": {
+        "datafile": "TestData/EMEA Pricing Run.json",
+        "description": "",
+        "filter": "Execute == \"YD\"",
+        "groups": [
+          "static"
+        ],
+        "lineNo": 4,
+        "name": "Verify InstrumentDetails Api",
+        "referece": "features/InstrumentDetails.feature",
+        "resultFileName": "TC_14",
+        "sign": "features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1585301099410,
+      "duration": 17569,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

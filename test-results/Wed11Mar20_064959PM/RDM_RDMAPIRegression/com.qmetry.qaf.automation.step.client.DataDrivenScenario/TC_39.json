@@ -1,0 +1,22 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userMadeRequestToWith",
+      "args": [
+        "[${Type}, ${URL}, ${RequestFile}]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "When User made \"POST\" request to \"https://vu-uat.csg.local/RDMApi/api/InstrumentDetails\" with \"61151_request.txt\"",
+      "type": "TestStepPass",
+      "duration": 3536,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

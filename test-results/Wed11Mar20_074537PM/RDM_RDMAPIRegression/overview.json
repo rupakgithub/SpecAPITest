@@ -1,0 +1,35 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.DataDrivenScenario"
+  ],
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "15",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "20-Nov-2019 22:28:06"
+    },
+    "run-parameters": {
+      "include": "{'groups':[struc]}",
+      "resources": "resources",
+      "username": "consultant63@viteos.com"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_211",
+      "os.arch": "amd64",
+      "host": "CSUATRDP01",
+      "os.name": "Windows Server 2008 R2",
+      "user.name": "rupak.b",
+      "os.version": "6.1"
+    }
+  },
+  "startTime": 1583936140481,
+  "endTime": 1583936143734
+}

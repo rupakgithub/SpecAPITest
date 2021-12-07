@@ -1,0 +1,776 @@
+{
+    
+    "MessageCode" : 111,
+    "Message" : "Completed , All data available locally",
+    "Data" : [ 
+        {
+            "InstrumentID" : "3893",
+            "RequesterID" : {
+                "RIC" : "USDAUDFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDAUDFIX=WM",
+                "Currency" : "USD",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : ".6734",
+                "End of Day Bid Price" : ".6731",
+                "End of Day Mid Price" : ".67325",
+                "Last Price as of End of Day" : ".6731",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDAUDFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3919",
+            "RequesterID" : {
+                "RIC" : "USDBRLFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDBRLFIX=WM",
+                "Currency" : "BRL",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "4.328",
+                "End of Day Bid Price" : "4.3267",
+                "End of Day Mid Price" : "4.32735",
+                "Last Price as of End of Day" : "4.3267",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDBRLFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3894",
+            "RequesterID" : {
+                "RIC" : "USDCADFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDCADFIX=WM",
+                "Currency" : "CAD",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "1.3256",
+                "End of Day Bid Price" : "1.3253",
+                "End of Day Mid Price" : "1.32545",
+                "Last Price as of End of Day" : "1.3253",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDCADFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3895",
+            "RequesterID" : {
+                "RIC" : "USDCHFFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDCHFFIX=WM",
+                "Currency" : "CHF",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : ".9786",
+                "End of Day Bid Price" : ".9781",
+                "End of Day Mid Price" : ".97835",
+                "Last Price as of End of Day" : ".9781",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDCHFFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3920",
+            "RequesterID" : {
+                "RIC" : "USDCLPFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDCLPFIX=WM",
+                "Currency" : "CLP",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "797.04",
+                "End of Day Bid Price" : "796.5",
+                "End of Day Mid Price" : "796.77",
+                "Last Price as of End of Day" : "796.5",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDCLPFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "4101",
+            "RequesterID" : {
+                "RIC" : "USDCNHFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDCNHFIX=WM",
+                "Currency" : "CNH",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "6.9819",
+                "End of Day Bid Price" : "6.9813",
+                "End of Day Mid Price" : "6.9816",
+                "Last Price as of End of Day" : "6.9813",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDCNHFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3923",
+            "RequesterID" : {
+                "RIC" : "USDCNYFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDCNYFIX=WM",
+                "Currency" : "CNY",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "6.9801",
+                "End of Day Bid Price" : "6.9801",
+                "End of Day Mid Price" : "6.9801",
+                "Last Price as of End of Day" : "6.9801",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDCNYFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3921",
+            "RequesterID" : {
+                "RIC" : "USDCOPFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDCOPFIX=WM",
+                "Currency" : "COP",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "3384.94",
+                "End of Day Bid Price" : "3380.94",
+                "End of Day Mid Price" : "3382.94",
+                "Last Price as of End of Day" : "3380.94",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDCOPFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3896",
+            "RequesterID" : {
+                "RIC" : "USDCZKFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDCZKFIX=WM",
+                "Currency" : "CZK",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "22.9474",
+                "End of Day Bid Price" : "22.9309",
+                "End of Day Mid Price" : "22.93915",
+                "Last Price as of End of Day" : "22.9309",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDCZKFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3897",
+            "RequesterID" : {
+                "RIC" : "USDDKKFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDDKKFIX=WM",
+                "Currency" : "DKK",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "6.8884",
+                "End of Day Bid Price" : "6.8864",
+                "End of Day Mid Price" : "6.8874",
+                "Last Price as of End of Day" : "6.8864",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDDKKFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3898",
+            "RequesterID" : {
+                "RIC" : "USDEURFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDEURFIX=WM",
+                "Currency" : "USD",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "1.085",
+                "End of Day Bid Price" : "1.0847",
+                "End of Day Mid Price" : "1.08485",
+                "Last Price as of End of Day" : "1.0847",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDEURFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3899",
+            "RequesterID" : {
+                "RIC" : "USDGBPFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDGBPFIX=WM",
+                "Currency" : "USD",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "1.3056",
+                "End of Day Bid Price" : "1.3052",
+                "End of Day Mid Price" : "1.3054",
+                "Last Price as of End of Day" : "1.3052",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDGBPFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3900",
+            "RequesterID" : {
+                "RIC" : "USDHKDFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDHKDFIX=WM",
+                "Currency" : "HKD",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "7.7667",
+                "End of Day Bid Price" : "7.7663",
+                "End of Day Mid Price" : "7.7665",
+                "Last Price as of End of Day" : "7.7663",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDHKDFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3901",
+            "RequesterID" : {
+                "RIC" : "USDHUFFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDHUFFIX=WM",
+                "Currency" : "HUF",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "311.4317",
+                "End of Day Bid Price" : "311.2074",
+                "End of Day Mid Price" : "311.31955",
+                "Last Price as of End of Day" : "311.2074",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDHUFFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3912",
+            "RequesterID" : {
+                "RIC" : "USDIDRFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDIDRFIX=WM",
+                "Currency" : "IDR",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "13685",
+                "End of Day Bid Price" : "13675",
+                "End of Day Mid Price" : "13680",
+                "Last Price as of End of Day" : "13675",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDIDRFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3913",
+            "RequesterID" : {
+                "RIC" : "USDINRFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDINRFIX=WM",
+                "Currency" : "INR",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "71.33",
+                "End of Day Bid Price" : "71.32",
+                "End of Day Mid Price" : "71.325",
+                "Last Price as of End of Day" : "71.32",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDINRFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3902",
+            "RequesterID" : {
+                "RIC" : "USDJPYFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDJPYFIX=WM",
+                "Currency" : "JPY",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "109.83",
+                "End of Day Bid Price" : "109.8",
+                "End of Day Mid Price" : "109.815",
+                "Last Price as of End of Day" : "109.8",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDJPYFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3916",
+            "RequesterID" : {
+                "RIC" : "USDKRWFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDKRWFIX=WM",
+                "Currency" : "KRW",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "1183",
+                "End of Day Bid Price" : "1182.7",
+                "End of Day Mid Price" : "1182.85",
+                "Last Price as of End of Day" : "1182.7",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDKRWFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3922",
+            "RequesterID" : {
+                "RIC" : "USDMXNFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDMXNFIX=WM",
+                "Currency" : "MXN",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "18.6465",
+                "End of Day Bid Price" : "18.6435",
+                "End of Day Mid Price" : "18.645",
+                "Last Price as of End of Day" : "18.6435",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDMXNFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3917",
+            "RequesterID" : {
+                "RIC" : "USDMYRFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDMYRFIX=WM",
+                "Currency" : "MYR",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "4.142",
+                "End of Day Bid Price" : "4.139",
+                "End of Day Mid Price" : "4.1405",
+                "Last Price as of End of Day" : "4.139",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDMYRFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3903",
+            "RequesterID" : {
+                "RIC" : "USDNOKFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDNOKFIX=WM",
+                "Currency" : "NOK",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "9.2604",
+                "End of Day Bid Price" : "9.255",
+                "End of Day Mid Price" : "9.2577",
+                "Last Price as of End of Day" : "9.255",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDNOKFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3911",
+            "RequesterID" : {
+                "RIC" : "USDNZDFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDNZDFIX=WM",
+                "Currency" : "USD",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : ".6454",
+                "End of Day Bid Price" : ".645",
+                "End of Day Mid Price" : ".6452",
+                "Last Price as of End of Day" : ".645",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDNZDFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3918",
+            "RequesterID" : {
+                "RIC" : "USDPENFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDPENFIX=WM",
+                "Currency" : "PEN",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "3.3857",
+                "End of Day Bid Price" : "3.3807",
+                "End of Day Mid Price" : "3.3832",
+                "Last Price as of End of Day" : "3.3807",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDPENFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3914",
+            "RequesterID" : {
+                "RIC" : "USDPHPFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDPHPFIX=WM",
+                "Currency" : "PHP",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "50.516",
+                "End of Day Bid Price" : "50.496",
+                "End of Day Mid Price" : "50.506",
+                "Last Price as of End of Day" : "50.496",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDPHPFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3904",
+            "RequesterID" : {
+                "RIC" : "USDPLNFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDPLNFIX=WM",
+                "Currency" : "PLN",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "3.9217",
+                "End of Day Bid Price" : "3.9197",
+                "End of Day Mid Price" : "3.9207",
+                "Last Price as of End of Day" : "3.9197",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDPLNFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3905",
+            "RequesterID" : {
+                "RIC" : "USDRUBFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDRUBFIX=WM",
+                "Currency" : "RUB",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "63.47",
+                "End of Day Bid Price" : "63.45",
+                "End of Day Mid Price" : "63.46",
+                "Last Price as of End of Day" : "63.45",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDRUBFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3906",
+            "RequesterID" : {
+                "RIC" : "USDSEKFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDSEKFIX=WM",
+                "Currency" : "SEK",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "9.6724",
+                "End of Day Bid Price" : "9.6678",
+                "End of Day Mid Price" : "9.6701",
+                "Last Price as of End of Day" : "9.6678",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDSEKFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3907",
+            "RequesterID" : {
+                "RIC" : "USDSGDFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDSGDFIX=WM",
+                "Currency" : "SGD",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "1.3889",
+                "End of Day Bid Price" : "1.3883",
+                "End of Day Mid Price" : "1.3886",
+                "Last Price as of End of Day" : "1.3883",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDSGDFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3908",
+            "RequesterID" : {
+                "RIC" : "USDTHBFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDTHBFIX=WM",
+                "Currency" : "THB",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "31.1305",
+                "End of Day Bid Price" : "31.1245",
+                "End of Day Mid Price" : "31.1275",
+                "Last Price as of End of Day" : "31.1245",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDTHBFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3909",
+            "RequesterID" : {
+                "RIC" : "USDTRYFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDTRYFIX=WM",
+                "Currency" : "TRY",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "6.045",
+                "End of Day Bid Price" : "6.035",
+                "End of Day Mid Price" : "6.04",
+                "Last Price as of End of Day" : "6.035",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDTRYFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3915",
+            "RequesterID" : {
+                "RIC" : "USDTWDFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDTWDFIX=WM",
+                "Currency" : "TWD",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "29.983",
+                "End of Day Bid Price" : "29.982",
+                "End of Day Mid Price" : "29.9825",
+                "Last Price as of End of Day" : "29.982",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDTWDFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "3910",
+            "RequesterID" : {
+                "RIC" : "USDZARFIX=WM"
+            },
+            "Information" : {
+                "Exchange Code" : "RCT",
+                "RIC" : "USDZARFIX=WM",
+                "Currency" : "ZAR",
+                "Generic Price Value 1" : "",
+                "Generic Price Value 2" : "",
+                "End of Day Ask Price" : "14.9005",
+                "End of Day Bid Price" : "14.8935",
+                "End of Day Mid Price" : "14.897",
+                "Last Price as of End of Day" : "14.8935",
+                "Date Of Last Close" : "20200213",
+                "AssetType" : "MONY",
+                "Volume" : "",
+                "Security Description" : "USDZARFIX=WM",
+                "Source" : "RTX",
+                "Snaptime" : "21:50 EST",
+                "InstrumentID" : ""
+            }
+        }
+    ],
+    "Info" : {}
+}

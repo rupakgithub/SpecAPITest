@@ -1,0 +1,32 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userMadeRequestToWithAndCompareAndFile",
+      "args": [
+        "[${Type}, ${URL}, ${RequestFile}, ${ResponseCount}, ${ExpectedFile}]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "When User made \"POST\" request to \"https://vu-uat.csg.local/RDMApi/api/InstrumentDetails\" with \"61050_request.txt\" and compare \"2027.0\" and file \"61050_response.txt\"",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 86010,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "null",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError: null\r\n\tat .When User made \"${Type}\" request to \"${URL}\" with \"${RequestFile}\" and compare \"${ResponseCount}\" and file \"${ExpectedFile}\"(features/InstrumentDetails.feature:5)\r\n\tat com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:84)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\r\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)\r\n"
+}

@@ -1,0 +1,32 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userMadeRequestToWith",
+      "args": [
+        "[${Type}, ${URL}, ${RequestFile}]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "When User made \"POST\" request to \"https://vu-uat.csg.local/RDMApi/api/InstrumentDetails\" with \"61151_request.txt\"",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 1698,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "null",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError: null\r\n\tat .When User made \"${Type}\" request to \"${URL}\" with \"${RequestFile}\"(features/InstrumentDetails.feature:10)\r\n\tat com.testscripts.TC_APIStructure.userMadeRequestToWith(TC_APIStructure.java:47)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)\r\n\tat com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)\r\n"
+}

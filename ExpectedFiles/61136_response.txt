@@ -1,0 +1,354 @@
+{
+    "MessageCode" : 107,
+    "Message" : "Partial data available locally  - Validation Failed - Licence Code not provided",
+    "Data" : [ 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "2EG0C 3320"
+            },
+            "Information" : {
+                "Source" : "ICE",
+                "FileSeries" : "C",
+                "IDII" : "7QT5Y21",
+                "SEDOL" : "",
+                "Ticker" : "2EG0C 3320",
+                "Exchange Market Center" : "15l",
+                "Symbol" : "O2:EW2\\B20\\3320.0",
+                "ISIN" : "",
+                "AssetType" : "Options",
+                "InstrumentName" : "C/OPTS/FEB 20/USD3320.0",
+                "CountryofIncorporation" : "BB",
+                "Exchange Code" : "B",
+                "Currency" : "USD",
+                "End of Day Bid Price" : "53.75",
+                "End of Day Ask Price" : "60.5",
+                "Quote Date" : "20200213",
+                "Open Price" : "",
+                "High Price" : "",
+                "Low Price" : "",
+                "Last Price as of End of Day" : "63.0",
+                "Date Of Last Close" : "20200213",
+                "Settlement Price" : "58.0",
+                "SettlementDate" : "20200213",
+                "Volume" : "",
+                "Security Description" : "2EG0C 3320",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "2EG0C 3325"
+            },
+            "Information" : {
+                "Source" : "ICE",
+                "FileSeries" : "C",
+                "IDII" : "7QT5Y32",
+                "SEDOL" : "",
+                "Ticker" : "2EG0C 3325",
+                "Exchange Market Center" : "15l",
+                "Symbol" : "O2:EW2\\B20\\3325.0",
+                "ISIN" : "",
+                "AssetType" : "Options",
+                "InstrumentName" : "C/OPTS/FEB 20/USD3325.0",
+                "CountryofIncorporation" : "BB",
+                "Exchange Code" : "B",
+                "Currency" : "USD",
+                "End of Day Bid Price" : "3.0",
+                "End of Day Ask Price" : "55.75",
+                "Quote Date" : "20200213",
+                "Open Price" : "",
+                "High Price" : "",
+                "Low Price" : "",
+                "Last Price as of End of Day" : "59.0",
+                "Date Of Last Close" : "20200213",
+                "Settlement Price" : "53.0",
+                "SettlementDate" : "20200213",
+                "Volume" : "",
+                "Security Description" : "2EG0C 3325",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "2EG0C 3365"
+            },
+            "Information" : {
+                "Source" : "ICE",
+                "FileSeries" : "C",
+                "IDII" : "7QT6P32",
+                "SEDOL" : "",
+                "Ticker" : "2EG0C 3365",
+                "Exchange Market Center" : "15l",
+                "Symbol" : "O2:EW2\\B20\\3365.0",
+                "ISIN" : "",
+                "AssetType" : "Options",
+                "InstrumentName" : "C/OPTS/FEB 20/USD3365.0",
+                "CountryofIncorporation" : "BB",
+                "Exchange Code" : "B",
+                "Currency" : "USD",
+                "End of Day Bid Price" : "2.7",
+                "End of Day Ask Price" : "20.0",
+                "Quote Date" : "20200213",
+                "Open Price" : "",
+                "High Price" : "",
+                "Low Price" : "",
+                "Last Price as of End of Day" : "15.75",
+                "Date Of Last Close" : "20200213",
+                "Settlement Price" : "16.75",
+                "SettlementDate" : "20200213",
+                "Volume" : "",
+                "Security Description" : "2EG0C 3365",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "2EG0C 3390"
+            },
+            "Information" : {
+                "Source" : "ICE",
+                "FileSeries" : "C",
+                "IDII" : "7QTTKN6",
+                "SEDOL" : "",
+                "Ticker" : "2EG0C 3390",
+                "Exchange Market Center" : "15l",
+                "Symbol" : "O2:EW2\\B20\\3390.0",
+                "ISIN" : "",
+                "AssetType" : "Options",
+                "InstrumentName" : "C/OPTS/FEB 20/USD3390.0",
+                "CountryofIncorporation" : "BB",
+                "Exchange Code" : "B",
+                "Currency" : "USD",
+                "End of Day Bid Price" : "0.65",
+                "End of Day Ask Price" : "4.0",
+                "Quote Date" : "20200213",
+                "Open Price" : "",
+                "High Price" : "",
+                "Low Price" : "",
+                "Last Price as of End of Day" : "2.9",
+                "Date Of Last Close" : "20200213",
+                "Settlement Price" : "2.75",
+                "SettlementDate" : "20200213",
+                "Volume" : "",
+                "Security Description" : "2EG0C 3390",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "2EG0C 3425"
+            },
+            "Information" : {
+                "Source" : "ICE",
+                "FileSeries" : "C",
+                "IDII" : "7QT7289",
+                "SEDOL" : "",
+                "Ticker" : "2EG0C 3425",
+                "Exchange Market Center" : "15l",
+                "Symbol" : "O2:EW2\\B20\\3425.0",
+                "ISIN" : "",
+                "AssetType" : "Options",
+                "InstrumentName" : "C/OPTS/FEB 20/USD3425.0",
+                "CountryofIncorporation" : "BB",
+                "Exchange Code" : "B",
+                "Currency" : "USD",
+                "End of Day Bid Price" : "0.05",
+                "End of Day Ask Price" : "0.05",
+                "Quote Date" : "20200214",
+                "Open Price" : "",
+                "High Price" : "",
+                "Low Price" : "",
+                "Last Price as of End of Day" : "0.1",
+                "Date Of Last Close" : "20200213",
+                "Settlement Price" : "0.05",
+                "SettlementDate" : "20200214",
+                "Volume" : "2.0",
+                "Security Description" : "2EG0C 3425",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "2EG0P 3225"
+            },
+            "Information" : {
+                "Source" : "ICE",
+                "FileSeries" : "C",
+                "IDII" : "7QT1010",
+                "SEDOL" : "",
+                "Ticker" : "2EG0P 3225",
+                "Exchange Market Center" : "15l",
+                "Symbol" : "O2:EW2\\N20\\3225.0",
+                "ISIN" : "",
+                "AssetType" : "Options",
+                "InstrumentName" : "P/OPTS/FEB 20/USD3225.0",
+                "CountryofIncorporation" : "BB",
+                "Exchange Code" : "B",
+                "Currency" : "USD",
+                "End of Day Bid Price" : "0.05",
+                "End of Day Ask Price" : "0.1",
+                "Quote Date" : "20200213",
+                "Open Price" : "",
+                "High Price" : "",
+                "Low Price" : "",
+                "Last Price as of End of Day" : "0.1",
+                "Date Of Last Close" : "20200213",
+                "Settlement Price" : "0.05",
+                "SettlementDate" : "20200213",
+                "Volume" : "",
+                "Security Description" : "2EG0P 3225",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "2EG0P 3320"
+            },
+            "Information" : {
+                "Source" : "ICE",
+                "FileSeries" : "C",
+                "IDII" : "7QT5Y43",
+                "SEDOL" : "",
+                "Ticker" : "2EG0P 3320",
+                "Exchange Market Center" : "15l",
+                "Symbol" : "O2:EW2\\N20\\3320.0",
+                "ISIN" : "",
+                "AssetType" : "Options",
+                "InstrumentName" : "P/OPTS/FEB 20/USD3320.0",
+                "CountryofIncorporation" : "BB",
+                "Exchange Code" : "B",
+                "Currency" : "USD",
+                "End of Day Bid Price" : "0.35",
+                "End of Day Ask Price" : "3.3",
+                "Quote Date" : "20200213",
+                "Open Price" : "",
+                "High Price" : "",
+                "Low Price" : "",
+                "Last Price as of End of Day" : "0.5",
+                "Date Of Last Close" : "20200213",
+                "Settlement Price" : "0.5",
+                "SettlementDate" : "20200213",
+                "Volume" : "",
+                "Security Description" : "2EG0P 3320",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "2EG0P 3325"
+            },
+            "Information" : {
+                "Source" : "ICE",
+                "FileSeries" : "C",
+                "IDII" : "7QT4X21",
+                "SEDOL" : "",
+                "Ticker" : "2EG0P 3325",
+                "Exchange Market Center" : "15l",
+                "Symbol" : "O2:EW2\\N20\\3325.0",
+                "ISIN" : "",
+                "AssetType" : "Options",
+                "InstrumentName" : "P/OPTS/FEB 20/USD3325.0",
+                "CountryofIncorporation" : "BB",
+                "Exchange Code" : "B",
+                "Currency" : "USD",
+                "End of Day Bid Price" : "0.55",
+                "End of Day Ask Price" : "3.0",
+                "Quote Date" : "20200213",
+                "Open Price" : "",
+                "High Price" : "",
+                "Low Price" : "",
+                "Last Price as of End of Day" : "0.6",
+                "Date Of Last Close" : "20200213",
+                "Settlement Price" : "0.6",
+                "SettlementDate" : "20200213",
+                "Volume" : "",
+                "Security Description" : "2EG0P 3325",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "2EG0P 3355"
+            },
+            "Information" : {
+                "Source" : "ICE",
+                "FileSeries" : "C",
+                "IDII" : "7QT6P43",
+                "SEDOL" : "",
+                "Ticker" : "2EG0P 3355",
+                "Exchange Market Center" : "15l",
+                "Symbol" : "O2:EW2\\N20\\3355.0",
+                "ISIN" : "",
+                "AssetType" : "Options",
+                "InstrumentName" : "P/OPTS/FEB 20/USD3355.0",
+                "CountryofIncorporation" : "BB",
+                "Exchange Code" : "B",
+                "Currency" : "USD",
+                "End of Day Bid Price" : "1.0",
+                "End of Day Ask Price" : "5.0",
+                "Quote Date" : "20200213",
+                "Open Price" : "",
+                "High Price" : "",
+                "Low Price" : "",
+                "Last Price as of End of Day" : "2.3",
+                "Date Of Last Close" : "20200213",
+                "Settlement Price" : "2.55",
+                "SettlementDate" : "20200213",
+                "Volume" : "",
+                "Security Description" : "2EG0P 3355",
+                "InstrumentID" : ""
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "JADJ0P 89"
+            },
+            "Information" : {
+                "Source" : "ICE",
+                "FileSeries" : "C",
+                "IDII" : "7QTZKJ0",
+                "SEDOL" : "",
+                "Ticker" : "JADJ0P 89",
+                "Exchange Market Center" : "15h",
+                "Symbol" : "O2:JPU\\P20\\0.0089",
+                "ISIN" : "",
+                "AssetType" : "Options",
+                "InstrumentName" : "P/OPTS/APR 20/USD0.0089",
+                "CountryofIncorporation" : "BB",
+                "Exchange Code" : "C",
+                "Currency" : "USD",
+                "End of Day Bid Price" : "0.0",
+                "End of Day Ask Price" : "0.000004",
+                "Quote Date" : "20200213",
+                "Open Price" : "",
+                "High Price" : "",
+                "Low Price" : "",
+                "Last Price as of End of Day" : "0.000002",
+                "Date Of Last Close" : "20200205",
+                "Settlement Price" : "0.000003",
+                "SettlementDate" : "20200213",
+                "Volume" : "",
+                "Security Description" : "JADJ0P 89",
+                "InstrumentID" : ""
+            }
+        }
+    ],
+    "PendingDataFor" : {
+        "Ticker" : "2EG0C 3375|2EG0P 3375|3EG0P 3350|3EJ0C 3310|BPA 4 P460 20200417|BTG LN 02/21/20 C210|CXM20P  85.0|CXM20P  90.0|ERH0P  99.625|ERH0P  99.875|HIH20C Y 30000|JADJ0C  93.5|JADJ0C  95.5|JADJ0P  90.5|LHA  20200320|LVMH 0 2021 OPT|SCJ0C 3330|SCJ0C 3430|SCM20C Y 10500|SEG0C Y 3850|SEG0P Y 3200|SEG0P Y 3400|SPY   200221P00320000|SPY   200320C00335000|SPY   200320C00340000|SPY   200320P00310000|SPY   200320P00325000|ST1 3 C32 20200320|ST1 6 C32 20200619|ST1 6 P23 20200619|TQG20P Y 3185 US|TQG20P Y 3285 US|TYH0C  131.25|TYH0C  131.50|TYH0C  132.00|TYH0C  132.25|TYH0C  133.00|TYH0P  129.75|TYH0P  130.00|TYH0P  130.25|TYH0P  130.50|TYH0P  130.75|TYJ0C  130.00|TYJ0C  131.50|TYJ0C  132.00|TYJ0P  125.50|TYJ0P  127.50|TYK0C  132.00|TYK0C  134.50|TYK0P  127.00|TYK0P  129.00|UEAH0C  1.1400|UEAK0P  1.1050|UEG20C Y 7500|UEG20C Y 7750|UEG20C Y 7800|UEH20C Y 7800|UEJ20C Y 7850|UEM20C Y 7900|USH0P  153.0|USH0P  159.5|USJ0C  160.0|USJ0C  164.0|USJ0P  148.0|USJ0P  152.0|USK0C  165.0|USK0C  170.0|USK0P  152.0|USK0P  156.0"
+    },
+    "Info" : {
+        "MissingSecurity" : {
+            "Ticker" : "BPA 4 P460 20200417|CXM20P  85.0|CXM20P  90.0|HIH20C Y 30000|LHA  20200320|LVMH 0 2021 OPT|SCM20C Y 10500|SEG0C Y 3850|SEG0P Y 3200|SEG0P Y 3400|ST1 3 C32 20200320|ST1 6 C32 20200619|ST1 6 P23 20200619|TQG20P Y 3185 US|TQG20P Y 3285 US|TYH0C  131.50|TYH0C  133.00|TYH0P  130.00|TYH0P  130.50|TYJ0C  130.00|TYJ0C  131.50|TYJ0C  132.00|UEAH0C  1.1400|UEAK0P  1.1050|UEG20C Y 7500|UEG20C Y 7750|UEG20C Y 7800|UEH20C Y 7800|UEJ20C Y 7850|UEM20C Y 7900|USH0P  153.0|USJ0C  160.0|USJ0C  164.0|USJ0P  148.0|USJ0P  152.0"
+        }
+    }
+}

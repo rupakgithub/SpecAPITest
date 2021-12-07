@@ -1,0 +1,449 @@
+{
+    "InstrumentType" : "Prices",
+    "ClientCode" : "BNPP",
+    "View" : "Global",
+    "SecurityList" : [ 
+        {
+            "Identifier" : "2EG0C 3320",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "2EG0C 3325",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "2EG0C 3365",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "2EG0C 3375",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "2EG0C 3390",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "2EG0C 3425",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "2EG0P 3225",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "2EG0P 3320",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "2EG0P 3325",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "2EG0P 3355",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "2EG0P 3375",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "3EG0P 3350",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "3EJ0C 3310",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BPA 4 P460 20200417",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BTG LN 02/21/20 C210",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CXM20P  85.0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CXM20P  90.0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ERH0P  99.625",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ERH0P  99.875",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HIH20C Y 30000",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JADJ0C  93.5",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JADJ0C  95.5",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JADJ0P 89",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JADJ0P  90.5",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LHA  20200320",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LVMH 0 2021 OPT",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SCJ0C 3330",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SCJ0C 3430",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SCM20C Y 10500",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SEG0C Y 3850",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SEG0P Y 3200",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SEG0P Y 3400",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SPY   200221P00320000",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SPY   200320C00335000",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SPY   200320C00340000",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SPY   200320P00310000",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SPY   200320P00325000",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ST1 3 C32 20200320",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ST1 6 C32 20200619",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ST1 6 P23 20200619",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TQG20P Y 3185 US",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TQG20P Y 3285 US",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYH0C  131.25",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYH0C  131.50",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYH0C  132.00",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYH0C  132.25",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYH0C  133.00",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYH0P  129.75",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYH0P  130.00",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYH0P  130.25",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYH0P  130.50",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYH0P  130.75",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYJ0C  130.00",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYJ0C  131.50",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYJ0C  132.00",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYJ0P  125.50",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYJ0P  127.50",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYK0C  132.00",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYK0C  134.50",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYK0P  127.00",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYK0P  129.00",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "UEAH0C  1.1400",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "UEAK0P  1.1050",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "UEG20C Y 7500",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "UEG20C Y 7750",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "UEG20C Y 7800",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "UEH20C Y 7800",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "UEJ20C Y 7850",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "UEM20C Y 7900",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USH0P  153.0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USH0P  159.5",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USJ0C  160.0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USJ0C  164.0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USJ0P  148.0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USJ0P  152.0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USK0C  165.0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USK0C  170.0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USK0P  152.0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USK0P  156.0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }
+    ],
+    "InstrumentFilters" : [ 
+        {
+            "Condition" : "Source",
+            "Value" : "ICE",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DateRange",
+            "Value" : "20200213|20200213",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "GetLatest",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsEOD",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DP|FileSeries",
+            "Value" : "C",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "LastPriceValue",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userMadeRequestToWithAndCompareAndFile",
+      "args": [
+        "[${Type}, ${URL}, ${RequestFile}, ${ResponseCount}, ${ExpectedFile}]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "When User made \"POST\" request to \"https://vu-uat.csg.local/RDMApi/api/InstrumentDetails\" with \"61053_request.txt\" and compare \"73.0\" and file \"61053_response.txt\"",
+      "type": "TestStepPass",
+      "duration": 4145,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

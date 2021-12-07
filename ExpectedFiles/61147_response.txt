@@ -1,0 +1,74 @@
+{
+  
+    "MessageCode" : 111,
+    "Message" : "Completed , All data available locally",
+    "Data" : [ 
+        {
+            "InstrumentID" : "2265",
+            "RequesterID" : {
+                "Ticker" : "GBPNZD3W"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "GBPNZD3W CMPL Curncy",
+                "BBGGlobalID" : "BBG0013KJ400",
+                "Currency" : "NZD",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "N.A.",
+                "InstrumentID" : "2265",
+                "CompositeCode" : "CMPL",
+                "Snaptime" : "21:05 GMT",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200214",
+                "Ticker" : "GBPNZD3W",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "1471",
+            "RequesterID" : {
+                "Ticker" : "MREUN+9M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "MREUN+9M CMPL Curncy",
+                "BBGGlobalID" : "BBG0013LM100",
+                "Currency" : "MYR",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : "4.595500",
+                "InstrumentID" : "1471",
+                "CompositeCode" : "CMPL",
+                "Snaptime" : "21:05 GMT",
+                "Mhistorical Price" : "4.5955",
+                "Mhistorical Date" : "20200214",
+                "Ticker" : "MREUN+9M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "NZDUSD12M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "NZDUSD12M CMPL Curncy",
+                "BBGGlobalID" : "BBG0013J9NL9",
+                "Currency" : "NZD",
+                "Quotation Factor" : "1.0000",
+                "Date Of Last Update" : "20200214",
+                "Last Price" : ".645310",
+                "InstrumentID" : "",
+                "CompositeCode" : "CMPL",
+                "Snaptime" : "21:05 GMT",
+                "Mhistorical Price" : "0.64531",
+                "Mhistorical Date" : "20200214",
+                "Ticker" : "NZDUSD12M",
+                "MarketSector" : "Curncy"
+            }
+        }
+    ],
+    "Info" : {}
+}

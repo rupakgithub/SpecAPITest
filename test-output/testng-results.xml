@@ -1,0 +1,2120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="11" ignored="3" total="41" passed="27">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61050_request.txt" and compare "2027.0" and file "61050_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61051_request.txt" and compare "430.0" and file "61051_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61052_request.txt" and compare "25.0" and file "61052_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61053_request.txt" and compare "73.0" and file "61053_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61054_request.txt" and compare "1805.0" and file "61054_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61055_request.txt" and compare "1613.0" and file "61055_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61057_request.txt" and compare "32.0" and file "61057_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61058_request.txt" and compare "267.0" and file "61058_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61059_request.txt" and compare "18.0" and file "61059_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61060_request.txt" and compare "743.0" and file "61060_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61065_request.txt" and compare "380.0" and file "61065_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61066_request.txt" and compare "4831.0" and file "61066_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61067_request.txt" and compare "1938.0" and file "61067_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61069_request.txt" and compare "654.0" and file "61069_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61125_request.txt" and compare "1095.0" and file "61125_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61126_request.txt" and compare "379.0" and file "61126_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61127_request.txt" and compare "5051.0" and file "61127_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61128_request.txt" and compare "5.0" and file "61128_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61129_request.txt" and compare "375.0" and file "61129_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61130_request.txt" and compare "133.0" and file "61130_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61131_request.txt" and compare "2038.0" and file "61131_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61133_request.txt" and compare "25.0" and file "61133_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61134_request.txt" and compare "609.0" and file "61134_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61135_request.txt" and compare "1383.0" and file "61135_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61136_request.txt" and compare "10.0" and file "61136_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61137_request.txt" and compare "54.0" and file "61137_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61138_request.txt" and compare "4824.0" and file "61138_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61139_request.txt" and compare "4817.0" and file "61139_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61140_request.txt" and compare "524.0" and file "61140_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61143_request.txt" and compare "4808.0" and file "61143_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61144_request.txt" and compare "524.0" and file "61144_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61145_request.txt" and compare "4817.0" and file "61145_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61146_request.txt" and compare "2.0" and file "61146_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61147_request.txt" and compare "3.0" and file "61147_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61148_request.txt" and compare "12.0" and file "61148_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61149_request.txt" and compare "2.0" and file "61149_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61150_request.txt" and compare "7.0" and file "61150_response.txt"</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61151_request.txt" and compare "4.0" and file "61151_response.txt"</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="RDM" duration-ms="2530580" started-at="2020-08-19T09:46:51Z" finished-at="2020-08-19T10:29:01Z">
+    <groups>
+      <group name="static">
+        <method signature="features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="Verify InstrumentDetails Api" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- static -->
+    </groups>
+    <test name="RDM API Regression" duration-ms="2530580" started-at="2020-08-19T09:46:51Z" finished-at="2020-08-19T10:29:01Z">
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupSuit" is-config="true" duration-ms="25" started-at="2020-08-19T15:16:51Z" finished-at="2020-08-19T15:16:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupTest" is-config="true" duration-ms="3" started-at="2020-08-19T15:16:54Z" finished-at="2020-08-19T15:16:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setup" is-config="true" duration-ms="1" started-at="2020-08-19T15:16:54Z" finished-at="2020-08-19T15:16:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:16:55Z" finished-at="2020-08-19T15:16:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="89754" started-at="2020-08-19T15:16:55Z" finished-at="2020-08-19T15:18:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_01, TestFileName=EMEA Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61050_response.txt, RequestFile=61050_request.txt, ResponseCount=2027.0, __baseindex=1, __index=1}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at .When User made "${Type}" request to "${URL}" with "${RequestFile}" and compare "${ResponseCount}" and file "${ExpectedFile}"(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61050_request.txt" and compare "2027.0" and file "61050_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:18:26Z" finished-at="2020-08-19T15:18:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=FAILURE method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61050_request.txt" and compare "2027.0" and file "61050_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:18:26Z" finished-at="2020-08-19T15:18:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="9916" started-at="2020-08-19T15:18:26Z" finished-at="2020-08-19T15:18:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_02, TestFileName=LME Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61051_response.txt, RequestFile=61051_request.txt, ResponseCount=430.0, __baseindex=2, __index=2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61051_request.txt" and compare "430.0" and file "61051_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:18:36Z" finished-at="2020-08-19T15:18:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61051_request.txt" and compare "430.0" and file "61051_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:18:36Z" finished-at="2020-08-19T15:18:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="5455" started-at="2020-08-19T15:18:36Z" finished-at="2020-08-19T15:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_03, TestFileName=Coupon Rate Pricing Run - 06.15 IST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61052_response.txt, RequestFile=61052_request.txt, ResponseCount=25.0, __baseindex=3, __index=3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61052_request.txt" and compare "25.0" and file "61052_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:18:41Z" finished-at="2020-08-19T15:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61052_request.txt" and compare "25.0" and file "61052_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="2" started-at="2020-08-19T15:18:41Z" finished-at="2020-08-19T15:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="76285" started-at="2020-08-19T15:18:41Z" finished-at="2020-08-19T15:19:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_04, TestFileName=Spot BGN 20.55 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61053_response.txt, RequestFile=61053_request.txt, ResponseCount=73.0, __baseindex=4, __index=4}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at .When User made "${Type}" request to "${URL}" with "${RequestFile}" and compare "${ResponseCount}" and file "${ExpectedFile}"(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61053_request.txt" and compare "73.0" and file "61053_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:19:58Z" finished-at="2020-08-19T15:19:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=FAILURE method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61053_request.txt" and compare "73.0" and file "61053_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:19:58Z" finished-at="2020-08-19T15:19:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="76733" started-at="2020-08-19T15:19:58Z" finished-at="2020-08-19T15:21:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_05, TestFileName=AMER Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61054_response.txt, RequestFile=61054_request.txt, ResponseCount=1805.0, __baseindex=5, __index=5}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61054_request.txt" and compare "1805.0" and file "61054_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:21:15Z" finished-at="2020-08-19T15:21:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61054_request.txt" and compare "1805.0" and file "61054_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:21:15Z" finished-at="2020-08-19T15:21:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="30571" started-at="2020-08-19T15:21:15Z" finished-at="2020-08-19T15:21:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_06, TestFileName=Reuters FX Pricing, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61055_response.txt, RequestFile=61055_request.txt, ResponseCount=1613.0, __baseindex=6, __index=6}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61055_request.txt" and compare "1613.0" and file "61055_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:21:45Z" finished-at="2020-08-19T15:21:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61055_request.txt" and compare "1613.0" and file "61055_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="1046" started-at="2020-08-19T15:21:45Z" finished-at="2020-08-19T15:21:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_07, TestFileName=Spot WM Reuters Pricing 21.50 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61057_response.txt, RequestFile=61057_request.txt, ResponseCount=32.0, __baseindex=7, __index=7}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61057_request.txt" and compare "32.0" and file "61057_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:21:45Z" finished-at="2020-08-19T15:21:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:21:46Z" finished-at="2020-08-19T15:21:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61057_request.txt" and compare "32.0" and file "61057_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:21:46Z" finished-at="2020-08-19T15:21:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="5868" started-at="2020-08-19T15:21:46Z" finished-at="2020-08-19T15:21:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_08, TestFileName=Forward WMReuters Pricing 22.00 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61058_response.txt, RequestFile=61058_request.txt, ResponseCount=267.0, __baseindex=8, __index=8}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61058_request.txt" and compare "267.0" and file "61058_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:21:52Z" finished-at="2020-08-19T15:21:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:21:52Z" finished-at="2020-08-19T15:21:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61058_request.txt" and compare "267.0" and file "61058_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="1436" started-at="2020-08-19T15:21:52Z" finished-at="2020-08-19T15:21:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_09, TestFileName=PNOTE Multi Days Historical Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61059_response.txt, RequestFile=61059_request.txt, ResponseCount=18.0, __baseindex=9, __index=9}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61059_request.txt" and compare "18.0" and file "61059_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:21:54Z" finished-at="2020-08-19T15:21:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61059_request.txt" and compare "18.0" and file "61059_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:21:54Z" finished-at="2020-08-19T15:21:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="47043" started-at="2020-08-19T15:21:54Z" finished-at="2020-08-19T15:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_10, TestFileName=FOF Multi Days Historical Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61060_response.txt, RequestFile=61060_request.txt, ResponseCount=743.0, __baseindex=10, __index=10}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61060_request.txt" and compare "743.0" and file "61060_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:22:41Z" finished-at="2020-08-19T15:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61060_request.txt" and compare "743.0" and file "61060_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:22:41Z" finished-at="2020-08-19T15:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="10934" started-at="2020-08-19T15:22:41Z" finished-at="2020-08-19T15:22:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_11, TestFileName=Spot Tokyo 14.30 IST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61065_response.txt, RequestFile=61065_request.txt, ResponseCount=380.0, __baseindex=11, __index=11}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at .When User made "${Type}" request to "${URL}" with "${RequestFile}" and compare "${ResponseCount}" and file "${ExpectedFile}"(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61065_request.txt" and compare "380.0" and file "61065_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:22:52Z" finished-at="2020-08-19T15:22:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=FAILURE method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61065_request.txt" and compare "380.0" and file "61065_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="215992" started-at="2020-08-19T15:22:52Z" finished-at="2020-08-19T15:26:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_12, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61066_response.txt, RequestFile=61066_request.txt, ResponseCount=4831.0, __baseindex=12, __index=12}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61066_request.txt" and compare "4831.0" and file "61066_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:22:52Z" finished-at="2020-08-19T15:22:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:26:28Z" finished-at="2020-08-19T15:26:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61066_request.txt" and compare "4831.0" and file "61066_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="222290" started-at="2020-08-19T15:26:28Z" finished-at="2020-08-19T15:30:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_13, TestFileName=Reuters PX Pricing, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61067_response.txt, RequestFile=61067_request.txt, ResponseCount=1938.0, __baseindex=13, __index=13}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at .When User made "${Type}" request to "${URL}" with "${RequestFile}" and compare "${ResponseCount}" and file "${ExpectedFile}"(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61067_request.txt" and compare "1938.0" and file "61067_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:26:28Z" finished-at="2020-08-19T15:26:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:30:11Z" finished-at="2020-08-19T15:30:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=FAILURE method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61067_request.txt" and compare "1938.0" and file "61067_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="34040" started-at="2020-08-19T15:30:11Z" finished-at="2020-08-19T15:30:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_14, TestFileName=IDC A series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61069_response.txt, RequestFile=61069_request.txt, ResponseCount=654.0, __baseindex=14, __index=14}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at .When User made "${Type}" request to "${URL}" with "${RequestFile}" and compare "${ResponseCount}" and file "${ExpectedFile}"(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61069_request.txt" and compare "654.0" and file "61069_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:30:11Z" finished-at="2020-08-19T15:30:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:30:45Z" finished-at="2020-08-19T15:30:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:30:45Z" finished-at="2020-08-19T15:30:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=FAILURE method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61069_request.txt" and compare "654.0" and file "61069_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="142366" started-at="2020-08-19T15:30:45Z" finished-at="2020-08-19T15:33:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_15, TestFileName=Forward L160 11.30 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61125_response.txt, RequestFile=61125_request.txt, ResponseCount=1095.0, __baseindex=15, __index=15}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61125_request.txt" and compare "1095.0" and file "61125_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:33:07Z" finished-at="2020-08-19T15:33:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:33:07Z" finished-at="2020-08-19T15:33:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61125_request.txt" and compare "1095.0" and file "61125_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="62021" started-at="2020-08-19T15:33:07Z" finished-at="2020-08-19T15:34:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_16, TestFileName=Spot New York 20.00 GMT, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61126_response.txt, RequestFile=61126_request.txt, ResponseCount=379.0, __baseindex=16, __index=16}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at .When User made "${Type}" request to "${URL}" with "${RequestFile}" and compare "${ResponseCount}" and file "${ExpectedFile}"(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61126_request.txt" and compare "379.0" and file "61126_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:34:09Z" finished-at="2020-08-19T15:34:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=FAILURE method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61126_request.txt" and compare "379.0" and file "61126_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:34:09Z" finished-at="2020-08-19T15:34:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="656773" started-at="2020-08-19T15:34:09Z" finished-at="2020-08-19T15:45:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_17, TestFileName=APAC Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61127_response.txt, RequestFile=61127_request.txt, ResponseCount=5051.0, __baseindex=17, __index=17}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at .When User made "${Type}" request to "${URL}" with "${RequestFile}" and compare "${ResponseCount}" and file "${ExpectedFile}"(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61127_request.txt" and compare "5051.0" and file "61127_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:45:06Z" finished-at="2020-08-19T15:45:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:45:06Z" finished-at="2020-08-19T15:45:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=FAILURE method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61127_request.txt" and compare "5051.0" and file "61127_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="718" started-at="2020-08-19T15:45:06Z" finished-at="2020-08-19T15:45:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_18, TestFileName=Coupon Rate Pricing Run - 04.30 IST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61128_response.txt, RequestFile=61128_request.txt, ResponseCount=5.0, __baseindex=18, __index=18}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61128_request.txt" and compare "5.0" and file "61128_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:45:07Z" finished-at="2020-08-19T15:45:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61128_request.txt" and compare "5.0" and file "61128_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:45:07Z" finished-at="2020-08-19T15:45:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="19818" started-at="2020-08-19T15:45:07Z" finished-at="2020-08-19T15:45:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_19, TestFileName=Spot F160 18.40 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61129_response.txt, RequestFile=61129_request.txt, ResponseCount=375.0, __baseindex=19, __index=19}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at .When User made "${Type}" request to "${URL}" with "${RequestFile}" and compare "${ResponseCount}" and file "${ExpectedFile}"(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61129_request.txt" and compare "375.0" and file "61129_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:45:27Z" finished-at="2020-08-19T15:45:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=FAILURE method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61129_request.txt" and compare "375.0" and file "61129_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:45:27Z" finished-at="2020-08-19T15:45:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="2480" started-at="2020-08-19T15:45:27Z" finished-at="2020-08-19T15:45:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_20, TestFileName=IBOR Rates 21.50 EST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61130_response.txt, RequestFile=61130_request.txt, ResponseCount=133.0, __baseindex=20, __index=20}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61130_request.txt" and compare "133.0" and file "61130_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:45:30Z" finished-at="2020-08-19T15:45:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61130_request.txt" and compare "133.0" and file "61130_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="207256" started-at="2020-08-19T15:45:30Z" finished-at="2020-08-19T15:48:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_21, TestFileName=JPY Dividend Extra Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61131_response.txt, RequestFile=61131_request.txt, ResponseCount=2038.0, __baseindex=21, __index=21}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61131_request.txt" and compare "2038.0" and file "61131_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:45:30Z" finished-at="2020-08-19T15:45:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:48:57Z" finished-at="2020-08-19T15:48:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61131_request.txt" and compare "2038.0" and file "61131_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:48:57Z" finished-at="2020-08-19T15:48:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="875" started-at="2020-08-19T15:48:57Z" finished-at="2020-08-19T15:48:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_22, TestFileName=Coupon Rate Pricing Run - 09.45 IST, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61133_response.txt, RequestFile=61133_request.txt, ResponseCount=25.0, __baseindex=22, __index=22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61133_request.txt" and compare "25.0" and file "61133_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:48:58Z" finished-at="2020-08-19T15:48:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61133_request.txt" and compare "25.0" and file "61133_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:48:58Z" finished-at="2020-08-19T15:48:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="22451" started-at="2020-08-19T15:48:58Z" finished-at="2020-08-19T15:49:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_23, TestFileName=REDO Pricing Run, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61134_response.txt, RequestFile=61134_request.txt, ResponseCount=609.0, __baseindex=23, __index=23}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at .When User made "${Type}" request to "${URL}" with "${RequestFile}" and compare "${ResponseCount}" and file "${ExpectedFile}"(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61134_request.txt" and compare "609.0" and file "61134_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:49:21Z" finished-at="2020-08-19T15:49:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=FAILURE method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61134_request.txt" and compare "609.0" and file "61134_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:49:21Z" finished-at="2020-08-19T15:49:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="53885" started-at="2020-08-19T15:49:21Z" finished-at="2020-08-19T15:50:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_24, TestFileName=IDC B series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61135_response.txt, RequestFile=61135_request.txt, ResponseCount=1383.0, __baseindex=24, __index=24}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at .When User made "${Type}" request to "${URL}" with "${RequestFile}" and compare "${ResponseCount}" and file "${ExpectedFile}"(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61135_request.txt" and compare "1383.0" and file "61135_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:50:15Z" finished-at="2020-08-19T15:50:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=FAILURE method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61135_request.txt" and compare "1383.0" and file "61135_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:50:15Z" finished-at="2020-08-19T15:50:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="4126" started-at="2020-08-19T15:50:15Z" finished-at="2020-08-19T15:50:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_25, TestFileName=IDC C series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61136_response.txt, RequestFile=61136_request.txt, ResponseCount=10.0, __baseindex=25, __index=25}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61136_request.txt" and compare "10.0" and file "61136_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:50:19Z" finished-at="2020-08-19T15:50:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61136_request.txt" and compare "10.0" and file "61136_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:50:19Z" finished-at="2020-08-19T15:50:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="29857" started-at="2020-08-19T15:50:19Z" finished-at="2020-08-19T15:50:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_26, TestFileName=IDC D series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61137_response.txt, RequestFile=61137_request.txt, ResponseCount=54.0, __baseindex=26, __index=26}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at .When User made "${Type}" request to "${URL}" with "${RequestFile}" and compare "${ResponseCount}" and file "${ExpectedFile}"(features/InstrumentDetails.feature:5)
+	at com.testscripts.TC_1_Postmethod.userMadeRequestToWithAndCompareAndFile(TC_1_Postmethod.java:85)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:150)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:146)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:126)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:174)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:66)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61137_request.txt" and compare "54.0" and file "61137_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:50:49Z" finished-at="2020-08-19T15:50:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=FAILURE method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61137_request.txt" and compare "54.0" and file "61137_response.txt"</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>null</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:50:49Z" finished-at="2020-08-19T15:50:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="115445" started-at="2020-08-19T15:50:49Z" finished-at="2020-08-19T15:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_27, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61138_response.txt, RequestFile=61138_request.txt, ResponseCount=4824.0, __baseindex=27, __index=27}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61138_request.txt" and compare "4824.0" and file "61138_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:52:44Z" finished-at="2020-08-19T15:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61138_request.txt" and compare "4824.0" and file "61138_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:52:44Z" finished-at="2020-08-19T15:52:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="114771" started-at="2020-08-19T15:52:44Z" finished-at="2020-08-19T15:54:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_28, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61139_response.txt, RequestFile=61139_request.txt, ResponseCount=4817.0, __baseindex=28, __index=28}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61139_request.txt" and compare "4817.0" and file "61139_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:54:39Z" finished-at="2020-08-19T15:54:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61139_request.txt" and compare "4817.0" and file "61139_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:54:39Z" finished-at="2020-08-19T15:54:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="11295" started-at="2020-08-19T15:54:39Z" finished-at="2020-08-19T15:54:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_29, TestFileName=IDC N series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61140_response.txt, RequestFile=61140_request.txt, ResponseCount=524.0, __baseindex=29, __index=29}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61140_request.txt" and compare "524.0" and file "61140_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:54:51Z" finished-at="2020-08-19T15:54:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:54:51Z" finished-at="2020-08-19T15:54:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61140_request.txt" and compare "524.0" and file "61140_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="114962" started-at="2020-08-19T15:54:51Z" finished-at="2020-08-19T15:56:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_30, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61143_response.txt, RequestFile=61143_request.txt, ResponseCount=4808.0, __baseindex=30, __index=30}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61143_request.txt" and compare "4808.0" and file "61143_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:56:46Z" finished-at="2020-08-19T15:56:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61143_request.txt" and compare "4808.0" and file "61143_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:56:46Z" finished-at="2020-08-19T15:56:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="10838" started-at="2020-08-19T15:56:46Z" finished-at="2020-08-19T15:56:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_31, TestFileName=IDC L series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61144_response.txt, RequestFile=61144_request.txt, ResponseCount=524.0, __baseindex=31, __index=31}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61144_request.txt" and compare "524.0" and file "61144_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:56:57Z" finished-at="2020-08-19T15:56:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61144_request.txt" and compare "524.0" and file "61144_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="115858" started-at="2020-08-19T15:56:57Z" finished-at="2020-08-19T15:58:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_32, TestFileName=IDC T series, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61145_response.txt, RequestFile=61145_request.txt, ResponseCount=4817.0, __baseindex=32, __index=32}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61145_request.txt" and compare "4817.0" and file "61145_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:56:57Z" finished-at="2020-08-19T15:56:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:58:53Z" finished-at="2020-08-19T15:58:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61145_request.txt" and compare "4817.0" and file "61145_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="1768" started-at="2020-08-19T15:58:53Z" finished-at="2020-08-19T15:58:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_33, TestFileName=SPOT Tokyo, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61146_response.txt, RequestFile=61146_request.txt, ResponseCount=2.0, __baseindex=33, __index=33}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61146_request.txt" and compare "2.0" and file "61146_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:58:53Z" finished-at="2020-08-19T15:58:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:58:55Z" finished-at="2020-08-19T15:58:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61146_request.txt" and compare "2.0" and file "61146_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:58:55Z" finished-at="2020-08-19T15:58:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="943" started-at="2020-08-19T15:58:55Z" finished-at="2020-08-19T15:58:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_34, TestFileName=Forward London, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61147_response.txt, RequestFile=61147_request.txt, ResponseCount=3.0, __baseindex=34, __index=34}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61147_request.txt" and compare "3.0" and file "61147_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:58:56Z" finished-at="2020-08-19T15:58:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61147_request.txt" and compare "3.0" and file "61147_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:58:56Z" finished-at="2020-08-19T15:58:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="2130" started-at="2020-08-19T15:58:56Z" finished-at="2020-08-19T15:58:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_35, TestFileName=APAC, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61148_response.txt, RequestFile=61148_request.txt, ResponseCount=12.0, __baseindex=35, __index=35}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61148_request.txt" and compare "12.0" and file "61148_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:58:58Z" finished-at="2020-08-19T15:58:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61148_request.txt" and compare "12.0" and file "61148_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:58:58Z" finished-at="2020-08-19T15:58:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="504" started-at="2020-08-19T15:58:58Z" finished-at="2020-08-19T15:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_36, TestFileName=APAC CPN, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61149_response.txt, RequestFile=61149_request.txt, ResponseCount=2.0, __baseindex=36, __index=36}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61149_request.txt" and compare "2.0" and file "61149_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:58:59Z" finished-at="2020-08-19T15:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61149_request.txt" and compare "2.0" and file "61149_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="670" started-at="2020-08-19T15:58:59Z" finished-at="2020-08-19T15:59:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_37, TestFileName=EMEA, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61150_response.txt, RequestFile=61150_request.txt, ResponseCount=7.0, __baseindex=37, __index=37}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61150_request.txt" and compare "7.0" and file "61150_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:58:59Z" finished-at="2020-08-19T15:58:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:59:00Z" finished-at="2020-08-19T15:59:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61150_request.txt" and compare "7.0" and file "61150_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Verify InstrumentDetails Api" name="Verify InstrumentDetails Api" duration-ms="1034" started-at="2020-08-19T15:59:00Z" finished-at="2020-08-19T15:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCaseID=TC_38, TestFileName=IBOR, Execute=Y, Type=POST, URL=https://vu-uat.csg.local/RDMApi/api/InstrumentDetails, ExpectedFile=61151_response.txt, RequestFile=61151_request.txt, ResponseCount=4.0, __baseindex=38, __index=38}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61151_request.txt" and compare "4.0" and file "61151_response.txt"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify InstrumentDetails Api -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-08-19T15:59:00Z" finished-at="2020-08-19T15:59:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-08-19T15:59:01Z" finished-at="2020-08-19T15:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify InstrumentDetails Api status=SUCCESS method=features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>When User made "POST" request to "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails" with "61151_request.txt" and compare "4.0" and file "61151_response.txt"</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterClass" is-config="true" duration-ms="0" started-at="2020-08-19T15:59:01Z" finished-at="2020-08-19T15:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterTest" is-config="true" duration-ms="1" started-at="2020-08-19T15:59:01Z" finished-at="2020-08-19T15:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="Verify InstrumentDetails Api" name="afterSuit" is-config="true" duration-ms="1" started-at="2020-08-19T15:59:01Z" finished-at="2020-08-19T15:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e2e18f2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- RDM API Regression -->
+  </suite> <!-- RDM -->
+</testng-results>

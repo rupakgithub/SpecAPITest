@@ -1,0 +1,436 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "TestCaseID": "TC_01",
+          "TestFileName": "EMEA Pricing Run",
+          "Execute": "Y",
+          "Type": "POST",
+          "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+          "ExpectedFile": "61050_response.txt",
+          "RequestFile": "61050_request.txt",
+          "ResponseCount": 2023.0,
+          "__baseindex": 1.0,
+          "__index": 1.0
+        }
+      ],
+      "metaData": {
+        "datafile": "TestData/EMEA Pricing Run.json",
+        "description": "",
+        "filter": "Execute == \"Y\"",
+        "groups": [
+          "static"
+        ],
+        "lineNo": 4.0,
+        "name": "Verify InstrumentDetails Api",
+        "referece": "features/InstrumentDetails.feature",
+        "resultFileName": "TC_01",
+        "sign": "features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589890190068,
+      "duration": 112584,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "TestCaseID": "TC_02",
+          "TestFileName": "LME Pricing Run",
+          "Execute": "Y",
+          "Type": "POST",
+          "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+          "ExpectedFile": "61051_response.txt",
+          "RequestFile": "61051_request.txt",
+          "ResponseCount": 430.0,
+          "__baseindex": 2.0,
+          "__index": 2.0
+        }
+      ],
+      "metaData": {
+        "datafile": "TestData/EMEA Pricing Run.json",
+        "description": "",
+        "filter": "Execute == \"Y\"",
+        "groups": [
+          "static"
+        ],
+        "lineNo": 4.0,
+        "name": "Verify InstrumentDetails Api",
+        "referece": "features/InstrumentDetails.feature",
+        "resultFileName": "TC_02",
+        "sign": "features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589890303140,
+      "duration": 18355,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 3,
+      "type": "test",
+      "args": [
+        {
+          "TestCaseID": "TC_03",
+          "TestFileName": "Coupon Rate Pricing Run - 06.15 IST",
+          "Execute": "Y",
+          "Type": "POST",
+          "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+          "ExpectedFile": "61052_response.txt",
+          "RequestFile": "61052_request.txt",
+          "ResponseCount": 25.0,
+          "__baseindex": 3.0,
+          "__index": 3.0
+        }
+      ],
+      "metaData": {
+        "datafile": "TestData/EMEA Pricing Run.json",
+        "description": "",
+        "filter": "Execute == \"Y\"",
+        "groups": [
+          "static"
+        ],
+        "lineNo": 4.0,
+        "name": "Verify InstrumentDetails Api",
+        "referece": "features/InstrumentDetails.feature",
+        "resultFileName": "TC_03",
+        "sign": "features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589890321601,
+      "duration": 8256,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 4,
+      "type": "test",
+      "args": [
+        {
+          "TestCaseID": "TC_04",
+          "TestFileName": "Spot BGN 20.55 EST",
+          "Execute": "Y",
+          "Type": "POST",
+          "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+          "ExpectedFile": "61053_response.txt",
+          "RequestFile": "61053_request.txt",
+          "ResponseCount": 73.0,
+          "__baseindex": 4.0,
+          "__index": 4.0
+        }
+      ],
+      "metaData": {
+        "datafile": "TestData/EMEA Pricing Run.json",
+        "description": "",
+        "filter": "Execute == \"Y\"",
+        "groups": [
+          "static"
+        ],
+        "lineNo": 4.0,
+        "name": "Verify InstrumentDetails Api",
+        "referece": "features/InstrumentDetails.feature",
+        "resultFileName": "TC_04",
+        "sign": "features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589890330031,
+      "duration": 2595,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 5,
+      "type": "test",
+      "args": [
+        {
+          "TestCaseID": "TC_05",
+          "TestFileName": "AMER Pricing Run",
+          "Execute": "Y",
+          "Type": "POST",
+          "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+          "ExpectedFile": "61054_response.txt",
+          "RequestFile": "61054_request.txt",
+          "ResponseCount": 1796.0,
+          "__baseindex": 5.0,
+          "__index": 5.0
+        }
+      ],
+      "metaData": {
+        "datafile": "TestData/EMEA Pricing Run.json",
+        "description": "",
+        "filter": "Execute == \"Y\"",
+        "groups": [
+          "static"
+        ],
+        "lineNo": 4.0,
+        "name": "Verify InstrumentDetails Api",
+        "referece": "features/InstrumentDetails.feature",
+        "resultFileName": "TC_05",
+        "sign": "features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589890332797,
+      "duration": 104652,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 6,
+      "type": "test",
+      "args": [
+        {
+          "TestCaseID": "TC_06",
+          "TestFileName": "Reuters FX Pricing",
+          "Execute": "Y",
+          "Type": "POST",
+          "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+          "ExpectedFile": "61055_response.txt",
+          "RequestFile": "61055_request.txt",
+          "ResponseCount": 1613.0,
+          "__baseindex": 6.0,
+          "__index": 6.0
+        }
+      ],
+      "metaData": {
+        "datafile": "TestData/EMEA Pricing Run.json",
+        "description": "",
+        "filter": "Execute == \"Y\"",
+        "groups": [
+          "static"
+        ],
+        "lineNo": 4.0,
+        "name": "Verify InstrumentDetails Api",
+        "referece": "features/InstrumentDetails.feature",
+        "resultFileName": "TC_06",
+        "sign": "features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589890437568,
+      "duration": 31421,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 7,
+      "type": "test",
+      "args": [
+        {
+          "TestCaseID": "TC_07",
+          "TestFileName": "Spot WM Reuters Pricing 21.50 EST",
+          "Execute": "Y",
+          "Type": "POST",
+          "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+          "ExpectedFile": "61057_response.txt",
+          "RequestFile": "61057_request.txt",
+          "ResponseCount": 32.0,
+          "__baseindex": 7.0,
+          "__index": 7.0
+        }
+      ],
+      "metaData": {
+        "datafile": "TestData/EMEA Pricing Run.json",
+        "description": "",
+        "filter": "Execute == \"Y\"",
+        "groups": [
+          "static"
+        ],
+        "lineNo": 4.0,
+        "name": "Verify InstrumentDetails Api",
+        "referece": "features/InstrumentDetails.feature",
+        "resultFileName": "TC_07",
+        "sign": "features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589890469090,
+      "duration": 1233,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 8,
+      "type": "test",
+      "args": [
+        {
+          "TestCaseID": "TC_08",
+          "TestFileName": "Forward WMReuters Pricing 22.00 EST",
+          "Execute": "Y",
+          "Type": "POST",
+          "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+          "ExpectedFile": "61058_response.txt",
+          "RequestFile": "61058_request.txt",
+          "ResponseCount": 267.0,
+          "__baseindex": 8.0,
+          "__index": 8.0
+        }
+      ],
+      "metaData": {
+        "datafile": "TestData/EMEA Pricing Run.json",
+        "description": "",
+        "filter": "Execute == \"Y\"",
+        "groups": [
+          "static"
+        ],
+        "lineNo": 4.0,
+        "name": "Verify InstrumentDetails Api",
+        "referece": "features/InstrumentDetails.feature",
+        "resultFileName": "TC_08",
+        "sign": "features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589890470464,
+      "duration": 3466,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 9,
+      "type": "test",
+      "args": [
+        {
+          "TestCaseID": "TC_09",
+          "TestFileName": "PNOTE Multi Days Historical Pricing Run",
+          "Execute": "Y",
+          "Type": "POST",
+          "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+          "ExpectedFile": "61059_response.txt",
+          "RequestFile": "61059_request.txt",
+          "ResponseCount": 18.0,
+          "__baseindex": 9.0,
+          "__index": 9.0
+        }
+      ],
+      "metaData": {
+        "datafile": "TestData/EMEA Pricing Run.json",
+        "description": "",
+        "filter": "Execute == \"Y\"",
+        "groups": [
+          "static"
+        ],
+        "lineNo": 4.0,
+        "name": "Verify InstrumentDetails Api",
+        "referece": "features/InstrumentDetails.feature",
+        "resultFileName": "TC_09",
+        "sign": "features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589890474116,
+      "duration": 2456,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 10,
+      "type": "test",
+      "args": [
+        {
+          "TestCaseID": "TC_10",
+          "TestFileName": "FOF Multi Days Historical Pricing Run",
+          "Execute": "Y",
+          "Type": "POST",
+          "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+          "ExpectedFile": "61060_response.txt",
+          "RequestFile": "61060_request.txt",
+          "ResponseCount": 739.0,
+          "__baseindex": 10.0,
+          "__index": 10.0
+        }
+      ],
+      "metaData": {
+        "datafile": "TestData/EMEA Pricing Run.json",
+        "description": "",
+        "filter": "Execute == \"Y\"",
+        "groups": [
+          "static"
+        ],
+        "lineNo": 4.0,
+        "name": "Verify InstrumentDetails Api",
+        "referece": "features/InstrumentDetails.feature",
+        "resultFileName": "TC_10",
+        "sign": "features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589890476821,
+      "duration": 48264,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 11,
+      "type": "test",
+      "args": [
+        {
+          "TestCaseID": "TC_11",
+          "TestFileName": "Spot Tokyo 14.30 IST",
+          "Execute": "Y",
+          "Type": "POST",
+          "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+          "ExpectedFile": "61065_response.txt",
+          "RequestFile": "61065_request.txt",
+          "ResponseCount": 380.0,
+          "__baseindex": 11.0,
+          "__index": 11.0
+        }
+      ],
+      "metaData": {
+        "datafile": "TestData/EMEA Pricing Run.json",
+        "description": "",
+        "filter": "Execute == \"Y\"",
+        "groups": [
+          "static"
+        ],
+        "lineNo": 4.0,
+        "name": "Verify InstrumentDetails Api",
+        "referece": "features/InstrumentDetails.feature",
+        "resultFileName": "TC_11",
+        "sign": "features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589890525185,
+      "duration": 7474,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 12,
+      "type": "test",
+      "args": [
+        {
+          "TestCaseID": "TC_12",
+          "TestFileName": "IDC L series",
+          "Execute": "Y",
+          "Type": "POST",
+          "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+          "ExpectedFile": "61066_response.txt",
+          "RequestFile": "61066_request.txt",
+          "ResponseCount": 4831.0,
+          "__baseindex": 12,
+          "__index": 12
+        }
+      ],
+      "metaData": {
+        "datafile": "TestData/EMEA Pricing Run.json",
+        "description": "",
+        "filter": "Execute == \"Y\"",
+        "groups": [
+          "static"
+        ],
+        "lineNo": 4,
+        "name": "Verify InstrumentDetails Api",
+        "referece": "features/InstrumentDetails.feature",
+        "resultFileName": "TC_12",
+        "sign": "features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1589890532756,
+      "duration": 246543,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

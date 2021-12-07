@@ -1,0 +1,2319 @@
+{
+    "InstrumentType" : "Prices",
+    "ClientCode" : "BNPP",
+    "View" : "Global",
+    "SecurityList" : [ 
+        {
+            "Identifier" : "0115313D LN US",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "0772894D US",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "1782265D LN",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "1821 JP",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "2303 TT_USD",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "8173734Z US",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "9036 JP",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "A5G0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ADH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "AIH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BAH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BAH1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BAM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BAM1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BAPH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BAU0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BAU1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BAZ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BCH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BJH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BLIPPAR D PREF",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BOH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BOK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BON0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BPH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BRFS US",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BRH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "BTSH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "C H0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "C H1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "C K0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "C N0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "C Z0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CAH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CAK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CCK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CCN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CDH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CFG0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CHEH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CHEJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CLF1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CLG1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CLH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CLJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CLK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CLM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CLN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CLQ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CLU0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CLV0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CLX0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CLZ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CLZ1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CNH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "COJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "COK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "COL SM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "COM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CON0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "COQ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "COU0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "COV0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "COX0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "COZ1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CPN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CT SP",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CTH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CTK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CTN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CTZ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "CUAJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DAJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DEDZ1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DEDZ2",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DEDZ3",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DFH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DFK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DFN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DLH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DMH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DUH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "DXH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EBH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EBN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ECH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EDH1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EDH2",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EDH3",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EDM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EDM1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EDM2",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EDM3",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EDU0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EDU1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EDU2",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EDU3",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EDZ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EDZ1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EDZ2",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ENG SM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EOG0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EPH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EPM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ERH1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ERH2",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ERH3",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ERM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ERM1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ERM2",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ERU0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ERU1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ERU2",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ERZ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ERZ1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ERZ2",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ESH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ESH1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ESM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ESU0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ESZ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "EZI SP WRT",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FAAF1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FAH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FBH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FBYF1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FCH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FCJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FCK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FNH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FNJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FNK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FNM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FNN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FNQ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FNU0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "FVH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "G H0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GCG1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GCJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GCJ1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GCM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GCM1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GCQ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GCZ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GENOMICS LN",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GIH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GXH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HCG0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HGH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HGK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HIG0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HIH20C Y 30000",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HOH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HOJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HOK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HOM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "HON0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IBG0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IHG0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IJK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IJQ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IKG0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IKH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IRH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IRH1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IRM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IRM1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IRU0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IRU1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "IRZ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ISH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JAZ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JBH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JGZ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JNN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JOH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JOK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JP1RGBT",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMGAFFH",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMGATHL",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMGCRED",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMGINRB",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMGITOS",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMGNATH",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMGSWEP",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JPMGSWWP",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JXTJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JXYF1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "JYH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KCK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KCN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KCU0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KMH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KNTH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KOAH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KOJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KOK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KOM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KOSPI2",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KUH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KWH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KWK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KWN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "KXAH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "L H1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "L H2",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "L H3",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "L M0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "L M1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "L M2",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "L U0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "L U1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "L U2",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "L Z0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "L Z1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "L Z2",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LAG20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LAH20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LAJ20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LAK20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LAM20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LAN20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LAQ20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LBH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LBK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LCJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LCM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LCQ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LHJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LHM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LHN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LKOD LI",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LLG0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LLH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LLJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LLK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LLM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LNG0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LNH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LNJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LNK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LNM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPG20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPH20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPJ20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPK20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LPM20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LTG0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LTH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LTJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LTM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LUNDB SS",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LXG0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LXH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LXJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LXK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "LXM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "M1WOEW Index",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MESH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MFH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MFSH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MLMGGLAM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MLMGGSPP",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MLMGMFAM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MLMGPEPM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MLMGRNBL",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MOZ20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSMGBIOP",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSMGENRG",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSMGFDBD",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSMGFDGD",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSMGGLVG",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSMGITCH INDEX",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSMGLCHH",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSMGLEGV",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSMGSWSM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MSMGSWSP",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MWH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MWK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MWN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NEXF1Y",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NEXJ0Q",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NGF21",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NGG21",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NGH20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NGH21",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NGJ20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NGK20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NGM20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NGN20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NGQ20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NGU20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NGV20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NGX20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NGZ20",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NHH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NICE US",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NIH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NKH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NOH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NQH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NVH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "NXH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "O H0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "O K0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "O N0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "OATH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "OEH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "OGZD LI",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ORK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PAH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PAM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PEH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PLJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PLN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "PTH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QCG0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QCH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QCK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QCN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QIA US_USD",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QSF1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QSH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QSJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QSK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QSM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QSN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QSQ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QSU0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QSV0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QSX0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QSZ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QWK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QWQ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "QZG0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RAH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ROSN LI",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RPH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RRH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RRK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RSH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RSK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RSN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RTYH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RUH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RXH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "RYH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "S F1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "S H0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "S H1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "S K0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "S N0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "S X0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SBH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SBH1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SBK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SBN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SBV0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SCOH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SCOJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SCOK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SFH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SIH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SIK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SIN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SIU0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SIZ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SMH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SMH1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SMK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SMN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SMT LN",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SMZ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SPSN VX",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "STH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SUK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SYH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "SYK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TPH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TSU US",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TUH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TWG0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TYM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTQ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "TZTU0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "UBH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "USM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "UXYH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "V6J0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "V6K0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "VBEN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "VEROLUBE",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "VGH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "VIV US",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "W H0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "W H1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "W K0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "W N0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "W U0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "W Z0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WIX US",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WNH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "WZN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAF1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAG1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAH1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAJ1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAK1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAM1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAN1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAQ1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAU1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAV1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAX1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XAZ1",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XBH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XBJ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XBK0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XBM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XBN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XBQ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XBU0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XBV0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XBX0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XBZ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XIDG0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XIN9I  (CNH)",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XMH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XPH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XUCH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XUG0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XWN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XWQ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "XWU0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "YEM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "YMH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "YWH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "YWN0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "Z H0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ZBH0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ZBM0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "ZBZ0",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "Ticker"
+        }
+    ],
+    "InstrumentFilters" : [ 
+        {
+            "Condition" : "Source",
+            "Value" : "ICE",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DateRange",
+            "Value" : "20200213|20200213",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "GetLatest",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsEOD",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DP|FileSeries",
+            "Value" : "D",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "LastPriceValue",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }
+    ]
+}

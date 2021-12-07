@@ -1,0 +1,76 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [
+        {
+          "TestCaseID": "TC_14",
+          "TestFileName": "IDC A series",
+          "Execute": "YD",
+          "Type": "POST",
+          "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+          "ExpectedFile": "61069_response.txt",
+          "RequestFile": "61069_request.txt",
+          "ResponseCount": 657.0,
+          "__baseindex": 14.0,
+          "__index": 1.0
+        }
+      ],
+      "metaData": {
+        "datafile": "TestData/EMEA Pricing Run.json",
+        "description": "",
+        "filter": "Execute == \"YD\"",
+        "groups": [
+          "static"
+        ],
+        "lineNo": 4.0,
+        "name": "Verify InstrumentDetails Api",
+        "referece": "features/InstrumentDetails.feature",
+        "resultFileName": "TC_14",
+        "sign": "features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1585302374893,
+      "duration": 16832,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 2,
+      "type": "test",
+      "args": [
+        {
+          "TestCaseID": "TC_26",
+          "TestFileName": "IDC D series",
+          "Execute": "YD",
+          "Type": "POST",
+          "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+          "ExpectedFile": "61137_response.txt",
+          "RequestFile": "61137_request.txt",
+          "ResponseCount": 98.0,
+          "__baseindex": 26,
+          "__index": 2
+        }
+      ],
+      "metaData": {
+        "datafile": "TestData/EMEA Pricing Run.json",
+        "description": "",
+        "filter": "Execute == \"YD\"",
+        "groups": [
+          "static"
+        ],
+        "lineNo": 4,
+        "name": "Verify InstrumentDetails Api",
+        "referece": "features/InstrumentDetails.feature",
+        "resultFileName": "TC_26",
+        "sign": "features.InstrumentDetails.feature.Verify InstrumentDetails Api( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1585302392267,
+      "duration": 13163,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

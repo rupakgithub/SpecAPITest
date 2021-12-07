@@ -1,0 +1,328 @@
+{
+    
+    "MessageCode" : 111,
+    "Message" : "Completed , All data available locally",
+    "Data" : [ 
+        {
+            "InstrumentID" : "62250",
+            "RequesterID" : {
+                "Ticker" : "1888 HK"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "1888 HK Equity",
+                "BBGGlobalID" : "BBG000K4RHB9",
+                "Currency" : "HKD",
+                "Exchange Code" : "HK",
+                "Feed Source" : "HK",
+                "Quotation Factor" : "",
+                "Scaling Factor" : "1.0000",
+                "Volume" : "6473000",
+                "Last Price as of End of Day" : "9.000000",
+                "End of Day Bid Price" : "8.990000",
+                "End of Day Mid Price" : "8.995000",
+                "Settlement Price" : "",
+                "Yesterday's Normalized Futures Price" : "",
+                "Date Of Last Close" : "20200214",
+                "End of Day Ask Price" : "9.000000",
+                "InstrumentID" : "62250",
+                "CompositeCode" : "",
+                "Ticker" : "1888 HK",
+                "MarketSector" : "Equity"
+            }
+        }, 
+        {
+            "InstrumentID" : "107109",
+            "RequesterID" : {
+                "Ticker" : "CAH0"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CAH0 Comdty",
+                "BBGGlobalID" : "BBG00G6MVQT6",
+                "Currency" : "EUR",
+                "Exchange Code" : "EOP",
+                "Feed Source" : "EOP",
+                "Quotation Factor" : "",
+                "Scaling Factor" : "1.000",
+                "Volume" : "28429",
+                "Last Price as of End of Day" : "194.000000",
+                "End of Day Bid Price" : "193.750000",
+                "End of Day Mid Price" : "193.875000",
+                "Settlement Price" : "194.000000",
+                "Yesterday's Normalized Futures Price" : "194.000000",
+                "Date Of Last Close" : "20200214",
+                "End of Day Ask Price" : "194.000000",
+                "InstrumentID" : "107109",
+                "CompositeCode" : "",
+                "Ticker" : "CAH0",
+                "MarketSector" : "Comdty"
+            }
+        }, 
+        {
+            "InstrumentID" : "153811",
+            "RequesterID" : {
+                "Ticker" : "CAH0"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CAH0 Index",
+                "BBGGlobalID" : "BBG00PJZJZ62",
+                "Currency" : "EUR",
+                "Exchange Code" : "EUX",
+                "Feed Source" : "EUX",
+                "Quotation Factor" : "",
+                "Scaling Factor" : "1.000",
+                "Volume" : "159767",
+                "Last Price as of End of Day" : "101.100000",
+                "End of Day Bid Price" : "101.000000",
+                "End of Day Mid Price" : "101.100000",
+                "Settlement Price" : "101.100000",
+                "Yesterday's Normalized Futures Price" : "101.100000",
+                "Date Of Last Close" : "20200214",
+                "End of Day Ask Price" : "101.200000",
+                "InstrumentID" : "153811",
+                "CompositeCode" : "",
+                "Ticker" : "CAH0",
+                "MarketSector" : "Index"
+            }
+        }, 
+        {
+            "InstrumentID" : "141602",
+            "RequesterID" : {
+                "ISIN" : "US912796TG47"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US912796TG47 Govt",
+                "BBGGlobalID" : "BBG00PZTL570",
+                "Currency" : "USD",
+                "Exchange Code" : "N.A.",
+                "Feed Source" : "BGN",
+                "Quotation Factor" : "",
+                "Scaling Factor" : "1",
+                "Volume" : "",
+                "Last Price as of End of Day" : "1.515000",
+                "End of Day Bid Price" : "1.555000",
+                "End of Day Mid Price" : "1.535000",
+                "Settlement Price" : "",
+                "Yesterday's Normalized Futures Price" : "",
+                "Date Of Last Close" : "20200214",
+                "End of Day Ask Price" : "1.515000",
+                "InstrumentID" : "141602",
+                "CompositeCode" : "",
+                "ISIN" : "US912796TG47",
+                "MarketSector" : "Govt"
+            }
+        }, 
+        {
+            "InstrumentID" : "96010",
+            "RequesterID" : {
+                "ISIN" : "XS1589374500"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "XS1589374500 Corp",
+                "BBGGlobalID" : "BBG00GBD45H9",
+                "Currency" : "INR",
+                "Exchange Code" : "LONDON",
+                "Feed Source" : "BGN",
+                "Quotation Factor" : "",
+                "Scaling Factor" : "1",
+                "Volume" : "",
+                "Last Price as of End of Day" : "99.905000",
+                "End of Day Bid Price" : "99.797000",
+                "End of Day Mid Price" : "99.904500",
+                "Settlement Price" : "",
+                "Yesterday's Normalized Futures Price" : "",
+                "Date Of Last Close" : "20200214",
+                "End of Day Ask Price" : "100.012000",
+                "InstrumentID" : "96010",
+                "CompositeCode" : "",
+                "ISIN" : "XS1589374500",
+                "MarketSector" : "Corp"
+            }
+        }, 
+        {
+            "InstrumentID" : "511",
+            "RequesterID" : {
+                "Ticker" : "AUDUSD CMPL"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "AUDUSD CMPL Curncy",
+                "Date Of Last Close" : "20200214",
+                "BBGGlobalID" : "N.A.",
+                "Last Price as of End of Day" : "0.6714",
+                "End of Day Ask Price" : "0.6714",
+                "End of Day Bid Price" : "0.6714",
+                "End of Day Mid Price" : "0.67136",
+                "InstrumentID" : "511",
+                "CompositeCode" : "CMPL",
+                "Currency" : "AUD",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200217",
+                "Ticker" : "AUDUSD",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "511",
+            "RequesterID" : {
+                "Ticker" : "AUDUSD CMPN"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "AUDUSD CMPN Curncy",
+                "Date Of Last Close" : "20200214",
+                "BBGGlobalID" : "N.A.",
+                "Last Price as of End of Day" : "0.6713",
+                "End of Day Ask Price" : "0.6715",
+                "End of Day Bid Price" : "0.6711",
+                "End of Day Mid Price" : "0.6713",
+                "InstrumentID" : "511",
+                "CompositeCode" : "CMPN",
+                "Currency" : "AUD",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200217",
+                "Ticker" : "AUDUSD",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "511",
+            "RequesterID" : {
+                "Ticker" : "AUDUSD CMPT"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "AUDUSD CMPT Curncy",
+                "Date Of Last Close" : "20200214",
+                "BBGGlobalID" : "N.A.",
+                "Last Price as of End of Day" : "0.6718",
+                "End of Day Ask Price" : "0.6718",
+                "End of Day Bid Price" : "0.6718",
+                "End of Day Mid Price" : "0.67177",
+                "InstrumentID" : "511",
+                "CompositeCode" : "CMPT",
+                "Currency" : "AUD",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200217",
+                "Ticker" : "AUDUSD",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "AlternateId1" : "AAPL  200228P00297500"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "AAPL 200228P00297500 Equity",
+                "BBGGlobalID" : "BBG00RBGPML3",
+                "Currency" : "USD",
+                "Exchange Code" : "US",
+                "Feed Source" : "US",
+                "Quotation Factor" : "",
+                "Scaling Factor" : "1.0000",
+                "Volume" : "101",
+                "Last Price as of End of Day" : "0.580000",
+                "End of Day Bid Price" : "0.050000",
+                "End of Day Mid Price" : "0.335000",
+                "Settlement Price" : "N.A.",
+                "Yesterday's Normalized Futures Price" : "",
+                "Date Of Last Close" : "20200214",
+                "End of Day Ask Price" : "0.620000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "AlternateId1" : "AAPL 200228P00297500",
+                "MarketSector" : "Equity"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "TWDUSD CMPL"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "TWDUSD CMPL Curncy",
+                "Date Of Last Close" : "20200214",
+                "BBGGlobalID" : "N.A.",
+                "Last Price as of End of Day" : "0.033311",
+                "End of Day Ask Price" : "0.033326",
+                "End of Day Bid Price" : "0.033297",
+                "End of Day Mid Price" : "0.033311",
+                "InstrumentID" : "",
+                "CompositeCode" : "CMPL",
+                "Mhistorical Price" : "N.A.",
+                "Mhistorical Date" : "20200217",
+                "Ticker" : "TWDUSD",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "TWDUSD CMPN"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "TWDUSD CMPN Curncy",
+                "BBGGlobalID" : "BBG0013HNT34",
+                "Currency" : "USD",
+                "Exchange Code" : "",
+                "Feed Source" : "CMPN",
+                "Quotation Factor" : "1.0000",
+                "Scaling Factor" : "1.0000",
+                "Volume" : "N.A.",
+                "Last Price as of End of Day" : ".033311",
+                "End of Day Bid Price" : ".033297",
+                "End of Day Mid Price" : ".033312",
+                "Settlement Price" : "",
+                "Yesterday's Normalized Futures Price" : "",
+                "Date Of Last Close" : "20200214",
+                "End of Day Ask Price" : ".033326",
+                "InstrumentID" : "",
+                "CompositeCode" : "CMPN",
+                "Ticker" : "TWDUSD",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "TWDUSD CMPT"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "TWDUSD CMPT Curncy",
+                "BBGGlobalID" : "BBG0013HNT34",
+                "Currency" : "USD",
+                "Exchange Code" : "",
+                "Feed Source" : "CMPT",
+                "Quotation Factor" : "1.0000",
+                "Scaling Factor" : "1.0000",
+                "Volume" : "N.A.",
+                "Last Price as of End of Day" : ".033311",
+                "End of Day Bid Price" : ".033297",
+                "End of Day Mid Price" : ".033312",
+                "Settlement Price" : "",
+                "Yesterday's Normalized Futures Price" : "",
+                "Date Of Last Close" : "20200214",
+                "End of Day Ask Price" : ".033326",
+                "InstrumentID" : "",
+                "CompositeCode" : "CMPT",
+                "Ticker" : "TWDUSD",
+                "MarketSector" : "Curncy"
+            }
+        }
+    ],
+    "Info" : {
+        "MissingSecurity" : {
+            "AlternateId1" : "AAPL  200228P00297500",
+            "Ticker" : "TWDUSD|TWDUSD|TWDUSD"
+        }
+    }
+}

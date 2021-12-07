@@ -1,0 +1,3207 @@
+{
+    
+    "MessageCode" : 107,
+    "Message" : "Partial data available locally  - Validation Failed - Licence Code not provided",
+    "Data" : [ 
+        {
+            "InstrumentID" : "141408",
+            "RequesterID" : {
+                "Ticker" : "HIHD03M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "HIHD03M Curncy",
+                "BBGGlobalID" : "BBG002SBPZX9",
+                "Currency" : "HKD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "2.034640",
+                "Ask Price" : "2.034640",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "2.162320",
+                "InstrumentID" : "141408",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "HIHD03M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "142304",
+            "RequesterID" : {
+                "Ticker" : "HIHD06M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "HIHD06M Curncy",
+                "BBGGlobalID" : "BBG002SDW6S7",
+                "Currency" : "HKD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "2.214110",
+                "Ask Price" : "2.214110",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "2.274640",
+                "InstrumentID" : "142304",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "HIHD06M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "80195",
+            "RequesterID" : {
+                "Ticker" : "BP0006M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "BP0006M Curncy",
+                "BBGGlobalID" : "BBG002SCHN90",
+                "Currency" : "GBP",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".805750",
+                "Ask Price" : ".805750",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".815380",
+                "InstrumentID" : "80195",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "BP0006M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "14614",
+            "RequesterID" : {
+                "Ticker" : "JY0006M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JY0006M Curncy",
+                "BBGGlobalID" : "BBG002SCHLY6",
+                "Currency" : "JPY",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.009500",
+                "Ask Price" : "-.009500",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.008170",
+                "InstrumentID" : "14614",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "JY0006M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "142303",
+            "RequesterID" : {
+                "Ticker" : "SF0003M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SF0003M Curncy",
+                "BBGGlobalID" : "BBG002SCHM92",
+                "Currency" : "CHF",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.703800",
+                "Ask Price" : "-.703800",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.695200",
+                "InstrumentID" : "142303",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SF0003M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "33328",
+            "RequesterID" : {
+                "Ticker" : "SF0006M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SF0006M Curncy",
+                "BBGGlobalID" : "BBG002SCHMD7",
+                "Currency" : "CHF",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.659400",
+                "Ask Price" : "-.659400",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.637400",
+                "InstrumentID" : "33328",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SF0006M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "33174",
+            "RequesterID" : {
+                "Ticker" : "STIB3M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "STIB3M Curncy",
+                "BBGGlobalID" : "BBG002SBZXB7",
+                "Currency" : "SEK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".158000",
+                "Ask Price" : ".158000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".171000",
+                "InstrumentID" : "33174",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "STIB3M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "39659",
+            "RequesterID" : {
+                "Ticker" : "US0003M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US0003M Curncy",
+                "BBGGlobalID" : "BBG002SBS5T7",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.691630",
+                "Ask Price" : "1.691630",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.707250",
+                "InstrumentID" : "39659",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "US0003M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "38832",
+            "RequesterID" : {
+                "Ticker" : "US0006M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US0006M Curncy",
+                "BBGGlobalID" : "BBG002SBS7M0",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.712880",
+                "Ask Price" : "1.712880",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.724500",
+                "InstrumentID" : "38832",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "US0006M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "5465",
+            "RequesterID" : {
+                "Ticker" : "EUR006M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EUR006M Curncy",
+                "BBGGlobalID" : "BBG002SDWKF0",
+                "Currency" : "EUR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.357000",
+                "Ask Price" : "-.357000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.350000",
+                "InstrumentID" : "5465",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "EUR006M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "141359",
+            "RequesterID" : {
+                "Ticker" : "JIBA3M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JIBA3M Curncy",
+                "BBGGlobalID" : "BBG002SGSFQ7",
+                "Currency" : "ZAR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "6.558000",
+                "Ask Price" : "6.558000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "6.558000",
+                "InstrumentID" : "141359",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "JIBA3M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "34037",
+            "RequesterID" : {
+                "Ticker" : "SORF6M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SORF6M Index Curncy",
+                "BBGGlobalID" : "BBG002SJQHS7",
+                "Currency" : "SGD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "",
+                "Closing Price 2 Days Ago" : "N.A.",
+                "InstrumentID" : "34037",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SORF6M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "43350",
+            "RequesterID" : {
+                "Ticker" : "WIBR6M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "WIBR6M Index Curncy",
+                "BBGGlobalID" : "BBG002T9G550",
+                "Currency" : "PLN",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.790000",
+                "Ask Price" : "1.790000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.790000",
+                "InstrumentID" : "43350",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "WIBR6M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "141357",
+            "RequesterID" : {
+                "Ticker" : "PR046M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "PR046M Curncy",
+                "BBGGlobalID" : "BBG002SBX584",
+                "Currency" : "CZK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "2.420000",
+                "Ask Price" : "2.420000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "2.420000",
+                "InstrumentID" : "141357",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "PR046M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "141358",
+            "RequesterID" : {
+                "Ticker" : "STBB3M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "STBB3M Curncy",
+                "BBGGlobalID" : "BBG004DSXNS8",
+                "Currency" : "SEK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".158000",
+                "Ask Price" : ".190000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".171000",
+                "InstrumentID" : "141358",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "STBB3M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "23776",
+            "RequesterID" : {
+                "Ticker" : "MXIBTIIE"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "MXIBTIIE Curncy",
+                "BBGGlobalID" : "BBG002SCLDP9",
+                "Currency" : "MXN",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "7.450000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "7.450000",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "7.483700",
+                "InstrumentID" : "23776",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "MXIBTIIE",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "82432",
+            "RequesterID" : {
+                "Ticker" : "BUBOR06M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "BUBOR06M Curncy",
+                "BBGGlobalID" : "BBG002SGJRT8",
+                "Currency" : "HUF",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".460000",
+                "Ask Price" : ".460000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".360000",
+                "InstrumentID" : "82432",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "BUBOR06M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "142261",
+            "RequesterID" : {
+                "Ticker" : "BUBOR03M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "BUBOR03M Curncy",
+                "BBGGlobalID" : "BBG002SD06Y5",
+                "Currency" : "HUF",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".420000",
+                "Ask Price" : ".420000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".340000",
+                "InstrumentID" : "142261",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "BUBOR03M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "83190",
+            "RequesterID" : {
+                "Ticker" : "CDOR01"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CDOR01 Curncy",
+                "BBGGlobalID" : "BBG002SBJKP8",
+                "Currency" : "CAD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.957500",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "1.957500",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.957500",
+                "InstrumentID" : "83190",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "CDOR01",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "83191",
+            "RequesterID" : {
+                "Ticker" : "CDOR03"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CDOR03 Curncy",
+                "BBGGlobalID" : "BBG002SBJKR6",
+                "Currency" : "CAD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.963750",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "1.963750",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.963750",
+                "InstrumentID" : "83191",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "CDOR03",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "142285",
+            "RequesterID" : {
+                "Ticker" : "CDOR06"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CDOR06 Curncy",
+                "BBGGlobalID" : "BBG002SBJKS5",
+                "Currency" : "CAD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.997500",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "1.997500",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.995000",
+                "InstrumentID" : "142285",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "CDOR06",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "142260",
+            "RequesterID" : {
+                "Ticker" : "PR043M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "PR043M Curncy",
+                "BBGGlobalID" : "BBG002SBX593",
+                "Currency" : "CZK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "2.380000",
+                "Ask Price" : "2.380000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "2.380000",
+                "InstrumentID" : "142260",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "PR043M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "142305",
+            "RequesterID" : {
+                "Ticker" : "SIBF3M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SIBF3M Curncy",
+                "BBGGlobalID" : "BBG002SFN0S5",
+                "Currency" : "SGD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "",
+                "Closing Price 2 Days Ago" : "N.A.",
+                "InstrumentID" : "142305",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SIBF3M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "142262",
+            "RequesterID" : {
+                "Ticker" : "SIBF6M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SIBF6M Curncy",
+                "BBGGlobalID" : "BBG002SFN0T4",
+                "Currency" : "SGD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "N.A.",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "",
+                "Closing Price 2 Days Ago" : "N.A.",
+                "InstrumentID" : "142262",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SIBF6M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "142306",
+            "RequesterID" : {
+                "Ticker" : "TELBOR03"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "TELBOR03 Curncy",
+                "BBGGlobalID" : "BBG002SPHR38",
+                "Currency" : "ILS",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".208000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : ".208000",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".203000",
+                "InstrumentID" : "142306",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "TELBOR03",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "142263",
+            "RequesterID" : {
+                "Ticker" : "TELBOR06"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "TELBOR06 Curncy",
+                "BBGGlobalID" : "BBG002SPHR10",
+                "Currency" : "ILS",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".184000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : ".184000",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".185000",
+                "InstrumentID" : "142263",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "TELBOR06",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "142287",
+            "RequesterID" : {
+                "Ticker" : "WIBR1Y"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "WIBR1Y Curncy",
+                "BBGGlobalID" : "BBG002T9G587",
+                "Currency" : "PLN",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.840000",
+                "Ask Price" : "1.840000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.840000",
+                "InstrumentID" : "142287",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "WIBR1Y",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "142276",
+            "RequesterID" : {
+                "Ticker" : "WIBR3M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "WIBR3M Curncy",
+                "BBGGlobalID" : "BBG002T9G532",
+                "Currency" : "PLN",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.710000",
+                "Ask Price" : "1.710000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.710000",
+                "InstrumentID" : "142276",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "WIBR3M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "146407",
+            "RequesterID" : {
+                "Ticker" : "M7JP"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "M7JP Curncy",
+                "BBGGlobalID" : "BBG000VH5PG9",
+                "Currency" : "JPY",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "2061.120000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "",
+                "Closing Price 2 Days Ago" : "2068.450000",
+                "InstrumentID" : "146407",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "M7JP",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "146404",
+            "RequesterID" : {
+                "Ticker" : "RUPRA"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "RUPRA Curncy",
+                "BBGGlobalID" : "BBG000NPN789",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "6085.290000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "",
+                "Closing Price 2 Days Ago" : "6082.649000",
+                "InstrumentID" : "146404",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "RUPRA",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "146405",
+            "RequesterID" : {
+                "Ticker" : "RUGN"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "RUGN Curncy",
+                "BBGGlobalID" : "BBG000PMS379",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "8539.140000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "",
+                "Closing Price 2 Days Ago" : "8466.368000",
+                "InstrumentID" : "146405",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "RUGN",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "146406",
+            "RequesterID" : {
+                "Ticker" : "RUGA"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "RUGA Curncy",
+                "BBGGlobalID" : "BBG000SG2SS9",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "3949.100000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "",
+                "Closing Price 2 Days Ago" : "3922.541000",
+                "InstrumentID" : "146406",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "RUGA",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "146413",
+            "RequesterID" : {
+                "Ticker" : "M1NA"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "M1NA Curncy",
+                "BBGGlobalID" : "BBG0010JQ4J8",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "9678.570000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "",
+                "Closing Price 2 Days Ago" : "9687.810000",
+                "InstrumentID" : "146413",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "M1NA",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "40978",
+            "RequesterID" : {
+                "Ticker" : "VG00"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "VG00 Curncy",
+                "BBGGlobalID" : "BBG00F0SCV48",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "557.700000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "",
+                "Closing Price 2 Days Ago" : "556.787000",
+                "InstrumentID" : "40978",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "VG00",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "5531",
+            "RequesterID" : {
+                "Ticker" : "EONIA"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EONIA Curncy",
+                "BBGGlobalID" : "BBG002SGCVD3",
+                "Currency" : "EUR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.455000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "-.455000",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.456000",
+                "InstrumentID" : "5531",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "EONIA",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "22129",
+            "RequesterID" : {
+                "Ticker" : "NIBOR6M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "NIBOR6M Curncy",
+                "BBGGlobalID" : "BBG002SBTLC9",
+                "Currency" : "NOK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.870000",
+                "Ask Price" : "1.870000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.860000",
+                "InstrumentID" : "22129",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "NIBOR6M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "6958",
+            "RequesterID" : {
+                "Ticker" : "FEDL01 Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "FEDL01 Index Curncy",
+                "BBGGlobalID" : "BBG002SBKL10",
+                "Currency" : "",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.580000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "1.580000",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.580000",
+                "InstrumentID" : "6958",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "FEDL01 Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "142290",
+            "RequesterID" : {
+                "Ticker" : "USISDA01"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USISDA01 Curncy",
+                "BBGGlobalID" : "BBG002SMGZJ1",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.591000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "1.591000",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.581000",
+                "InstrumentID" : "142290",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "USISDA01",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "142289",
+            "RequesterID" : {
+                "Ticker" : "USISDA05"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USISDA05 Curncy",
+                "BBGGlobalID" : "BBG002SMGZV7",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.437000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "1.437000",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.409000",
+                "InstrumentID" : "142289",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "USISDA05",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "142286",
+            "RequesterID" : {
+                "Ticker" : "USISDA10"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USISDA10 Curncy",
+                "BBGGlobalID" : "BBG002SMH0C4",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.567000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "1.567000",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.536000",
+                "InstrumentID" : "142286",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "USISDA10",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "28743",
+            "RequesterID" : {
+                "Ticker" : "PRIB06M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "PRIB06M Curncy",
+                "BBGGlobalID" : "BBG002SGJ3G5",
+                "Currency" : "CZK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "2.420000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "2.420000",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "2.420000",
+                "InstrumentID" : "28743",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "PRIB06M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "HIHD01M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "HIHD01M Curncy",
+                "BBGGlobalID" : "BBG002SBPZT4",
+                "Currency" : "HKD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.737380",
+                "Ask Price" : "1.737380",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.844460",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "HIHD01M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "USSW10"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "USSW10 Curncy",
+                "BBGGlobalID" : "BBG00NTKL8L9",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.562300",
+                "Ask Price" : "1.564100",
+                "Bid Price" : "1.560500",
+                "Mid Price" : "1.562300",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.547300",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "USSW10",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "HIHD01M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "HIHD01M Index Curncy",
+                "BBGGlobalID" : "BBG002SBPZT4",
+                "Currency" : "HKD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.737380",
+                "Ask Price" : "1.737380",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.844460",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "HIHD01M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "JY00S/N"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JY00S/N Curncy",
+                "BBGGlobalID" : "BBG002SMPLC9",
+                "Currency" : "JPY",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.097830",
+                "Ask Price" : "-.097830",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.096000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "JY00S/N",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "SF00S/N"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SF00S/N Curncy",
+                "BBGGlobalID" : "BBG002SMPLG5",
+                "Currency" : "CHF",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.786000",
+                "Ask Price" : "-.786000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.779000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SF00S/N",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "BP00O/N"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "BP00O/N Curncy",
+                "BBGGlobalID" : "BBG002SMNR10",
+                "Currency" : "GBP",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".684130",
+                "Ask Price" : ".684130",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".672750",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "BP00O/N",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "EE00O/N"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EE00O/N Curncy",
+                "BBGGlobalID" : "BBG002SMNQX7",
+                "Currency" : "EUR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.567860",
+                "Ask Price" : "-.567860",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.568000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "EE00O/N",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "STIB1D"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "STIB1D Curncy",
+                "BBGGlobalID" : "BBG002SBZX54",
+                "Currency" : "SEK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".002000",
+                "Ask Price" : ".002000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".002000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "STIB1D",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "US00O/N"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US00O/N Curncy",
+                "BBGGlobalID" : "BBG002SBXG35",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.573380",
+                "Ask Price" : "1.573380",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.571250",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "US00O/N",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "BP0001W"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "BP0001W Curncy",
+                "BBGGlobalID" : "BBG002SCTT67",
+                "Currency" : "GBP",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".692500",
+                "Ask Price" : ".692500",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".689630",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "BP0001W",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "BP0002M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "BP0002M Curncy",
+                "BBGGlobalID" : "BBG002SCHN54",
+                "Currency" : "GBP",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".731380",
+                "Ask Price" : ".731380",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".732500",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "BP0002M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "BP0003M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "BP0003M Curncy",
+                "BBGGlobalID" : "BBG002SCHN63",
+                "Currency" : "GBP",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".752380",
+                "Ask Price" : ".752380",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".758630",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "BP0003M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "BP0012M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "BP0012M Curncy",
+                "BBGGlobalID" : "BBG002SCHNH1",
+                "Currency" : "GBP",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".888750",
+                "Ask Price" : ".888750",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".890630",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "BP0012M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "JY0001M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JY0001M Curncy",
+                "BBGGlobalID" : "BBG002SCHLS3",
+                "Currency" : "JPY",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.093830",
+                "Ask Price" : "-.093830",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.094170",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "JY0001M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "JY0001W"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JY0001W Curncy",
+                "BBGGlobalID" : "BBG002SCTSV1",
+                "Currency" : "JPY",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.071330",
+                "Ask Price" : "-.071330",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.073670",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "JY0001W",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "JY0002M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JY0002M Curncy",
+                "BBGGlobalID" : "BBG002SCHLT2",
+                "Currency" : "JPY",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.071330",
+                "Ask Price" : "-.071330",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.072670",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "JY0002M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "JY0003M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JY0003M Curncy",
+                "BBGGlobalID" : "BBG002SCHLV9",
+                "Currency" : "JPY",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.074500",
+                "Ask Price" : "-.074500",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.065670",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "JY0003M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "JY0012M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JY0012M Curncy",
+                "BBGGlobalID" : "BBG002SCHM47",
+                "Currency" : "JPY",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".102330",
+                "Ask Price" : ".102330",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".099670",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "JY0012M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "SF0001M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SF0001M Curncy",
+                "BBGGlobalID" : "BBG002SCHM74",
+                "Currency" : "CHF",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.778000",
+                "Ask Price" : "-.778000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.765600",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SF0001M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "SF0001W"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SF0001W Curncy",
+                "BBGGlobalID" : "BBG002SD2NH5",
+                "Currency" : "CHF",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.800200",
+                "Ask Price" : "-.800200",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.793200",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SF0001W",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "SF0002M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SF0002M Curncy",
+                "BBGGlobalID" : "BBG002SCHM83",
+                "Currency" : "CHF",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.742800",
+                "Ask Price" : "-.742800",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.730800",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SF0002M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "SF0012M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SF0012M Curncy",
+                "BBGGlobalID" : "BBG002SCHML8",
+                "Currency" : "CHF",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.524000",
+                "Ask Price" : "-.524000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.498800",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SF0012M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "STIB1M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "STIB1M Curncy",
+                "BBGGlobalID" : "BBG002SBZX63",
+                "Currency" : "SEK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".072000",
+                "Ask Price" : ".072000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".070000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "STIB1M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "STIB1W"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "STIB1W Curncy",
+                "BBGGlobalID" : "BBG002SBZX72",
+                "Currency" : "SEK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".002000",
+                "Ask Price" : ".002000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".002000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "STIB1W",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "STIB2M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "STIB2M Curncy",
+                "BBGGlobalID" : "BBG002SBZX90",
+                "Currency" : "SEK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".112000",
+                "Ask Price" : ".112000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".116000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "STIB2M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "STIB6M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "STIB6M Curncy",
+                "BBGGlobalID" : "BBG002SBZXC6",
+                "Currency" : "SEK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".260000",
+                "Ask Price" : ".260000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".268000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "STIB6M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "US0001M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US0001M Curncy",
+                "BBGGlobalID" : "BBG002SBCXZ6",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.658500",
+                "Ask Price" : "1.658500",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.652750",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "US0001M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "US0001W"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US0001W Curncy",
+                "BBGGlobalID" : "BBG002SBNV51",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.582250",
+                "Ask Price" : "1.582250",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.582500",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "US0001W",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "US0002M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US0002M Curncy",
+                "BBGGlobalID" : "BBG002SBFF37",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.668250",
+                "Ask Price" : "1.668250",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.679630",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "US0002M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "US0012M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US0012M Curncy",
+                "BBGGlobalID" : "BBG002SBS7K2",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.802000",
+                "Ask Price" : "1.802000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.807130",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "US0012M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "EUR001M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EUR001M Curncy",
+                "BBGGlobalID" : "BBG002SDWK60",
+                "Currency" : "EUR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.480000",
+                "Ask Price" : "-.480000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.477000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "EUR001M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "EUR003M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EUR003M Curncy",
+                "BBGGlobalID" : "BBG002SDWKB4",
+                "Currency" : "EUR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.411000",
+                "Ask Price" : "-.411000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.409000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "EUR003M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "H15T10Y"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "H15T10Y Curncy",
+                "BBGGlobalID" : "BBG002SBLX86",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.610000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "1.610000",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.590000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "H15T10Y",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "H15T5Y"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "H15T5Y Curncy",
+                "BBGGlobalID" : "BBG002SBLX31",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.430000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "1.430000",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.400000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "H15T5Y",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "EE0006M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EE0006M Curncy",
+                "BBGGlobalID" : "BBG002SGHZ76",
+                "Currency" : "EUR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.392290",
+                "Ask Price" : "-.392290",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.392710",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "EE0006M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "H15T30Y"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "H15T30Y Curncy",
+                "BBGGlobalID" : "BBG002SBLX77",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "2.070000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "2.070000",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "2.050000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "H15T30Y",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "LIBOR01M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "LIBOR01M Curncy",
+                "BBGGlobalID" : "BBG002SBCXZ6",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.658500",
+                "Ask Price" : "1.658500",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.652750",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "LIBOR01M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "WIBO1M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "WIBO1M Curncy",
+                "BBGGlobalID" : "BBG002SBW2V6",
+                "Currency" : "PLN",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.530000",
+                "Ask Price" : "1.630000",
+                "Bid Price" : "1.430000",
+                "Mid Price" : "1.530000",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.530000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "WIBO1M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "H15T7Y"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "H15T7Y Curncy",
+                "BBGGlobalID" : "BBG002SBLX04",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.530000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "1.530000",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.500000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "H15T7Y",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "BP0001M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "BP0001M Curncy",
+                "BBGGlobalID" : "BBG002SCHN45",
+                "Currency" : "GBP",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".708500",
+                "Ask Price" : ".708500",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".707250",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "BP0001M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "STIB1D Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "STIB1D Index Curncy",
+                "BBGGlobalID" : "BBG002SBZX54",
+                "Currency" : "SEK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".002000",
+                "Ask Price" : ".002000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".002000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "STIB1D Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "STIB1W Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "STIB1W Index Curncy",
+                "BBGGlobalID" : "BBG002SBZX72",
+                "Currency" : "SEK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".002000",
+                "Ask Price" : ".002000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".002000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "STIB1W Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "STIB1M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "STIB1M Index Curncy",
+                "BBGGlobalID" : "BBG002SBZX63",
+                "Currency" : "SEK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".072000",
+                "Ask Price" : ".072000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".070000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "STIB1M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "STIB2M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "STIB2M Index Curncy",
+                "BBGGlobalID" : "BBG002SBZX90",
+                "Currency" : "SEK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".112000",
+                "Ask Price" : ".112000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".116000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "STIB2M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "STIB6M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "STIB6M Index Curncy",
+                "BBGGlobalID" : "BBG002SBZXC6",
+                "Currency" : "SEK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".260000",
+                "Ask Price" : ".260000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".268000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "STIB6M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "BP0001W Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "BP0001W Index Curncy",
+                "BBGGlobalID" : "BBG002SCTT67",
+                "Currency" : "GBP",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".692500",
+                "Ask Price" : ".692500",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".689630",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "BP0001W Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "BP0002M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "BP0002M Index Curncy",
+                "BBGGlobalID" : "BBG002SCHN54",
+                "Currency" : "GBP",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".731380",
+                "Ask Price" : ".731380",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".732500",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "BP0002M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "BP0003M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "BP0003M Index Curncy",
+                "BBGGlobalID" : "BBG002SCHN63",
+                "Currency" : "GBP",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".752380",
+                "Ask Price" : ".752380",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".758630",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "BP0003M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "BP00O/N Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "BP00O/N Index Curncy",
+                "BBGGlobalID" : "BBG002SMNR10",
+                "Currency" : "GBP",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".684130",
+                "Ask Price" : ".684130",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".672750",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "BP00O/N Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "BP0012M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "BP0012M Index Curncy",
+                "BBGGlobalID" : "BBG002SCHNH1",
+                "Currency" : "GBP",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".888750",
+                "Ask Price" : ".888750",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".890630",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "BP0012M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "EUR001M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EUR001M Index Curncy",
+                "BBGGlobalID" : "BBG002SDWK60",
+                "Currency" : "EUR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.480000",
+                "Ask Price" : "-.480000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.477000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "EUR001M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "EUR001W Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EUR001W Index Curncy",
+                "BBGGlobalID" : "BBG002SGCVB5",
+                "Currency" : "EUR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.509000",
+                "Ask Price" : "-.509000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.515000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "EUR001W Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "EUR003M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EUR003M Index Curncy",
+                "BBGGlobalID" : "BBG002SDWKB4",
+                "Currency" : "EUR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.411000",
+                "Ask Price" : "-.411000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.409000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "EUR003M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "EUR012M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EUR012M Index Curncy",
+                "BBGGlobalID" : "BBG002SGCVC4",
+                "Currency" : "EUR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.287000",
+                "Ask Price" : "-.287000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.276000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "EUR012M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "JY0001M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JY0001M Index Curncy",
+                "BBGGlobalID" : "BBG002SCHLS3",
+                "Currency" : "JPY",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.093830",
+                "Ask Price" : "-.093830",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.094170",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "JY0001M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "JY0001W Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JY0001W Index Curncy",
+                "BBGGlobalID" : "BBG002SCTSV1",
+                "Currency" : "JPY",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.071330",
+                "Ask Price" : "-.071330",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.073670",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "JY0001W Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "JY0002M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JY0002M Index Curncy",
+                "BBGGlobalID" : "BBG002SCHLT2",
+                "Currency" : "JPY",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.071330",
+                "Ask Price" : "-.071330",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.072670",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "JY0002M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "JY0003M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JY0003M Index Curncy",
+                "BBGGlobalID" : "BBG002SCHLV9",
+                "Currency" : "JPY",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.074500",
+                "Ask Price" : "-.074500",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.065670",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "JY0003M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "JY00S/N Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JY00S/N Index Curncy",
+                "BBGGlobalID" : "BBG002SMPLC9",
+                "Currency" : "JPY",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.097830",
+                "Ask Price" : "-.097830",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.096000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "JY00S/N Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "JY0012M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "JY0012M Index Curncy",
+                "BBGGlobalID" : "BBG002SCHM47",
+                "Currency" : "JPY",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".102330",
+                "Ask Price" : ".102330",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".099670",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "JY0012M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "SF0001M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SF0001M Index Curncy",
+                "BBGGlobalID" : "BBG002SCHM74",
+                "Currency" : "CHF",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.778000",
+                "Ask Price" : "-.778000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.765600",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SF0001M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "SF0001W Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SF0001W Index Curncy",
+                "BBGGlobalID" : "BBG002SD2NH5",
+                "Currency" : "CHF",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.800200",
+                "Ask Price" : "-.800200",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.793200",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SF0001W Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "SF0002M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SF0002M Index Curncy",
+                "BBGGlobalID" : "BBG002SCHM83",
+                "Currency" : "CHF",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.742800",
+                "Ask Price" : "-.742800",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.730800",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SF0002M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "SF0012M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SF0012M Index Curncy",
+                "BBGGlobalID" : "BBG002SCHML8",
+                "Currency" : "CHF",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.524000",
+                "Ask Price" : "-.524000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.498800",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SF0012M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "SF00S/N Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SF00S/N Index Curncy",
+                "BBGGlobalID" : "BBG002SMPLG5",
+                "Currency" : "CHF",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.786000",
+                "Ask Price" : "-.786000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.779000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SF00S/N Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "US0001M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US0001M Index Curncy",
+                "BBGGlobalID" : "BBG002SBCXZ6",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.658500",
+                "Ask Price" : "1.658500",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.652750",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "US0001M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "US0001W Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US0001W Index Curncy",
+                "BBGGlobalID" : "BBG002SBNV51",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.582250",
+                "Ask Price" : "1.582250",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.582500",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "US0001W Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "US0002M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US0002M Index Curncy",
+                "BBGGlobalID" : "BBG002SBFF37",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.668250",
+                "Ask Price" : "1.668250",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.679630",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "US0002M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "US0003M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US0003M Index Curncy",
+                "BBGGlobalID" : "BBG002SBS5T7",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.691630",
+                "Ask Price" : "1.691630",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.707250",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "US0003M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "US00O/N Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US00O/N Index Curncy",
+                "BBGGlobalID" : "BBG002SBXG35",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.573380",
+                "Ask Price" : "1.573380",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.571250",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "US00O/N Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "US0012M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "US0012M Index Curncy",
+                "BBGGlobalID" : "BBG002SBS7K2",
+                "Currency" : "USD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.802000",
+                "Ask Price" : "1.802000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.807130",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "US0012M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "BP0001M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "BP0001M Index Curncy",
+                "BBGGlobalID" : "BBG002SCHN45",
+                "Currency" : "GBP",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".708500",
+                "Ask Price" : ".708500",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".707250",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "BP0001M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "EE00O/N Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EE00O/N Index Curncy",
+                "BBGGlobalID" : "BBG002SMNQX7",
+                "Currency" : "EUR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.567860",
+                "Ask Price" : "-.567860",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.568000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "EE00O/N Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "EE0001W Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EE0001W Index Curncy",
+                "BBGGlobalID" : "BBG002SGHZ12",
+                "Currency" : "EUR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.547000",
+                "Ask Price" : "-.547000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.546710",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "EE0001W Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "EE0001M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EE0001M Index Curncy",
+                "BBGGlobalID" : "BBG002SGHZ21",
+                "Currency" : "EUR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.519710",
+                "Ask Price" : "-.519710",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.519570",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "EE0001M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "EE0002M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EE0002M Index Curncy",
+                "BBGGlobalID" : "BBG002SGHZ30",
+                "Currency" : "EUR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.456430",
+                "Ask Price" : "-.456430",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.454140",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "EE0002M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "EE0003M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EE0003M Index Curncy",
+                "BBGGlobalID" : "BBG002SGHZ49",
+                "Currency" : "EUR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.434290",
+                "Ask Price" : "-.434290",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.431140",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "EE0003M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "EE0006M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EE0006M Index Curncy",
+                "BBGGlobalID" : "BBG002SGHZ76",
+                "Currency" : "EUR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.392290",
+                "Ask Price" : "-.392290",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.392710",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "EE0006M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "EE0012M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EE0012M Index Curncy",
+                "BBGGlobalID" : "BBG002SGHZF7",
+                "Currency" : "EUR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.316860",
+                "Ask Price" : "-.316860",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.306710",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "EE0012M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "NDBB3M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "NDBB3M Curncy",
+                "BBGGlobalID" : "BBG007J5FDR8",
+                "Currency" : "NZD",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.205000",
+                "Ask Price" : "1.185000",
+                "Bid Price" : "1.225000",
+                "Mid Price" : "1.205000",
+                "Closing Date 2 Days Ago" : "20200212",
+                "Closing Price 2 Days Ago" : "1.215000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "NDBB3M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "EUR012M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "EUR012M Curncy",
+                "BBGGlobalID" : "BBG002SGCVC4",
+                "Currency" : "EUR",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.287000",
+                "Ask Price" : "-.287000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.276000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "EUR012M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "SONIO/N"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SONIO/N Curncy",
+                "BBGGlobalID" : "BBG002SFJL68",
+                "Currency" : "GBP",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".710600",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : ".710600",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".709700",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SONIO/N",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "NIBOR1M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "NIBOR1M Curncy",
+                "BBGGlobalID" : "BBG002SBTL66",
+                "Currency" : "NOK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.630000",
+                "Ask Price" : "1.630000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.630000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "NIBOR1M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "NIBOR1W"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "NIBOR1W Curncy",
+                "BBGGlobalID" : "BBG002SBTL75",
+                "Currency" : "NOK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.620000",
+                "Ask Price" : "1.620000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.610000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "NIBOR1W",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "NIBOR2M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "NIBOR2M Curncy",
+                "BBGGlobalID" : "BBG002SBTL84",
+                "Currency" : "NOK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.690000",
+                "Ask Price" : "1.690000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.680000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "NIBOR2M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "NIBOR3M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "NIBOR3M Curncy",
+                "BBGGlobalID" : "BBG002SBTLB0",
+                "Currency" : "NOK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.770000",
+                "Ask Price" : "1.770000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.750000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "NIBOR3M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "CIBO06M"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "CIBO06M Curncy",
+                "BBGGlobalID" : "BBG002SBQSD6",
+                "Currency" : "DKK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "-.250000",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "-.250000",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "-.250000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "CIBO06M",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "NIBOR1M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "NIBOR1M Index Curncy",
+                "BBGGlobalID" : "BBG002SBTL66",
+                "Currency" : "NOK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.630000",
+                "Ask Price" : "1.630000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.630000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "NIBOR1M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "NIBOR1W Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "NIBOR1W Index Curncy",
+                "BBGGlobalID" : "BBG002SBTL75",
+                "Currency" : "NOK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.620000",
+                "Ask Price" : "1.620000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.610000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "NIBOR1W Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "NIBOR2M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "NIBOR2M Index Curncy",
+                "BBGGlobalID" : "BBG002SBTL84",
+                "Currency" : "NOK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.690000",
+                "Ask Price" : "1.690000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.680000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "NIBOR2M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "NIBOR3M Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "NIBOR3M Index Curncy",
+                "BBGGlobalID" : "BBG002SBTLB0",
+                "Currency" : "NOK",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : "1.770000",
+                "Ask Price" : "1.770000",
+                "Bid Price" : "N.A.",
+                "Mid Price" : "N.A.",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : "1.750000",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "NIBOR3M Index",
+                "MarketSector" : "Curncy"
+            }
+        }, 
+        {
+            "InstrumentID" : "",
+            "RequesterID" : {
+                "Ticker" : "SONIO/N Index"
+            },
+            "Information" : {
+                "Source" : "BBG",
+                "Security Description" : "SONIO/N Index Curncy",
+                "BBGGlobalID" : "BBG002SFJL68",
+                "Currency" : "GBP",
+                "Date Of Last Update" : "20200213",
+                "Last Price" : ".710600",
+                "Ask Price" : "N.A.",
+                "Bid Price" : "N.A.",
+                "Mid Price" : ".710600",
+                "Closing Date 2 Days Ago" : "20200211",
+                "Closing Price 2 Days Ago" : ".709700",
+                "InstrumentID" : "",
+                "CompositeCode" : "",
+                "Snaptime" : "21:50 EST",
+                "Ticker" : "SONIO/N Index",
+                "MarketSector" : "Curncy"
+            }
+        }
+    ],
+    "PendingDataFor" : {
+        "Ticker" : "USB3MTA|STIB3M Index|STIB9M Index|STIB1Y Index|BP0006M Index|EUR002M Index|EUR002W Index|EUR006M Index|EUR009M Index|NIBOR6M Index|NIBORTN Index|SF0003M Index|US0006M Index|JY0006M Index|SF0006M Index|NFIX3FRA Index|SORF6M|NFIX3FRA|BUBOR06M Index|NDBB3M Index|BUBOR03M Index|CIB006M Index|MUNIPSA|NFIX3MID Index|USISDA01 Index|USISDA05 Index|USISDA10  Index|WIBR1Y Index|WIBR6M|WIBR3M Index|USSW10 Index|TELBOR03 Index|TELBOR06 Index|SIBF3M Index|SIBF6M Index|PR043M Index|PR046M Index|NFIX3MID|MUNIPSA Index|MXIBTIIE Index|HIHD03M Index|HIHD06M Index|CIB006M|CDOR01 Index|CDOR03 Index|CDOR06 Index|AU0006M"
+    },
+    "Info" : {
+        "MissingSecurity" : {
+            "Ticker" : "JY00S/N|SF00S/N|BP00O/N|EE00O/N|SONIO/N|STIB1D|US00O/N|BP0001W|BP0002M|BP0003M|BP0012M|JY0001M|JY0001W|JY0002M|JY0003M|JY0012M|NIBOR1M|NIBOR1W|NIBOR2M|NIBOR3M|SF0001M|SF0001W|SF0002M|SF0012M|STIB1M|STIB1W|STIB2M|STIB6M|US0001M|US0001W|US0002M|US0012M|EUR001M|EUR003M|H15T10Y|H15T5Y|CIBO06M|EE0006M|H15T30Y|HIHD01M|LIBOR01M|WIBO1M|H15T7Y|BP0001M|USB3MTA|STIB1D Index|STIB1W Index|STIB1M Index|STIB2M Index|STIB6M Index|STIB9M Index|STIB1Y Index|BP0001W Index|BP0002M Index|BP0003M Index|BP00O/N Index|BP0012M Index|EUR001M Index|EUR001W Index|EUR002M Index|EUR002W Index|EUR003M Index|EUR009M Index|EUR012M Index|JY0001M Index|JY0001W Index|JY0002M Index|JY0003M Index|JY00S/N Index|JY0012M Index|NIBOR1M Index|NIBOR1W Index|NIBOR2M Index|NIBOR3M Index|NIBORTN Index|SF0001M Index|SF0001W Index|SF0002M Index|SF0012M Index|SF00S/N Index|SONIO/N Index|US0001M Index|US0001W Index|US0002M Index|US0003M Index|US00O/N Index|US0012M Index|BP0001M Index|EE00O/N Index|EE0001W Index|EE0001M Index|EE0002M Index|EE0003M Index|EE0006M Index|EE0012M Index|NFIX3FRA Index|NFIX3FRA|NDBB3M|NDBB3M Index|CIB006M Index|NFIX3MID Index|USSW10|USSW10 Index|NFIX3MID|HIHD01M Index|EUR012M|CIB006M"
+        }
+    }
+}

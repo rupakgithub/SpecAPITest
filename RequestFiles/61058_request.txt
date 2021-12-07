@@ -1,0 +1,1384 @@
+{
+    "InstrumentType" : "Prices",
+    "ClientCode" : "BNPP",
+    "View" : "Global",
+    "SecurityList" : [ 
+        {
+            "Identifier" : "USDEURSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDGBPSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDGBP1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDGBP2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDGBP3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDGBP6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDGBP9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDEUR1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDNZDSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDNZD1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDNZD2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDNZD3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDNZD6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDNZD9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDNZD1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDIDRSWNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDIDR1MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDIDR2MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDIDR3MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDIDR6MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDIDR9MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDIDR1YNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDINRSWNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDINR1MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDINR2MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDINR3MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDINR6MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDINR9MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDINR1YNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDKRWSWNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDKRW1MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDKRW2MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDKRW3MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDKRW6MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDKRW9MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDKRW1YNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMYRSWNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMYR1MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMYR2MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMYR3MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMYR6MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMYR9MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPHPSWNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPHP1MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPHP2MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPHP3MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPHP6MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPHP9MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPHP1YNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTHBSWNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTHB1MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTHB2MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTHB3MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTHB6MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNYSWNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNY1MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNY2MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNY3MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNY6MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNY9MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNY1YNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTHB9MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTHB1YNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTWDSWNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTWD1MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTWD2MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTWD3MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTWD6MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTWD9MNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTWD1YNDF=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDIDR9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDIDR1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDIDRSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDIDR2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDIDR1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDIDR3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDIDR6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDBRL1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDBRL1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDBRLSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDBRL2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDBRL3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDBRL6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDBRL9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCLP1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCLP1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCLPSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCLP2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCLP3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCLP6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCLP9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNH1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNH1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNHSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNH2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNH3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNH6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNH9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCOP1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCOP1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCOP2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCOP3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCOP6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCOP9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCZK1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCZK1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCZKSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCZK2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCZK3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCZK6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCZK9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDHUF1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDHUF1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDHUFSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDHUF2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDHUF3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDHUF6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDHUF9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMXN1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMXN1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMXNSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMXN2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMXN3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMXN6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMXN9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDNOK1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDNOK1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDNOKSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDNOK2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDNOK3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDNOK6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDNOK9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPEN1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPEN2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPEN3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCAD1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCAD1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCADSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCAD2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCAD3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCAD6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCAD9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCHF1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCHF1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCHFSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCHF2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCHF3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCHF6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCHF9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNY1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNY1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNYSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNY2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNY3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNY6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDCNY9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDDKK1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDDKK1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDDKKSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDDKK2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDDKK3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDDKK6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDDKK9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDINR1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDINR1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDINRSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDINR2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDINR3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDINR6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDINR9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDJPY1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDJPY1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDJPYSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDJPY2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDJPY3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDJPY6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDJPY9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDKRW1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDKRW1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDKRWSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDKRW2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDKRW3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDKRW6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDKRW9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMYR1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMYR1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMYRSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMYR2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMYR3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMYR6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDMYR9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPHP1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPHP1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPHPSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPHP2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPHP3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPHP6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPHP9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPLN1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPLN1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPLNSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPLN2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPLN3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPLN6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPLN9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDRUB1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDRUB1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDRUBSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDRUB2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDRUB3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDRUB6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDRUB9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDSEK1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDSEK1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDSEKSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDSEK2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDSEK3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDSEK6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDSEK9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDSGD1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDSGD1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDSGDSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDSGD2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDSGD3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDSGD6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDSGD9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTHB1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTHB1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTHBSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTHB2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTHB3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTHB6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTHB9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTRY1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTRY1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTRYSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTRY2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTRY3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTRY6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTRY9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTWD1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTWD1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTWDSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTWD2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTWD3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTWD6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDTWD9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDZAR1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDZARSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDZAR2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDZAR3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDZAR6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDAUD1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDAUD2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDAUD3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDAUD6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDAUD9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDAUD1YOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDAUDSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDEUR1MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDEUR2MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDEUR3MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDEUR6MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDEUR9MOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPENSWOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPEN2WOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }, 
+        {
+            "Identifier" : "USDPEN3WOR=WM",
+            "MarketSector" : null,
+            "SecurityIdentifier" : "RIC"
+        }
+    ],
+    "InstrumentFilters" : [ 
+        {
+            "Condition" : "Source",
+            "Value" : "RTX",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DateRange",
+            "Value" : "20200213|20200213",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "GetLatest",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsEOD",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "Snaptime",
+            "Value" : "22:00 EST",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }
+    ]
+}

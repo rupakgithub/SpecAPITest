@@ -1,0 +1,94 @@
+{
+    "InstrumentType" : "Prices",
+    "RuleName" : null,
+    "ClientCode" : null,
+    "Source" : null,
+    "AssetType" : null,
+    "GetFromSource" : false,
+    "LicenceRuleCollection" : null,
+    "View" : "Global",
+    "SecurityList" : [ 
+        {
+            "Identifier" : "NZDUSD12M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "MREUN+9M",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }, 
+        {
+            "Identifier" : "GBPNZD3W",
+            "MarketSector" : "Curncy",
+            "SecurityIdentifier" : "Ticker"
+        }
+    ],
+    "InstrumentFilters" : [ 
+        {
+            "Condition" : "Source",
+            "Value" : "BBG",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DateRange",
+            "Value" : "20200214|20200214",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "GetLatest",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsEOD",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "Snaptime",
+            "Value" : "21:05 GMT",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "ProgramFlag",
+            "Value" : "Oneshot",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "Delay",
+            "Value" : "15",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "FxTypeTimeZone",
+            "Value" : "CMPL",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "MHIS_CLOSE_ON_PX",
+            "Value" : "20200203",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "isMhistoricalDate",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }
+    ]
+}

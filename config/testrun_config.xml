@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="RDM" verbose="0" >
+	<listeners>
+		<listener class-name="com.common.listers.MyListner" />
+	</listeners>
+	<method-selectors>
+			<method-selector>
+				<selector-class name="com.qmetry.qaf.automation.testng.pro.QAFMethodSelector" />
+			</method-selector>
+	</method-selectors>
+	<test name="RDM API Regression" enabled="true" >
+		<parameter name="include" value="{'groups':[static]}" />
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory2" />
+		</classes>
+	</test>
+</suite>

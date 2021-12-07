@@ -1,0 +1,104 @@
+{
+    "InstrumentType" : "Prices",
+    "ClientCode" : "BNPP",
+    "View" : "Global",
+    "SecurityList" : [ 
+        {
+            "Identifier" : "XS1711235694",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "CWN564923795",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "CWN564923878",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "CWN564924298",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "CWN564927754",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS2088751750",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }, 
+        {
+            "Identifier" : "XS2091117726",
+            "MarketSector" : "Corp",
+            "SecurityIdentifier" : "ISIN"
+        }
+    ],
+    "InstrumentFilters" : [ 
+        {
+            "Condition" : "Source",
+            "Value" : "BBG",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DateRange",
+            "Value" : "20200211|20200213",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "GetLatest",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsEOD",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "ProgramFlag",
+            "Value" : "Oneshot",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "Delay",
+            "Value" : "15",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "GetHistory",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "DISPLAY_PRICING_SRC",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "EachDayLatest",
+            "Value" : "true",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }, 
+        {
+            "Condition" : "IsCoupon",
+            "Value" : "false",
+            "Clause" : null
+        }
+    ]
+}

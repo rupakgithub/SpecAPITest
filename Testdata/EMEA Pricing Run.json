@@ -1,0 +1,382 @@
+[
+  {
+    "TestCaseID": "TC_01",
+    "TestFileName": "EMEA Pricing Run",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61050_response.txt",
+    "RequestFile": "61050_request.txt",
+    "ResponseCount":2027
+  },
+  {
+    "TestCaseID": "TC_02",
+    "TestFileName": "LME Pricing Run",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61051_response.txt",
+    "RequestFile": "61051_request.txt",
+    "ResponseCount":430
+  },
+  {
+    "TestCaseID": "TC_03",
+    "TestFileName": "Coupon Rate Pricing Run - 06.15 IST",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61052_response.txt",
+    "RequestFile": "61052_request.txt",
+    "ResponseCount":25
+  },
+  {
+    "TestCaseID": "TC_04",
+    "TestFileName": "Spot BGN 20.55 EST",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61053_response.txt",
+    "RequestFile": "61053_request.txt",
+    "ResponseCount":73
+  },
+  {
+    "TestCaseID": "TC_05",
+    "TestFileName": "AMER Pricing Run",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61054_response.txt",
+    "RequestFile": "61054_request.txt",
+    "ResponseCount":1805
+  },
+  {
+    "TestCaseID": "TC_06",
+    "TestFileName": "Reuters FX Pricing",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61055_response.txt",
+    "RequestFile": "61055_request.txt",
+    "ResponseCount":1613
+  },
+  {
+    "TestCaseID": "TC_07",
+    "TestFileName": "Spot WM Reuters Pricing 21.50 EST",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61057_response.txt",
+    "RequestFile": "61057_request.txt",
+    "ResponseCount":32
+  },
+  {
+    "TestCaseID": "TC_08",
+    "TestFileName": "Forward WMReuters Pricing 22.00 EST",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61058_response.txt",
+    "RequestFile": "61058_request.txt",
+    "ResponseCount":267
+  },
+  {
+    "TestCaseID": "TC_09",
+    "TestFileName": "PNOTE Multi Days Historical Pricing Run",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61059_response.txt",
+    "RequestFile": "61059_request.txt",
+    "ResponseCount":18
+  },
+  {
+    "TestCaseID": "TC_10",
+    "TestFileName": "FOF Multi Days Historical Pricing Run",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61060_response.txt",
+    "RequestFile": "61060_request.txt",
+    "ResponseCount":743
+  },
+  {
+    "TestCaseID": "TC_11",
+    "TestFileName": "Spot Tokyo 14.30 IST",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61065_response.txt",
+    "RequestFile": "61065_request.txt",
+    "ResponseCount":380
+  },
+  {
+    "TestCaseID": "TC_12",
+    "TestFileName": "IDC L series",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61066_response.txt",
+    "RequestFile": "61066_request.txt",
+    "ResponseCount":4831
+  },
+  {
+    "TestCaseID": "TC_13",
+    "TestFileName": "Reuters PX Pricing",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61067_response.txt",
+    "RequestFile": "61067_request.txt",
+    "ResponseCount":1938
+  },
+  {
+    "TestCaseID": "TC_14",
+    "TestFileName": "IDC A series",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61069_response.txt",
+    "RequestFile": "61069_request.txt",
+    "ResponseCount":654
+  },
+  {
+    "TestCaseID": "TC_15",
+    "TestFileName": "Forward L160 11.30 EST",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61125_response.txt",
+    "RequestFile": "61125_request.txt",
+    "ResponseCount":1095
+  },
+  {
+    "TestCaseID": "TC_16",
+    "TestFileName": "Spot New York 20.00 GMT",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61126_response.txt",
+    "RequestFile": "61126_request.txt",
+    "ResponseCount":379
+  },
+  {
+    "TestCaseID": "TC_17",
+    "TestFileName": "APAC Pricing Run",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61127_response.txt",
+    "RequestFile": "61127_request.txt",
+    "ResponseCount":5051
+  },
+  {
+    "TestCaseID": "TC_18",
+    "TestFileName": "Coupon Rate Pricing Run - 04.30 IST",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61128_response.txt",
+    "RequestFile": "61128_request.txt",
+    "ResponseCount":5
+  },
+  {
+    "TestCaseID": "TC_19",
+    "TestFileName": "Spot F160 18.40 EST",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61129_response.txt",
+    "RequestFile": "61129_request.txt",
+    "ResponseCount":375
+  },
+  {
+    "TestCaseID": "TC_20",
+    "TestFileName": "IBOR Rates 21.50 EST",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61130_response.txt",
+    "RequestFile": "61130_request.txt",
+    "ResponseCount":133
+  },
+  {
+    "TestCaseID": "TC_21",
+    "TestFileName": "JPY Dividend Extra Run",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61131_response.txt",
+    "RequestFile": "61131_request.txt",
+    "ResponseCount":2038
+  },
+  {
+    "TestCaseID": "TC_22",
+    "TestFileName": "Coupon Rate Pricing Run - 09.45 IST",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61133_response.txt",
+    "RequestFile": "61133_request.txt",
+    "ResponseCount":25
+  },
+  {
+    "TestCaseID": "TC_23",
+    "TestFileName": "REDO Pricing Run",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61134_response.txt",
+    "RequestFile": "61134_request.txt",
+    "ResponseCount":609
+  },
+  {
+    "TestCaseID": "TC_24",
+    "TestFileName": "IDC B series",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61135_response.txt",
+    "RequestFile": "61135_request.txt",
+    "ResponseCount":1383
+  },
+  {
+    "TestCaseID": "TC_25",
+    "TestFileName": "IDC C series",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61136_response.txt",
+    "RequestFile": "61136_request.txt",
+    "ResponseCount":10
+  },
+  {
+    "TestCaseID": "TC_26",
+    "TestFileName": "IDC D series",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61137_response.txt",
+    "RequestFile": "61137_request.txt",
+    "ResponseCount":54
+  },
+  {
+    "TestCaseID": "TC_27",
+    "TestFileName": "IDC N series",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61138_response.txt",
+    "RequestFile": "61138_request.txt",
+    "ResponseCount":4824
+  },
+  {
+    "TestCaseID": "TC_28",
+    "TestFileName": "IDC N series",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61139_response.txt",
+    "RequestFile": "61139_request.txt",
+    "ResponseCount":4817
+  },
+  {
+    "TestCaseID": "TC_29",
+    "TestFileName": "IDC N series",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61140_response.txt",
+    "RequestFile": "61140_request.txt",
+    "ResponseCount":524
+  },
+  {
+    "TestCaseID": "TC_30",
+    "TestFileName": "IDC L series",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61143_response.txt",
+    "RequestFile": "61143_request.txt",
+    "ResponseCount":4808
+  },
+  {
+    "TestCaseID": "TC_31",
+    "TestFileName": "IDC L series",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61144_response.txt",
+    "RequestFile": "61144_request.txt",
+    "ResponseCount":524
+  },
+  {
+    "TestCaseID": "TC_32",
+    "TestFileName": "IDC T series",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61145_response.txt",
+    "RequestFile": "61145_request.txt",
+    "ResponseCount":4817
+  },
+  {
+    "TestCaseID": "TC_33",
+    "TestFileName": "SPOT Tokyo",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61146_response.txt",
+    "RequestFile": "61146_request.txt",
+    "ResponseCount":2
+  },
+  {
+    "TestCaseID": "TC_34",
+    "TestFileName": "Forward London",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61147_response.txt",
+    "RequestFile": "61147_request.txt",
+    "ResponseCount":3
+  },
+  {
+    "TestCaseID": "TC_35",
+    "TestFileName": "APAC",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61148_response.txt",
+    "RequestFile": "61148_request.txt",
+    "ResponseCount":12
+  },
+  {
+    "TestCaseID": "TC_36",
+    "TestFileName": "APAC CPN",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61149_response.txt",
+    "RequestFile": "61149_request.txt",
+    "ResponseCount":2
+  },
+  {
+    "TestCaseID": "TC_37",
+    "TestFileName": "EMEA",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61150_response.txt",
+    "RequestFile": "61150_request.txt",
+    "ResponseCount":7
+  },
+  {
+    "TestCaseID": "TC_38",
+    "TestFileName": "IBOR",
+    "Execute": "Y",
+    "Type": "POST",
+    "URL": "https://vu-uat.csg.local/RDMApi/api/InstrumentDetails",
+    "ExpectedFile": "61151_response.txt",
+    "RequestFile": "61151_request.txt",
+    "ResponseCount":4
+  }
+]
